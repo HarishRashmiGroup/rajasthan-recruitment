@@ -1,4 +1,3 @@
-'use client'
 import { Tabs } from "@chakra-ui/react"
 import JobsPage from "./JobsPage"
 

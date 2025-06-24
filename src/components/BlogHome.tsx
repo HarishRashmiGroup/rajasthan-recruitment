@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import {
     Box,
@@ -6,14 +5,13 @@ import {
     Image,
     HStack,
     VStack,
-    Icon,
     SimpleGrid,
-    Container,
-    Flex,
     Badge,
     Avatar
 } from '@chakra-ui/react';
-import { FiThumbsUp, FiMessageCircle, FiShare2, FiPlay } from 'react-icons/fi';
+import BlogStats from './BlogStats';
+import PlayOverlay from './PlayOverlay';
+import LinkWithLoader from './LinkWithLoader';
 
 interface BlogCardProps {
     id: string;
@@ -68,25 +66,17 @@ const BlogCard: React.FC<BlogCardProps> = ({
                     objectFit="cover"
                 />
                 {hasPlayButton && (
-                    <Flex
-                        position="absolute"
-                        top="50%"
-                        left="50%"
-                        transform="translate(-50%, -50%)"
-                        bg="blackAlpha.700"
-                        borderRadius="full"
-                        p={3}
-                        color="white"
-                    >
-                        <Icon as={FiPlay} boxSize={6} />
-                    </Flex>
+                    <PlayOverlay />
                 )}
                 {isSponsored && (
                     <Badge
                         position="absolute"
                         top={2}
                         right={2}
-                        colorScheme="blue"
+                        bg="#DEE9FF"
+                        pl={1}
+                        pr={1}
+                        color={'#5d93fe'}
                         fontSize="xs"
                     >
                         Sponsored
@@ -94,7 +84,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
                 )}
             </Box>
 
-            <VStack p={4} align="start" gap={2}>
+            <VStack h={'full'} p={4} align="start" gap={2}>
                 <HStack w="full">
                     {sourceLogo && (
                         <Avatar.Root size={'sm'} key={sourceLogo}>
@@ -122,21 +112,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
                 >
                     {title}
                 </Text>
-
-                <HStack pt={2} w="full">
-                    <HStack color="gray.500" _hover={{ color: '#5d93fe' }}>
-                        <Icon as={FiThumbsUp} boxSize={4} />
-                        <Text fontSize="sm">{likes}</Text>
-                    </HStack>
-                    <HStack color="gray.500" _hover={{ color: '#5d93fe' }}>
-                        <Icon as={FiMessageCircle} boxSize={4} />
-                        <Text fontSize="sm">{comments}</Text>
-                    </HStack>
-                    <HStack color="gray.500" _hover={{ color: '#5d93fe' }}>
-                        <Icon as={FiShare2} boxSize={4} />
-                        <Text fontSize="sm">{shares}</Text>
-                    </HStack>
-                </HStack>
+                <BlogStats likes={likes} comments={comments} shares={shares} />
             </VStack>
         </Box>
     );
@@ -164,6 +140,7 @@ const BlogHome: React.FC = () => {
             likes: 15,
             comments: 3,
             shares: 2,
+            isSponsored: true,
             sourceLogo: 'https://bsedotnic.in/images/logo.png'
         },
         {
@@ -175,7 +152,7 @@ const BlogHome: React.FC = () => {
             likes: 0,
             comments: 0,
             shares: 0,
-            isSponsored: true,
+            isSponsored: false,
             hasPlayButton: true
         },
         {
@@ -242,12 +219,14 @@ const BlogHome: React.FC = () => {
                             lg: blog.isLarge ? "span 2" : "span 1"
                         }}
                     >
-                        <BlogCard {...blog} />
+                        <LinkWithLoader href={`/blog/ssc-cgl-2024-complete-guide`}>
+                            <BlogCard {...blog} />
+                        </LinkWithLoader>
                     </Box>
                 ))}
             </SimpleGrid>
             <Box maxW={'250px'} display={{ base: 'none', md: 'block' }} position={'relative'}>
-                <Image borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky', lg: 'sticky' }} top={{ base: 'auto', md: '102px' }} src="rr_adv.png"></Image>
+                <Image alt='Advertisement' borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky', lg: 'sticky' }} top={{ base: 'auto', md: '102px' }} src="rr_adv.png"></Image>
             </Box>
         </Box>
     );

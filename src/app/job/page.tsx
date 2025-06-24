@@ -11,15 +11,15 @@ export interface Job {
 
 export const revalidate = 60;
 
-async function getJobs(): Promise<Job[]> {
-    const res = await fetch(`${process.env.API_URL}/jobs`, {
-        next: { revalidate: 60 },
-    });
+// async function getJobs(): Promise<Job[]> {
+//     const res = await fetch(`${process.env.API_URL}/jobs`, {
+//         next: { revalidate: 60 },
+//     });
 
-    if (!res.ok) throw new Error('Failed to fetch jobs');
+//     if (!res.ok) throw new Error('Failed to fetch jobs');
 
-    return res.json();
-}
+//     return res.json();
+// }
 
 export default async function JobListPage() {
     const jobs = [{ id: '2', slug: 'harish', title: 'jfkdj', department: "djfd", summary: "JKJ", lastDate: "jfd" }];

@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           wrap="wrap"
         >
           {/* Left Section */}
-          <VStack flex={1} align="flex-start" minW="250px">
+          <VStack flex={1} w={'full'} borderBottom={{ base: '1px solid #5d93fe', md: 'none' }} minW="250px">
             <HStack >
               <Image
                 src="/rr.png"
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <VStack align="flex-start" >
                 <HStack>
                   <Text color="#5d93fe" fontSize="lg" lineHeight={1} fontWeight="medium" userSelect="none">
-                    Rajasthan<br/>Recruitement
+                    Rajasthan<br />Recruitement
                   </Text>
                   <Text as="span" ml={3} position="relative" top={-4}>
                     🇮🇳
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
           </VStack>
 
           {/* Center Section */}
-          <Box flex={2} display="flex" justifyContent="center">
+          <Box flex={2} display="flex" minW={'200px'} justifyContent="center" w={'full'} >
             <Box>
               <Flex gap={8} direction={{ base: 'column', md: 'row' }} align="center">
                 <Box>
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
           </Box>
 
           {/* Right Section */}
-          <Box flex={1} display="flex" justifyContent="center">
+          <Box flex={1} display={{ base: "none", md: "flex" }} justifyContent="center">
             <Box
               maxW="200px"
               h="150px"

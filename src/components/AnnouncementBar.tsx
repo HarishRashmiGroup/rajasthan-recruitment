@@ -48,7 +48,7 @@ const AnnouncementBar: React.FC = () => {
         width={'full'}
       >
         <Flex align="center" justify="space-between">
-          <Text borderRadius="md" borderRight="2px solid #E97316" mr={2}>
+          <Text borderRadius="md" borderRight="2px solid #E97316" mr={2} ml={-3}>
             📢
           </Text>
           <Box
@@ -75,6 +75,7 @@ const AnnouncementBar: React.FC = () => {
           <CloseButton
             size={'sm'}
             color="#E97316"
+            mr={-2}
             _hover={{ bg: 'yellow.200' }}
             onClick={() => setIsVisible(false)}
           />

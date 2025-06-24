@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import {
     Box,
@@ -19,8 +18,6 @@ import {
 import type { Job } from '../types';
 const JobCard: React.FC<{
     job: Job;
-    onSave: (id: number) => void;
-    isSaved: boolean;
 }> = ({ job }) => {
     return (
         <Box
@@ -59,15 +56,15 @@ const JobCard: React.FC<{
                 {job.examDate && <Text fontSize="sm"><b>Exam Date:</b> {job.examDate}</Text>}
                 {job.posts && <Text fontSize="sm"><b>Posts:</b> {job.posts}</Text>}
             </Stack>
-            <Flex gap={2}>
+            <Flex gap={2} justifyContent={{ base: "space-between", md: 'left' }}>
                 {job.detailsUrl && (
-                    <Button size="sm" colorScheme="blue" transition="all 0.5s" _hover={{ bg: '#5d93fe' }}>
+                    <Button p={2} size="sm" colorScheme="blue" transition="all 0.5s" _hover={{ bg: '#5d93fe' }}>
                         View Details
                     </Button>
                 )}
                 {job.officialSiteUrl && (
                     <Link href={job.officialSiteUrl} target='blank'>
-                        <Button size="sm" variant="outline" _hover={{ color: '#5d93fe' }}>
+                        <Button p={2} size="sm" variant="outline" _hover={{ color: '#5d93fe' }}>
                             Official Site <ExternalLink size={14} style={{ marginLeft: '8px' }} />
                         </Button>
                     </Link>

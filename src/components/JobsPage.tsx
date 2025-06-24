@@ -1,16 +1,11 @@
-'use client'
-import React, { useState } from 'react';
+import React from 'react';
 import {
     Box,
     Heading,
-    Text,
     Stack,
     Image,
     Grid,
 } from '@chakra-ui/react';
-import {
-    Briefcase,
-} from 'lucide-react';
 
 import type { Job } from '../types';
 import JobCard from './JobCard';
@@ -179,56 +174,26 @@ const jobsData: Job[] = [{
 ];
 
 const JobsPage: React.FC = () => {
-    const [searchTerm] = useState('');
-    const [locationFilter] = useState('');
-    const [jobTypeFilter] = useState('');
-    const [savedJobs, setSavedJobs] = useState<Set<number>>(new Set());
-
-    const handleSaveJob = (jobId: number) => {
-        setSavedJobs(prev => {
-            const updated = new Set(prev);
-            updated.has(jobId) ? updated.delete(jobId) : updated.add(jobId);
-            return updated;
-        });
-    };
-
-    const filteredJobs = jobsData.filter(job => {
-        const searchMatch = job.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            job.company.toLowerCase().includes(searchTerm.toLowerCase());
-        const locationMatch = !locationFilter || job.location.toLowerCase().includes(locationFilter.toLowerCase());
-        const typeMatch = !jobTypeFilter || job.type === jobTypeFilter;
-        return searchMatch && locationMatch && typeMatch;
-    });
 
     return (
-        <Box minH="100vh" >
+        <Box >
             <Box mx="auto" px={0} >
-                <Heading as={'h1'} size={'3xl'} color={'#5d93fe'}>Latest Job Notifications</Heading>
+                <Heading as={'h1'} size={'3xl'} color={'#5d93fe'}>Latest Government Job Notifications  {new Date().getFullYear()} - Apply Online</Heading>
                 <Stack mb={12} spaceX={4} w={'full'} position={'relative'} direction={{ base: 'column', md: 'row' }}>
                     <Grid
                         gap={4}
                         templateColumns={{ md: '1fr', lg: 'repeat(2, 1fr)' }}
                         width="full"
                     >
-                        {filteredJobs.map(job => (
+                        {jobsData.map(job => (
                             <JobCard
                                 key={job.id}
                                 job={job}
-                                onSave={handleSaveJob}
-                                isSaved={savedJobs.has(job.id)}
                             />
                         ))}
-
-                        {filteredJobs.length === 0 && (
-                            <Box textAlign="center" py={12} color="gray.500">
-                                <Briefcase size={48} />
-                                <Heading size="md" mt={4}>No jobs found</Heading>
-                                <Text>Try adjusting your search criteria or filters.</Text>
-                            </Box>
-                        )}
                     </Grid>
                     <Box minW={'120px'} maxW={'250px'} display={{ base: 'none', md: 'block' }} position={'relative'}>
-                        <Image borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky' }} top={{ base: 'auto', md: '150px' }} src='/rr_adv.png'></Image>
+                        <Image borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky' }} top={{ base: 'auto', md: '150px' }} alt='Advertisement' src='/rr_adv.png'></Image>
                     </Box>
                 </Stack>
             </Box>
