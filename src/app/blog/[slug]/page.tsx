@@ -77,87 +77,87 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         title: 'SSC CGL 2024: Complete Guide to Staff Selection Commission Combined Graduate Level Examination',
         excerpt: 'Comprehensive guide covering all aspects of SSC CGL 2024 including eligibility, syllabus, exam pattern, preparation tips, and important dates.',
         content: `
-
-<p>
+        <p>
   Are you an aspiring Computer Programmer looking for a government job in Rajasthan? The Rajasthan Public Service Commission (RPSC) has officially released a recruitment notification for Computer Programmer posts in various government departments. This post is a complete guide for aspirants — from eligibility to syllabus to tips!
 </p>
+</br>
 
 <h2 style="color: #5d93fe;">📌 <strong>Overview of RPSC Computer Programmer Recruitment</strong></h2>
-
-<table style="width: 100%; border-collapse: collapse;" border="1px solid #5d93fe" cellpadding="8">
+</br>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Feature</th>
-      <th>Details</th>
+    <tr style="background-color: #dee9ff; border: 1px solid #5d93fe; ">
+      <th style="text-align: left;border: 1px solid #5d93fe; padding-left: 5px">Feature</th>
+      <th style="text-align: left;border: 1px solid #5d93fe;">Details</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Recruiting Body</td><td>Rajasthan Public Service Commission (RPSC)</td></tr>
-    <tr><td>Post Name</td><td>Computer Programmer</td></tr>
-    <tr><td>Advt No.</td><td>[To be updated as per official notice]</td></tr>
-    <tr><td>Job Location</td><td>Rajasthan</td></tr>
-    <tr><td>Total Vacancies</td><td>100+ (Expected)</td></tr>
-    <tr><td>Application Mode</td><td>Online</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Recruiting Body</td><td style="border: 1px solid #5d93fe;">Rajasthan Public Service Commission (RPSC)</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Post Name</td><td style="border: 1px solid #5d93fe;">Computer Programmer</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Advt No.</td><td style="border: 1px solid #5d93fe;">[To be updated as per official notice]</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Job Location</td><td style="border: 1px solid #5d93fe;">Rajasthan</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Total Vacancies</td><td style="border: 1px solid #5d93fe;">100+ (Expected)</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Application Mode</td><td style="border: 1px solid #5d93fe;">Online</td></tr>
     <tr>
-      <td>Official Website</td>
-      <td><a href="https://rpsc.rajasthan.gov.in" target="_blank">https://rpsc.rajasthan.gov.in</a></td>
+      <td style="border: 1px solid #5d93fe;">Official Website</td>
+      <td style="border: 1px solid #5d93fe; "><a href="https://rpsc.rajasthan.gov.in" target="_blank">https://rpsc.rajasthan.gov.in</a></td>
     </tr>
   </tbody>
 </table>
-
+<br/>
 <h2 style="color: #5d93fe;">📅 <strong>Important Dates</strong></h2>
-
-<table style="width: 100%; border-collapse: collapse;" border="1" cellpadding="8">
+<br/>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Event</th>
-      <th>Date (Tentative)</th>
+    <tr style="background-color: #dee9ff;">
+      <th style="text-align: left;border: 1px solid #5d93fe;">Event</th>
+      <th style="text-align: left;border: 1px solid #5d93fe;">Date (Tentative)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Notification Release Date</td><td>June 2025</td></tr>
-    <tr><td>Online Application Starts</td><td>July 2025</td></tr>
-    <tr><td>Last Date to Apply</td><td>August 2025</td></tr>
-    <tr><td>Exam Date</td><td>Oct–Nov 2025</td></tr>
-    <tr><td>Admit Card Release</td><td>10 days before exam</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Notification Release Date</td><td style="border: 1px solid #5d93fe;">June 2025</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Online Application Starts</td><td style="border: 1px solid #5d93fe;">July 2025</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Last Date to Apply</td><td style="border: 1px solid #5d93fe;">August 2025</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Exam Date</td><td style="border: 1px solid #5d93fe;">Oct–Nov 2025</td></tr>
+    <tr><td style="border: 1px solid #5d93fe;">Admit Card Release</td><td style="border: 1px solid #5d93fe;">10 days before exam</td></tr>
   </tbody>
 </table>
-
+<br/>
 <h2 style="color: #5d93fe;">✅ <strong>Eligibility Criteria</strong></h2>
-
+<br/>
 <h3 style="color: #5d93fe;">1. Educational Qualification</h3>
 
-<table style="width: 100%; border-collapse: collapse;" border="1" cellpadding="8">
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Qualification</th>
-      <th>Requirements</th>
+    <tr style="background-color: #dee9ff;">
+      <th style="text-align: left;border: 1px solid #5d93fe;">Qualification</th>
+      <th style="text-align: left;border: 1px solid #5d93fe;">Requirements</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Degree</td>
-      <td>B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
+      <td style="border: 1px solid #5d93fe;">Degree</td>
+      <td style="border: 1px solid #5d93fe;">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
     </tr>
     <tr>
-      <td>Preferred</td>
-      <td>Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
+      <td style="border: 1px solid #5d93fe;">Preferred</td>
+      <td style="border: 1px solid #5d93fe;">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
     </tr>
   </tbody>
 </table>
 
 <h3 style="color: #5d93fe;">2. Age Limit (as on 01.01.2026)</h3>
 
-<table style="width: 100%; border-collapse: collapse;" border="1" cellpadding="8">
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Category</th>
-      <th>Age Limit</th>
-    </tr>
+    <tr style="background-color: #dee9ff;">
+      <th  style="text-align: left;border: 1px solid #5d93fe;">Category</th>
+      <th style="text-align: left;border: 1px solid #5d93fe;">Age Limit</th>
+    </tr style="border: 1px solid #5d93fe;">
   </thead>
   <tbody>
-    <tr><td>General</td><td>21–40 Years</td></tr>
-    <tr><td>SC/ST/OBC/MBC (Rajasthan)</td><td>Relaxation as per rules</td></tr>
+    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">General</td><td>21–40 Years</td></tr>
+    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">SC/ST/OBC/MBC (Rajasthan)</td><td>Relaxation as per rules</td></tr>
   </tbody>
 </table>
 
@@ -172,26 +172,26 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
 <h3 style="color: #5d93fe;">💳 <strong>Application Fees</strong></h3>
 
-<table style="width: 100%; border-collapse: collapse;" border="1" cellpadding="8">
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th>Category</th>
-      <th>Fee</th>
+    <tr style="background-color: #dee9ff;">
+      <th style="text-align: left;border: 1px solid #5d93fe;">Category</th>
+      <th style="text-align: left;border: 1px solid #5d93fe;">Fee</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>General</td><td>₹600</td></tr>
-    <tr><td>OBC (Non-creamy)</td><td>₹400</td></tr>
-    <tr><td>SC/ST/PwD (Rajasthan)</td><td>₹400</td></tr>
+    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">General</td><td>₹600</td></tr>
+    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">OBC (Non-creamy)</td><td>₹400</td></tr>
+    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">SC/ST/PwD (Rajasthan)</td><td>₹400</td></tr>
   </tbody>
 </table>
-
+<br/>
 <h3 style="color: #5d93fe;">📢 <strong>Final Words</strong></h3>
-
+<br/>
 <p>
   This is a golden opportunity for Computer Science graduates who want a secure government job in Rajasthan. Start your preparation today with a strategic plan, and stay updated with official announcements.
 </p>
-
+<br/>
 <p>📣 Stay tuned and bookmark this page for updates and exam resources!</p>
 
 <h3 style="color: #5d93fe;"><strong>❓ FAQs – RPSC Computer Programmer Recruitment</strong></h3>
@@ -203,7 +203,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 <strong>A.</strong> Only if the final result is declared before the document verification.</p>
 
 <p><strong>Q.</strong> Is prior work experience required?<br>
-<strong>A.</strong> No, freshers can apply.</p>`,
+<strong>A.</strong> No, freshers can apply.</p>
+
+        `,
         featuredImage: '/rr_adv.png',
         author: {
           name: 'Priya Sharma',
@@ -634,11 +636,11 @@ export default async function BlogPostPage(props: PageProps) {
   const params = await props.params
   const { slug } = params
   const post = await getBlogPost(slug)
-  
+
   if (!post) notFound()
-  
+
   const relatedPosts = await getRelatedPosts(post.slug, post.category.slug)
-  
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -694,10 +696,10 @@ export default async function BlogPostPage(props: PageProps) {
                     {post.category.name}
                   </Link>
                 </Flex>
-                <Heading as="h1" fontSize={{ base: '2xl', lg: '3xl' }} fontWeight="bold" color={textMain} mb={4} lineHeight="tight">
+                <Heading as="h1" fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }} fontWeight="bold" color={textMain} mb={4} lineHeight="tight">
                   {post.title}
                 </Heading>
-                <Text fontSize="lg" color={textSecondary} mb={6} lineHeight="relaxed">{post.excerpt}</Text>
+                <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textSecondary} mb={6} lineHeight="relaxed">{post.excerpt}</Text>
 
                 {/* Featured Image */}
                 <Box bg={bgCard} borderRadius="lg" boxShadow="sm" overflow="hidden" mb={6}>
@@ -728,7 +730,7 @@ export default async function BlogPostPage(props: PageProps) {
               </Box>
               {/* Article Content */}
               <Box bg={bgCard} p={6} mb={6}>
-                <Box className="prose" maxW="none" fontSize="lg" color={textMain} dangerouslySetInnerHTML={{ __html: post.content }} />
+                <Box className="prose" maxW="none" fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textMain} dangerouslySetInnerHTML={{ __html: post.content }} />
               </Box>
               {/* Tags */}
               <Box bg={bgCard} p={6} mb={6}>
