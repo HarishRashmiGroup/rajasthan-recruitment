@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import { Link } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import FullScreenLoader from './FullScreenLoader';
@@ -14,6 +14,11 @@ interface LinkWithLoaderProps {
 export default function LinkWithLoader({ href, children }: LinkWithLoaderProps) {
     const [loading, setLoading] = useState(false);
     const router = useRouter();
+    const pathname = usePathname();
+
+    useEffect(() => {
+        setLoading(false);
+    }, [pathname]);
 
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
         e.preventDefault();
@@ -23,7 +28,9 @@ export default function LinkWithLoader({ href, children }: LinkWithLoaderProps) 
         if (isInsideButton) {
             return;
         }
-        setLoading(true);
+        if (pathname !== href) {
+            setLoading(true);
+        }
         router.push(href);
     };
 

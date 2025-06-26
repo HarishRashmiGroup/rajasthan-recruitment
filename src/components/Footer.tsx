@@ -5,11 +5,11 @@ import {
   Flex,
   Text,
   Image,
-  Link,
   VStack,
   HStack,
   useBreakpointValue
 } from '@chakra-ui/react';
+import LinkWithLoader from './LinkWithLoader';
 
 const Footer: React.FC = () => {
   const flexDirection = useBreakpointValue({ base: 'column', lg: 'row' });
@@ -65,37 +65,37 @@ const Footer: React.FC = () => {
             <Box>
               <Flex gap={8} direction={{ base: 'column', md: 'row' }} align="center">
                 <Box>
-                  <Link
-                    href="/terms"
-                    color="#5d93fe"
-                    fontSize="md"
-                    textDecoration="none"
-                    _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}
-                  >
-                    Terms and Conditions
-                  </Link>
+                  <LinkWithLoader href={`/about-us`}>
+                    <Text
+                      color="#5d93fe"
+                      fontSize="md"
+                      textDecoration="none"
+                      _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}>
+                      Terms and Conditions
+                    </Text>
+                  </LinkWithLoader>
                 </Box>
                 <Box>
-                  <Link
-                    href="/privacy"
-                    color="#5d93fe"
-                    fontSize="md"
-                    textDecoration="none"
-                    _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}
-                  >
-                    Privacy Policy
-                  </Link>
+                  <LinkWithLoader href={`/about-us`}>
+                    <Text
+                      color="#5d93fe"
+                      fontSize="md"
+                      textDecoration="none"
+                      _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}>
+                      About Us
+                    </Text>
+                  </LinkWithLoader>
                 </Box>
                 <Box>
-                  <Link
-                    href="/contact"
-                    color="#5d93fe"
-                    fontSize="md"
-                    textDecoration="none"
-                    _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}
-                  >
-                    Contact Us
-                  </Link>
+                  <LinkWithLoader href={`/about-us`}>
+                    <Text
+                      color="#5d93fe"
+                      fontSize="md"
+                      textDecoration="none"
+                      _hover={{ textDecoration: 'underline', color: '#4a7cfe' }}>
+                      Contact Us
+                    </Text>
+                  </LinkWithLoader>
                 </Box>
               </Flex>
             </Box>
