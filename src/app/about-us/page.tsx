@@ -13,6 +13,7 @@ import {
     Container
 } from '@chakra-ui/react';
 import { Users, Award, Clock, ArrowRight, CheckCircle, Target, Eye, Building, Shield, TrendingUp, LucideIcon } from 'lucide-react';
+import NextLink from 'next/link';
 
 interface StatItem {
     icon: LucideIcon;
@@ -386,26 +387,28 @@ const AboutUs = () => {
                         <Text fontSize="lg" mb={8} opacity={0.95} maxW="2xl" mx="auto" lineHeight="1.7" color="gray.800">
                             Join thousands of successful applicants who used our platform to find their dream Rajasthan government jobs.
                         </Text>
-                        <Button
-                            size="lg"
-                            bg="white"
-                            color="#5d93fe"
-                            fontSize="lg"
-                            fontWeight="700"
-                            px={10}
-                            py={6}
-                            h="auto"
-                            borderRadius="xl"
-                            _hover={{
-                                bg: '#eaf1ff',
-                                color: '#805AD5',
-                                transform: 'translateY(-2px)',
-                                boxShadow: '2xl'
-                            }}
-                            transition="all 0.3s ease"
-                        >
-                            Explore Opportunities <ArrowRight size={20} style={{ marginLeft: 8 }} />
-                        </Button>
+                        <NextLink href="/">
+                            <Button
+                                size="lg"
+                                bg="white"
+                                color="#5d93fe"
+                                fontSize="lg"
+                                fontWeight="700"
+                                px={10}
+                                py={6}
+                                h="auto"
+                                borderRadius="xl"
+                                _hover={{
+                                    bg: '#eaf1ff',
+                                    color: '#805AD5',
+                                    transform: 'translateY(-2px)',
+                                    boxShadow: '2xl'
+                                }}
+                                transition="all 0.3s ease"
+                            >
+                                Explore Opportunities <ArrowRight size={20} style={{ marginLeft: 8 }} />
+                            </Button>
+                        </NextLink>
                     </Box>
                 </Container>
             </Box >

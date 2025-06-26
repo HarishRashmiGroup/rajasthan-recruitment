@@ -5,10 +5,13 @@ import {
     Stack,
     Image,
     Grid,
+    Text,
 } from '@chakra-ui/react';
 
 import type { Job } from '../types';
 import JobCard from './JobCard';
+import LinkWithLoader from './LinkWithLoader';
+import { ChevronDownIcon } from 'lucide-react';
 
 const jobsData: Job[] = [{
     id: 1,
@@ -177,7 +180,7 @@ const JobsPage: React.FC = () => {
 
     return (
         <Box >
-            <Box mx="auto" px={0} >
+            <Box mx="auto" position={'relative'} px={0} pb={12}>
                 <Heading as={'h1'} size={'3xl'} color={'#5d93fe'}>Latest Government Job Notifications  {new Date().getFullYear()} - Apply Online</Heading>
                 <Stack mb={12} spaceX={4} w={'full'} position={'relative'} direction={{ base: 'column', md: 'row' }}>
                     <Grid
@@ -196,6 +199,16 @@ const JobsPage: React.FC = () => {
                         <Image borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky' }} top={{ base: 'auto', md: '150px' }} alt='Advertisement' src='/rr_adv.png'></Image>
                     </Box>
                 </Stack>
+                <Box position={'absolute'} w={'full'} display={'flex'} justifyContent={'center'} bottom={3}>
+                    <Box border={'2px solid #5d93fe'} borderRadius={'lg'} _hover={{ bg: '#DEE9FF', cursor: 'pointer' }}>
+                        <LinkWithLoader href='/jobs'>
+                            <Box p={2} display={'flex'} alignItems={'center'} gap={2}>
+                                <Text color={'#5d93fe'}>View More</Text>
+                                <ChevronDownIcon size={20} color='#5d93fe' />
+                            </Box>
+                        </LinkWithLoader>
+                    </Box>
+                </Box>
             </Box>
         </Box >
     );

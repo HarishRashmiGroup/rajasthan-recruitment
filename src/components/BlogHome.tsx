@@ -12,6 +12,7 @@ import {
 import BlogStats from './BlogStats';
 import PlayOverlay from './PlayOverlay';
 import LinkWithLoader from './LinkWithLoader';
+import { ChevronDownIcon } from 'lucide-react';
 
 interface BlogCardProps {
     id: string;
@@ -204,7 +205,7 @@ const BlogHome: React.FC = () => {
 
 
     return (
-        <Box w={'full'} display={'flex'} width={'full'} gap={4} position={'relative'} py={8} px={0}>
+        <Box w={'full'} display={'flex'} width={'full'} gap={4} position={'relative'} py={8} px={0} mb={16}>
             <SimpleGrid
                 columns={{ base: 1, md: 2, lg: 3, xl: 4 }}
                 templateRows="auto"
@@ -227,6 +228,16 @@ const BlogHome: React.FC = () => {
             </SimpleGrid>
             <Box maxW={'250px'} display={{ base: 'none', md: 'block' }} position={'relative'}>
                 <Image alt='Advertisement' borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky', lg: 'sticky' }} top={{ base: 'auto', md: '102px' }} src="rr_adv.png"></Image>
+            </Box>
+            <Box position={'absolute'} w={'full'} display={'flex'} justifyContent={'center'} bottom={-12}>
+                <Box border={'2px solid #5d93fe'} borderRadius={'lg'} _hover={{ bg: '#DEE9FF', cursor: 'pointer' }}>
+                    <LinkWithLoader href='/blogs'>
+                        <Box p={2} display={'flex'} alignItems={'center'} gap={2}>
+                            <Text color={'#5d93fe'}>View More</Text>
+                            <ChevronDownIcon size={20} color='#5d93fe' />
+                        </Box>
+                    </LinkWithLoader>
+                </Box>
             </Box>
         </Box>
     );
