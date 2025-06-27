@@ -208,7 +208,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         `,
         featuredImage: '/rr_adv.png',
         author: {
-          name: 'Priya Sharma',
+          name: 'Hitesh Yadav',
           avatar: '/images/authors/priya-sharma.jpg',
           bio: 'Government Job Expert with 8+ years of experience in competitive exam guidance'
         },
