@@ -660,7 +660,7 @@ export default async function BlogPostPage(props: PageProps) {
     articleSection: post.category.name,
     wordCount: post.content.replace(/<[^>]*>/g, '').split(' ').length,
   }
-  const borderColor = 'gray.200'
+  const borderColor = '#5d93fe'
   const bgCard = 'white'
   const textMain = 'gray.900'
   const textSecondary = 'gray.600'
@@ -687,7 +687,7 @@ export default async function BlogPostPage(props: PageProps) {
             {/* Main Content */}
             <Box as="article">
               {/* Article Header */}
-              <Box borderRadius="lg" p={6} mb={6}>
+              <Box borderRadius="lg" p={{ sm: 2, md: 4 }}>
                 <Flex align="center" gap={2} mb={4}>
                   <Link as={NextLink} href={`/category/${post.category.slug}`}
                     px={3} py={1} borderRadius="full" fontSize="xs" fontWeight="medium"
@@ -702,11 +702,11 @@ export default async function BlogPostPage(props: PageProps) {
                 <Text fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textSecondary} mb={6} lineHeight="relaxed">{post.excerpt}</Text>
 
                 {/* Featured Image */}
-                <Box bg={bgCard} borderRadius="lg" boxShadow="sm" overflow="hidden" mb={6}>
-                  <NextImage src={post.featuredImage} alt={post.title} width={400} height={200} style={{ width: '100%', height: '200px', objectFit: 'cover' }} priority />
+                <Box bg={bgCard} borderRadius="lg" boxShadow="sm" overflow="hidden" >
+                  <NextImage src={post.featuredImage} alt={post.title} width={400} height={200} style={{ width: '100%', height: '150px', objectFit: 'cover' }} priority />
                 </Box>
                 {/* Article Meta */}
-                <Flex flexWrap="wrap" align="center" gap={6} fontSize="sm" color={textSecondary} borderTopWidth={1} borderColor={borderColor} pt={4}>
+                <Flex flexWrap="wrap" align="center" gap={6} pb={2} fontSize="sm" color={textSecondary} borderBottomWidth={1} borderColor={borderColor} pt={4}>
                   <Flex align="center" gap={2}>
                     <Avatar.Root size={'sm'} key={post.author.avatar}>
                       <Avatar.Fallback name={post.author.name} />
@@ -729,7 +729,7 @@ export default async function BlogPostPage(props: PageProps) {
                 </Flex>
               </Box>
               {/* Article Content */}
-              <Box bg={bgCard} p={6} mb={6}>
+              <Box bg={bgCard} p={{ base: 2, md: 4 }} mb={6}>
                 <Box className="prose" maxW="none" fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textMain} dangerouslySetInnerHTML={{ __html: post.content }} />
               </Box>
               {/* Tags */}
