@@ -78,7 +78,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         excerpt: 'Comprehensive guide covering all aspects of SSC CGL 2024 including eligibility, syllabus, exam pattern, preparation tips, and important dates.',
         content: `
         <p>Are you an aspiring Computer Programmer looking for a government job in Rajasthan? The Rajasthan Public Service Commission (RPSC) has officially released a recruitment notification for Computer Programmer posts in various government departments. This post is a complete guide for aspirants — from eligibility to syllabus to tips!</p>
-    
+        <br/>
         <h2 style="color: #5d93fe; margin-bottom: 20px;">Overview of RPSC Computer Programmer Recruitment</h2>
         
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -93,7 +93,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Recruiting Body</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan Public Service Commission (RPSC)</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Post Name</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Computer Programmer</td>
                 </tr>
@@ -101,7 +101,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Advertisement No.</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">To be updated as per official notice</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Job Location</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan</td>
                 </tr>
@@ -109,7 +109,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Total Vacancies</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">100+ (Expected)</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Application Mode</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Online</td>
                 </tr>
@@ -134,7 +134,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Notification Release Date</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">June 2025</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Online Application Starts</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">July 2025</td>
                 </tr>
@@ -142,7 +142,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Last Date to Apply</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">August 2025</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Exam Date</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Oct–Nov 2025</td>
                 </tr>
@@ -169,7 +169,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Degree</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Preferred</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
                 </tr>
@@ -190,7 +190,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">21–40 Years</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">SC/ST/OBC/MBC (Rajasthan)</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">Relaxation as per rules</td>
                 </tr>
@@ -199,13 +199,14 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
         <h2 style="color: #5d93fe; margin-bottom: 20px;">Application Process: Steps to Apply Online</h2>
         
-        <ol style="padding-left: 20px; line-height: 1.8;">
+        <ol>
             <li>Visit the official RPSC website: <a href="https://rpsc.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://rpsc.rajasthan.gov.in</a></li>
             <li>Register on SSO Rajasthan Portal: <a href="https://sso.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://sso.rajasthan.gov.in</a></li>
             <li>Go to "Recruitment Portal" → Find "Computer Programmer Recruitment 2025"</li>
             <li>Fill the form, upload documents, pay the fee</li>
             <li>Submit and print for reference</li>
         </ol>
+        <br/>
     
         <h2 style="color: #5d93fe; margin-bottom: 20px;">Application Fees</h2>
         
@@ -221,7 +222,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                     <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">₹600</td>
                 </tr>
-                <tr style="background-color: #f8f9fa;">
+                <tr style="background-color: #DEE9FF;">
                     <td style="padding: 12px; border: 1px solid #5d93fe;">OBC (Non-creamy)</td>
                     <td style="padding: 12px; border: 1px solid #5d93fe;">₹400</td>
                 </tr>
@@ -234,7 +235,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
         <h2 style="color: #5d93fe; margin-bottom: 20px;">Final Words</h2>
         
-        <p style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <p style=" margin-bottom: 20px;">
             This is a golden opportunity for Computer Science graduates who want a secure government job in Rajasthan. Start your preparation today with a strategic plan, and stay updated with official announcements.
         </p>
         
