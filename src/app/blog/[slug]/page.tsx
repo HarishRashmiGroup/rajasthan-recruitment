@@ -559,7 +559,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       siteName: 'Rajasthan Recruitment',
       images: [
         {
-          url: post.featuredImage,
+          url: `${siteUrl}${post.featuredImage}`,
           width: 1200,
           height: 630,
           alt: post.title,
