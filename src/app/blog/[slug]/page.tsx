@@ -83,39 +83,39 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
             <thead>
-                <tr>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Feature</th>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Details</th>
+                <tr style="border-radius: 2px">
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Feature</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Details</th>
                 </tr>
             </thead>
             <tbody>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Recruiting Body</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan Public Service Commission (RPSC)</td>
+                    <td style="padding: 12px; ">Recruiting Body</td>
+                    <td style="padding: 12px; ;">Rajasthan Public Service Commission (RPSC)</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Post Name</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Computer Programmer</td>
+                    <td style="padding: 12px; ">Post Name</td>
+                    <td style="padding: 12px; ">Computer Programmer</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Advertisement No.</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">To be updated as per official notice</td>
+                    <td style="padding: 12px; ">Advertisement No.</td>
+                    <td style="padding: 12px; ">To be updated as per official notice</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Job Location</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan</td>
+                    <td style="padding: 12px; ">Job Location</td>
+                    <td style="padding: 12px; ">Rajasthan</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Total Vacancies</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">100+ (Expected)</td>
+                    <td style="padding: 12px; ">Total Vacancies</td>
+                    <td style="padding: 12px; ">100+ (Expected)</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Application Mode</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Online</td>
+                    <td style="padding: 12px; ">Application Mode</td>
+                    <td style="padding: 12px; ">Online</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Official Website</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;"><a href="https://rpsc.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://rpsc.rajasthan.gov.in</a></td>
+                    <td style="padding: 12px; ">Official Website</td>
+                    <td style="padding: 12px; "><a href="https://rpsc.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://rpsc.rajasthan.gov.in</a></td>
                 </tr>
             </tbody>
         </table>
@@ -125,30 +125,30 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
             <thead>
                 <tr>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Event</th>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Date (Tentative)</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Event</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Date (Tentative)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Notification Release Date</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">June 2025</td>
+                    <td style="padding: 12px; ">Notification Release Date</td>
+                    <td style="padding: 12px; ">June 2025</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Online Application Starts</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">July 2025</td>
+                    <td style="padding: 12px; ">Online Application Starts</td>
+                    <td style="padding: 12px; ">July 2025</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Last Date to Apply</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">August 2025</td>
+                    <td style="padding: 12px; ">Last Date to Apply</td>
+                    <td style="padding: 12px; ">August 2025</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Exam Date</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Oct–Nov 2025</td>
+                    <td style="padding: 12px; ">Exam Date</td>
+                    <td style="padding: 12px; ">Oct–Nov 2025</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Admit Card Release</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">10 days before exam</td>
+                    <td style="padding: 12px; ">Admit Card Release</td>
+                    <td style="padding: 12px; ">10 days before exam</td>
                 </tr>
             </tbody>
         </table>
@@ -160,18 +160,18 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
             <thead>
                 <tr>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Qualification</th>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Requirements</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Qualification</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Requirements</th>
                 </tr>
             </thead>
             <tbody>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Degree</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
+                    <td style="padding: 12px; ">Degree</td>
+                    <td style="padding: 12px; ">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Preferred</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
+                    <td style="padding: 12px; ">Preferred</td>
+                    <td style="padding: 12px; ">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
                 </tr>
             </tbody>
         </table>
@@ -181,18 +181,18 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
             <thead>
                 <tr>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Category</th>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Age Limit</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Category</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Age Limit</th>
                 </tr>
             </thead>
             <tbody>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">21–40 Years</td>
+                    <td style="padding: 12px; ">General</td>
+                    <td style="padding: 12px; ">21–40 Years</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">SC/ST/OBC/MBC (Rajasthan)</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">Relaxation as per rules</td>
+                    <td style="padding: 12px; ">SC/ST/OBC/MBC (Rajasthan)</td>
+                    <td style="padding: 12px; ">Relaxation as per rules</td>
                 </tr>
             </tbody>
         </table>
@@ -213,22 +213,22 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
             <thead>
                 <tr>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Category</th>
-                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Fee</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Category</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; ">Fee</th>
                 </tr>
             </thead>
             <tbody>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹600</td>
+                    <td style="padding: 12px; ">General</td>
+                    <td style="padding: 12px; ">₹600</td>
                 </tr>
                 <tr style="background-color: #DEE9FF;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">OBC (Non-creamy)</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹400</td>
+                    <td style="padding: 12px; ">OBC (Non-creamy)</td>
+                    <td style="padding: 12px; ">₹400</td>
                 </tr>
                 <tr style="background-color: #ffffff;">
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">SC/ST/PwD (Rajasthan)</td>
-                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹400</td>
+                    <td style="padding: 12px; ">SC/ST/PwD (Rajasthan)</td>
+                    <td style="padding: 12px; ">₹400</td>
                 </tr>
             </tbody>
         </table>
