@@ -77,134 +77,188 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         title: 'SSC CGL 2024: Complete Guide to Staff Selection Commission Combined Graduate Level Examination',
         excerpt: 'Comprehensive guide covering all aspects of SSC CGL 2024 including eligibility, syllabus, exam pattern, preparation tips, and important dates.',
         content: `
-        <p>
-  Are you an aspiring Computer Programmer looking for a government job in Rajasthan? The Rajasthan Public Service Commission (RPSC) has officially released a recruitment notification for Computer Programmer posts in various government departments. This post is a complete guide for aspirants — from eligibility to syllabus to tips!
-</p>
-</br>
+        <p>Are you an aspiring Computer Programmer looking for a government job in Rajasthan? The Rajasthan Public Service Commission (RPSC) has officially released a recruitment notification for Computer Programmer posts in various government departments. This post is a complete guide for aspirants — from eligibility to syllabus to tips!</p>
+    
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Overview of RPSC Computer Programmer Recruitment</h2>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Feature</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Recruiting Body</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan Public Service Commission (RPSC)</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Post Name</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Computer Programmer</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Advertisement No.</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">To be updated as per official notice</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Job Location</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Rajasthan</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Total Vacancies</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">100+ (Expected)</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Application Mode</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Online</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Official Website</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;"><a href="https://rpsc.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://rpsc.rajasthan.gov.in</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-<h2 style="color: #5d93fe;">📌 <strong>Overview of RPSC Computer Programmer Recruitment</strong></h2>
-</br>
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
-  <thead>
-    <tr style="background-color: #dee9ff; border: 1px solid #5d93fe; ">
-      <th style="text-align: left;border: 1px solid #5d93fe; padding-left: 5px">Feature</th>
-      <th style="text-align: left;border: 1px solid #5d93fe;">Details</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td style="border: 1px solid #5d93fe;">Recruiting Body</td><td style="border: 1px solid #5d93fe;">Rajasthan Public Service Commission (RPSC)</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Post Name</td><td style="border: 1px solid #5d93fe;">Computer Programmer</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Advt No.</td><td style="border: 1px solid #5d93fe;">[To be updated as per official notice]</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Job Location</td><td style="border: 1px solid #5d93fe;">Rajasthan</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Total Vacancies</td><td style="border: 1px solid #5d93fe;">100+ (Expected)</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Application Mode</td><td style="border: 1px solid #5d93fe;">Online</td></tr>
-    <tr>
-      <td style="border: 1px solid #5d93fe;">Official Website</td>
-      <td style="border: 1px solid #5d93fe; "><a href="https://rpsc.rajasthan.gov.in" target="_blank">https://rpsc.rajasthan.gov.in</a></td>
-    </tr>
-  </tbody>
-</table>
-<br/>
-<h2 style="color: #5d93fe;">📅 <strong>Important Dates</strong></h2>
-<br/>
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
-  <thead>
-    <tr style="background-color: #dee9ff;">
-      <th style="text-align: left;border: 1px solid #5d93fe;">Event</th>
-      <th style="text-align: left;border: 1px solid #5d93fe;">Date (Tentative)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td style="border: 1px solid #5d93fe;">Notification Release Date</td><td style="border: 1px solid #5d93fe;">June 2025</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Online Application Starts</td><td style="border: 1px solid #5d93fe;">July 2025</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Last Date to Apply</td><td style="border: 1px solid #5d93fe;">August 2025</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Exam Date</td><td style="border: 1px solid #5d93fe;">Oct–Nov 2025</td></tr>
-    <tr><td style="border: 1px solid #5d93fe;">Admit Card Release</td><td style="border: 1px solid #5d93fe;">10 days before exam</td></tr>
-  </tbody>
-</table>
-<br/>
-<h2 style="color: #5d93fe;">✅ <strong>Eligibility Criteria</strong></h2>
-<br/>
-<h3 style="color: #5d93fe;">1. Educational Qualification</h3>
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Important Dates</h2>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Event</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Date (Tentative)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Notification Release Date</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">June 2025</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Online Application Starts</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">July 2025</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Last Date to Apply</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">August 2025</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Exam Date</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Oct–Nov 2025</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Admit Card Release</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">10 days before exam</td>
+                </tr>
+            </tbody>
+        </table>
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
-  <thead>
-    <tr style="background-color: #dee9ff;">
-      <th style="text-align: left;border: 1px solid #5d93fe;">Qualification</th>
-      <th style="text-align: left;border: 1px solid #5d93fe;">Requirements</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #5d93fe;">Degree</td>
-      <td style="border: 1px solid #5d93fe;">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #5d93fe;">Preferred</td>
-      <td style="border: 1px solid #5d93fe;">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
-    </tr>
-  </tbody>
-</table>
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Eligibility Criteria</h2>
+        
+        <h3 style="color: #5d93fe; margin-bottom: 15px;">1. Educational Qualification</h3>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Qualification</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Requirements</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Degree</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">B.E./B.Tech/M.Sc. in CS/IT or MCA or equivalent</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Preferred</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Knowledge of Rajasthani culture and Hindi in Devanagari script</td>
+                </tr>
+            </tbody>
+        </table>
 
-<h3 style="color: #5d93fe;">2. Age Limit (as on 01.01.2026)</h3>
+        <h3 style="color: #5d93fe; margin-bottom: 15px;">2. Age Limit (as on 01.01.2026)</h3>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Category</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Age Limit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">21–40 Years</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">SC/ST/OBC/MBC (Rajasthan)</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">Relaxation as per rules</td>
+                </tr>
+            </tbody>
+        </table>
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
-  <thead>
-    <tr style="background-color: #dee9ff;">
-      <th  style="text-align: left;border: 1px solid #5d93fe;">Category</th>
-      <th style="text-align: left;border: 1px solid #5d93fe;">Age Limit</th>
-    </tr style="border: 1px solid #5d93fe;">
-  </thead>
-  <tbody>
-    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">General</td><td>21–40 Years</td></tr>
-    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">SC/ST/OBC/MBC (Rajasthan)</td><td>Relaxation as per rules</td></tr>
-  </tbody>
-</table>
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Application Process: Steps to Apply Online</h2>
+        
+        <ol style="padding-left: 20px; line-height: 1.8;">
+            <li>Visit the official RPSC website: <a href="https://rpsc.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://rpsc.rajasthan.gov.in</a></li>
+            <li>Register on SSO Rajasthan Portal: <a href="https://sso.rajasthan.gov.in" target="_blank" style="color: #5d93fe; text-decoration: none;">https://sso.rajasthan.gov.in</a></li>
+            <li>Go to "Recruitment Portal" → Find "Computer Programmer Recruitment 2025"</li>
+            <li>Fill the form, upload documents, pay the fee</li>
+            <li>Submit and print for reference</li>
+        </ol>
+    
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Application Fees</h2>
+        
+        <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+            <thead>
+                <tr>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Category</th>
+                    <th style="background-color: #5d93fe; color: white; padding: 12px; text-align: left; border: 1px solid #5d93fe;">Fee</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">General</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹600</td>
+                </tr>
+                <tr style="background-color: #f8f9fa;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">OBC (Non-creamy)</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹400</td>
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">SC/ST/PwD (Rajasthan)</td>
+                    <td style="padding: 12px; border: 1px solid #5d93fe;">₹400</td>
+                </tr>
+            </tbody>
+        </table>
 
-<h3 style="color: #5d93fe;">🧾 <strong>Application Process: Steps to Apply Online</strong></h3>
-<ol>
-  <li>Visit the official RPSC website: <a href="https://rpsc.rajasthan.gov.in" target="_blank">https://rpsc.rajasthan.gov.in</a></li>
-  <li>Register on SSO Rajasthan Portal: <a href="https://sso.rajasthan.gov.in" target="_blank">https://sso.rajasthan.gov.in</a></li>
-  <li>Go to "Recruitment Portal" → Find "Computer Programmer Recruitment 2025"</li>
-  <li>Fill the form, upload documents, pay the fee</li>
-  <li>Submit and print for reference</li>
-</ol>
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Final Words</h2>
+        
+        <p style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+            This is a golden opportunity for Computer Science graduates who want a secure government job in Rajasthan. Start your preparation today with a strategic plan, and stay updated with official announcements.
+        </p>
+        
+        <p style="font-weight: bold; color: #5d93fe;">Stay tuned and bookmark this page for updates and exam resources!</p>
+   
 
-<h3 style="color: #5d93fe;">💳 <strong>Application Fees</strong></h3>
+    <div style="margin-bottom: 30px;">
+        <h2 style="color: #5d93fe; margin-bottom: 20px;">Frequently Asked Questions - RPSC Computer Programmer Recruitment</h2>
+        
+        <div style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #5d93fe; background-color: #f8f9fa;">
+            <p style="margin: 0 0 10px 0;"><strong>Q.</strong> What is the salary for a Computer Programmer in Rajasthan?</p>
+            <p style="margin: 0;"><strong>A.</strong> The salary is as per Level-11 Pay Matrix (Approx ₹56,100/month + allowances).</p>
+        </div>
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #5d93fe;" cellpadding="8">
-  <thead>
-    <tr style="background-color: #dee9ff;">
-      <th style="text-align: left;border: 1px solid #5d93fe;">Category</th>
-      <th style="text-align: left;border: 1px solid #5d93fe;">Fee</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">General</td><td>₹600</td></tr>
-    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">OBC (Non-creamy)</td><td>₹400</td></tr>
-    <tr style="border: 1px solid #5d93fe;"><td style="border: 1px solid #5d93fe;">SC/ST/PwD (Rajasthan)</td><td>₹400</td></tr>
-  </tbody>
-</table>
-<br/>
-<h3 style="color: #5d93fe;">📢 <strong>Final Words</strong></h3>
-<br/>
-<p>
-  This is a golden opportunity for Computer Science graduates who want a secure government job in Rajasthan. Start your preparation today with a strategic plan, and stay updated with official announcements.
-</p>
-<br/>
-<p>📣 Stay tuned and bookmark this page for updates and exam resources!</p>
+        <div style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #5d93fe; background-color: #f8f9fa;">
+            <p style="margin: 0 0 10px 0;"><strong>Q.</strong> Can final-year students apply?</p>
+            <p style="margin: 0;"><strong>A.</strong> Only if the final result is declared before the document verification.</p>
+        </div>
 
-<h3 style="color: #5d93fe;"><strong>❓ FAQs – RPSC Computer Programmer Recruitment</strong></h3>
-
-<p><strong>Q.</strong> What is the salary for a Computer Programmer in Rajasthan?<br>
-<strong>A.</strong> The salary is as per Level-11 Pay Matrix (Approx ₹56,100/month + allowances).</p>
-
-<p><strong>Q.</strong> Can final-year students apply?<br>
-<strong>A.</strong> Only if the final result is declared before the document verification.</p>
-
-<p><strong>Q.</strong> Is prior work experience required?<br>
-<strong>A.</strong> No, freshers can apply.</p>
-
+        <div style="margin-bottom: 20px; padding: 15px; border-left: 4px solid #5d93fe; background-color: #f8f9fa;">
+            <p style="margin: 0 0 10px 0;"><strong>Q.</strong> Is prior work experience required?</p>
+            <p style="margin: 0;"><strong>A.</strong> No, freshers can apply.</p>
+        </div>
+    </div>
         `,
         featuredImage: '/rr_adv.png',
         author: {
