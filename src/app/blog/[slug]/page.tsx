@@ -544,7 +544,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     }
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajasthanrecruitment.in'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajasthan-recruitment.vercel.app'
   const postUrl = `${siteUrl}/blog/${post.slug}`
 
   return {
@@ -651,11 +651,11 @@ export default async function BlogPostPage(props: PageProps) {
     publisher: {
       '@type': 'Organization',
       name: 'Rajasthan Recruitment',
-      logo: { '@type': 'ImageObject', url: `${process.env.NEXT_PUBLIC_SITE_URL}/logo.png` },
+      logo: { '@type': 'ImageObject', url: `https://rajasthan-recruitment.vercel.app/logo.png` },
     },
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${process.env.NEXT_PUBLIC_SITE_URL}/blog/${post.slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://rajasthan-recruitment.vercel.app/blog/${post.slug}` },
     keywords: post.tags.join(', '),
     articleSection: post.category.name,
     wordCount: post.content.replace(/<[^>]*>/g, '').split(' ').length,
@@ -678,7 +678,7 @@ export default async function BlogPostPage(props: PageProps) {
               <Text as="li" color="gray.400">/</Text>
               <Box as="li"><LinkWithLoader href={`/category/${post.category.slug}`}> <Text _hover={{ color: 'blue.600' }}>{post.category.name}</Text></LinkWithLoader></Box>
               <Text as="li" color="gray.400">/</Text>
-              <Box as="li" color={textMain} fontWeight="medium" maxW="200px" truncate={true}>{post.title}</Box>
+              <Box as="li" color={textMain} fontWeight="medium" maxW="100px" truncate={true}>{post.title}</Box>
             </Flex>
           </Box>
         </Box >
