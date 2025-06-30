@@ -122,86 +122,119 @@ const BlogCard: React.FC<BlogCardProps> = ({
 const BlogHome: React.FC = () => {
     const blogData: BlogCardProps[] = [
         {
-            id: '1',
-            title: 'RPSC RAS 2025 Notification Released: Check Eligibility, Vacancies & Apply Online',
-            image: 'https://th.bing.com/th/id/OIP.kVo6qJobGsHqxDl81pmI4AHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'RPSC',
-            timeAgo: '2h',
-            likes: 20,
-            comments: 5,
-            shares: 3,
-            sourceLogo: 'https://upload.wikimedia.org/wikipedia/en/4/43/Rajasthan_Public_Service_Commission_logo.png'
+            "id": "1",
+            "title": "RSMSSB – Village Development Officer (VDO) 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100",
+            "source": "RSMSSB",
+            "timeAgo": "12h",
+            "likes": 80,
+            "comments": 7,
+            "shares": 10,
+            "isLarge": true,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
         },
         {
-            id: '2',
-            title: 'REET 2025: Application Form Released — Important Dates and Syllabus Overview',
-            image: 'https://th.bing.com/th/id/OIP.f3N9UIPNFRhgiLlLtP-VzgHaEK?w=271&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'Board of Secondary Education Rajasthan',
-            timeAgo: '6h',
-            likes: 15,
-            comments: 3,
-            shares: 2,
-            isSponsored: true,
-            sourceLogo: 'https://bsedotnic.in/images/logo.png'
+            "id": "2",
+            "title": "RPSC – School Lecturer (School Education) 2024: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
+            "source": "RPSC",
+            "timeAgo": "4h",
+            "likes": 58,
+            "comments": 12,
+            "shares": 2,
+            "sourceLogo": "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png"
         },
         {
-            id: '3',
-            title: 'Start Free Today – Online Coaching for RPSC & REET — Limited Seats!',
-            image: 'https://th.bing.com/th/id/OIP.8Yvwj4y_rdBeI9KirJnKfwHaDF?w=312&h=145&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'EdTech Partner',
-            timeAgo: '',
-            likes: 0,
-            comments: 0,
-            shares: 0,
-            isSponsored: false,
-            hasPlayButton: true
+            "id": "3",
+            "title": "RSMSSB – Group D (Class IV) 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_110338.png-1751261633873",
+            "source": "RSMSSB",
+            "timeAgo": "5h",
+            "likes": 11,
+            "comments": 19,
+            "shares": 3,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
         },
         {
-            id: '4',
-            title: 'Rajasthan Police Constable 2025: Admit Card Download Link Activated',
-            image: 'https://th.bing.com/th/id/OIP.tfx-9w2-2hv7XOCZJ6UsJgHaEc?w=286&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'Police Recruitment Board',
-            timeAgo: '10h',
-            likes: 28,
-            comments: 1,
-            shares: 4,
-            sourceLogo: 'https://police.rajasthan.gov.in/images/logo.png'
+            "id": "4",
+            "title": "Rajasthan High Court – Peon/Class-IV 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_110806.png-1751261901726",
+            "source": "Rajasthan High Court",
+            "timeAgo": "5h",
+            "likes": 74,
+            "comments": 6,
+            "shares": 4,
+            "sourceLogo": "https://hcraj.nic.in/hcraj/img/logo12102023.png"
         },
         {
-            id: '5',
-            title: 'RSMSSB Agriculture Supervisor Result 2025 Declared — Direct Link Here',
-            image: 'https://th.bing.com/th/id/OIP.71PVjjV4wFy5NnLdZNHfLAHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'RSMSSB',
-            timeAgo: '1d',
-            likes: 12,
-            comments: 0,
-            shares: 1,
-            isLarge: true,
-            sourceLogo: 'https://rsmssb.rajasthan.gov.in/images/logo.png'
+            "id": "5",
+            "title": "RSMSSB – Patwari Recruitment 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111142.png-1751262115887",
+            "source": "RSMSSB",
+            "timeAgo": "7h",
+            "likes": 73,
+            "comments": 15,
+            "shares": 10,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
         },
         {
-            id: '6',
-            title: 'Rajasthan High Court Clerk Recruitment 2025: Apply Before June 15',
-            image: 'https://th.bing.com/th/id/OIP.8Yvwj4y_rdBeI9KirJnKfwHaDF?w=312&h=145&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'Rajasthan High Court',
-            timeAgo: '3h',
-            likes: 5,
-            comments: 1,
-            shares: 0,
-            sourceLogo: 'https://hcraj.nic.in/hcraj/hcraj_logo.jpg'
+            "id": "6",
+            "title": "RMSMSB – NHM (Nurse, CHO, DEO) 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111314.png-1751262205829",
+            "source": "RMSMSB",
+            "timeAgo": "11h",
+            "isLarge": true,
+            "likes": 89,
+            "comments": 9,
+            "shares": 9,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
         },
         {
-            id: '7',
-            title: 'Upcoming Government Exams in Rajasthan: June-July 2025 Schedule',
-            image: 'https://th.bing.com/th/id/OIP.ubiC3u0N8GW4dVtRXTsrAgHaEK?w=290&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-            source: 'Exam Calendar Desk',
-            timeAgo: '12h',
-            likes: 18,
-            comments: 2,
-            shares: 2,
-            sourceLogo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Map_of_Rajasthan.svg/1200px-Map_of_Rajasthan.svg.png'
+            "id": "7",
+            "title": "RSMSSB – Conductor Recruitment 2025X: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111611.png-1751262387324",
+            "source": "RSMSSB",
+            "timeAgo": "12h",
+            "likes": 89,
+            "comments": 6,
+            "shares": 7,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+        },
+        {
+            "id": "8",
+            "title": "RSMSSB – RMES (Multiple Posts) 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111804.png-1751262497262",
+            "source": "RSMSSB",
+            "timeAgo": "6h",
+            "likes": 37,
+            "comments": 7,
+            "shares": 9,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+        },
+        {
+            "id": "9",
+            "title": "RSMSSB – Librarian Grade III 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111915.png-1751262568321",
+            "source": "RSMSSB",
+            "timeAgo": "6h",
+            "likes": 24,
+            "comments": 20,
+            "shares": 8,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+        },
+        {
+            "id": "10",
+            "title": "RSMSSB – Driver 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_112046.png-1751262657680",
+            "source": "RSMSSB",
+            "timeAgo": "3h",
+            "likes": 34,
+            "comments": 5,
+            "shares": 4,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
         }
-    ];
+    ]
+        ;
 
 
     return (

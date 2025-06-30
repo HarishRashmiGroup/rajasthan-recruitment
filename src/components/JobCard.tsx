@@ -10,9 +10,8 @@ import {
     Link
 } from '@chakra-ui/react';
 import {
-    MapPin,
+    Users,
     Briefcase,
-    Clock,
     ExternalLink,
 } from 'lucide-react';
 import type { Job } from '../types';
@@ -35,7 +34,7 @@ const JobCard: React.FC<{
                 <Flex gap={4}>
                     <Image
                         src={job.logo}
-                        alt={`${job.company} logo`}
+                        alt={`${job.title} logo`}
                         boxSize="48px"
                         objectFit="cover"
                         borderRadius="md"
@@ -43,16 +42,16 @@ const JobCard: React.FC<{
                     <Box>
                         <Heading fontSize="lg" mb={1}>{job.title}</Heading>
                         <Flex gap={4} mt={1} fontSize="sm" color="gray.500">
-                            <Flex align="center" gap={1}><MapPin size={16} /> {job.location}</Flex>
-                            <Flex align="center" gap={1}><Briefcase size={16} /> {job.type}</Flex>
-                            <Flex align="center" gap={1}><Clock size={16} /> {job.postedTime}</Flex>
+                            <Flex align="center" gap={1}><Users size={16} /> {job.posts}</Flex>
+                            <Flex align="center" gap={1}><Briefcase size={16} /> {job.level}</Flex>
+                            {/* <Flex align="center" gap={1}><Clock size={16} /> {job.postedTime}</Flex> */}
                         </Flex>
                     </Box>
                 </Flex>
             </Flex>
             <Stack mb={4}>
                 {job.registrationStartDate && <Text fontSize="sm"><b>Registration Start Date:</b> {job.registrationStartDate}</Text>}
-                {job.closeDate && <Text fontSize="sm"><b>Close Date:</b> {job.closeDate}</Text>}
+                {job.registrationEndDate && <Text fontSize="sm"><b>Registration Close Date:</b> {job.registrationEndDate}</Text>}
                 {job.examDate && <Text fontSize="sm"><b>Exam Date:</b> {job.examDate}</Text>}
                 {job.posts && <Text fontSize="sm"><b>Posts:</b> {job.posts}</Text>}
             </Stack>
