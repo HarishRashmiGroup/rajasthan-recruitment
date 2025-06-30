@@ -27,6 +27,7 @@ interface BlogCardProps {
     isLarge?: boolean;
     hasPlayButton?: boolean;
     sourceLogo?: string;
+    slug: string;
 }
 
 const BlogCard: React.FC<BlogCardProps> = ({
@@ -131,7 +132,8 @@ const BlogHome: React.FC = () => {
             "comments": 7,
             "shares": 10,
             "isLarge": true,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rajasthan-rssb-vdo-recruitment-2025-guide"
         },
         {
             "id": "2",
@@ -142,7 +144,8 @@ const BlogHome: React.FC = () => {
             "likes": 58,
             "comments": 12,
             "shares": 2,
-            "sourceLogo": "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png"
+            "sourceLogo": "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+            "slug": "rpsc-school-lecturer-2024-apply-online"
         },
         {
             "id": "3",
@@ -153,7 +156,8 @@ const BlogHome: React.FC = () => {
             "likes": 11,
             "comments": 19,
             "shares": 3,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-group-d-class-iv-2025-apply-online"
         },
         {
             "id": "4",
@@ -164,7 +168,8 @@ const BlogHome: React.FC = () => {
             "likes": 74,
             "comments": 6,
             "shares": 4,
-            "sourceLogo": "https://hcraj.nic.in/hcraj/img/logo12102023.png"
+            "sourceLogo": "https://hcraj.nic.in/hcraj/img/logo12102023.png",
+            "slug": "rajasthan-high-court-peon-class-iv-2025"
         },
         {
             "id": "5",
@@ -175,7 +180,8 @@ const BlogHome: React.FC = () => {
             "likes": 73,
             "comments": 15,
             "shares": 10,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-patwari-recruitment-2025-apply-now"
         },
         {
             "id": "6",
@@ -187,7 +193,8 @@ const BlogHome: React.FC = () => {
             "likes": 89,
             "comments": 9,
             "shares": 9,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rmsmsb-nhm-nurse-cho-deo-2025"
         },
         {
             "id": "7",
@@ -198,7 +205,8 @@ const BlogHome: React.FC = () => {
             "likes": 89,
             "comments": 6,
             "shares": 7,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-conductor-recruitment-2025"
         },
         {
             "id": "8",
@@ -209,7 +217,8 @@ const BlogHome: React.FC = () => {
             "likes": 37,
             "comments": 7,
             "shares": 9,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-rmes-recruitment-2025"
         },
         {
             "id": "9",
@@ -220,7 +229,8 @@ const BlogHome: React.FC = () => {
             "likes": 24,
             "comments": 20,
             "shares": 8,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-librarian-grade-iii-2025"
         },
         {
             "id": "10",
@@ -231,7 +241,8 @@ const BlogHome: React.FC = () => {
             "likes": 34,
             "comments": 5,
             "shares": 4,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png"
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rsmssb-driver-2025-apply-online"
         }
     ]
         ;
@@ -253,7 +264,7 @@ const BlogHome: React.FC = () => {
                             lg: blog.isLarge ? "span 2" : "span 1"
                         }}
                     >
-                        <LinkWithLoader href={`/blog/ssc-cgl-2024-complete-guide`}>
+                        <LinkWithLoader href={`/blog/${blog.slug}`}>
                             <BlogCard {...blog} />
                         </LinkWithLoader>
                     </Box>

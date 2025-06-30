@@ -2,6 +2,7 @@
 export interface Job {
   id: number;
   title: string;
+  slug: string;
   logo: string;
   registrationStartDate?: string;
   notificationDate?: string;
