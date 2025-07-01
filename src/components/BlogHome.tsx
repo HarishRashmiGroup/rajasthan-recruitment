@@ -157,7 +157,7 @@ const BlogHome: React.FC = () => {
             "comments": 19,
             "shares": 3,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rsmssb-group-d-class-iv-2025-apply-online"
+            "slug": "rsmssb-group-d-recruitment-2025"
         },
         {
             "id": "4",
@@ -206,7 +206,7 @@ const BlogHome: React.FC = () => {
             "comments": 6,
             "shares": 7,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rsmssb-conductor-recruitment-2025"
+            "slug": "rsmssb-conductor-recruitment-2025-apply-online"
         },
         {
             "id": "8",

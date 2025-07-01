@@ -57,7 +57,7 @@ const JobCard: React.FC<{
             </Stack>
             <Flex gap={2} justifyContent={{ base: "space-between", md: 'left' }}>
                 {job.slug && (
-                    <Link href={`https://rajasthan-recruitment.vercel.app${job.slug}`} target='blank'>
+                    <Link href={`https://rajasthan-recruitment.vercel.app/blog/${job.slug}`} target='blank'>
                         <Button p={2} size="sm" colorScheme="blue" transition="all 0.5s" _hover={{ bg: '#5d93fe' }}>
                             View Details
                         </Button>

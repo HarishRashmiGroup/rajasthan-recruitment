@@ -254,8 +254,8 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
           Recent passport-size photograph
         </li>
-        <li style="margin:0 0 0 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#ed8936;border-radius:50%;">✓</span>
           Digital signature
         </li>
       </ul>
@@ -422,6 +422,1374 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         "seoTitle": "RSMSSB VDO 2025: Eligibility, Vacancies, Apply Online Guide",
         "seoDescription": "Get full details on RSMSSB VDO 2025 recruitment – eligibility, important dates, application process, fees and preparation tips.",
         "seoKeywords": ["RSMSSB VDO 2025", "Village Development Officer", "Rajasthan Government Jobs"]
+      },
+      "rpsc-school-lecturer-2024-apply-online": {
+        "id": "2",
+        "title": "RPSC – School Lecturer (School Education) 2024",
+        "slug": "rpsc-school-lecturer-2024-apply-online",
+        "excerpt": "Apply for 2,202 vacancies for the RPSC School Lecturer (School Education) 2024 recruitment. The exam is scheduled from June 23 to July 4, 2025. Visit the official site for details and updates.",
+        "content": `<section style="margin-bottom:40px;">
+  <p style="margin:0;color:#2d3748;">The School Lecturer (School Education) post under RPSC is a prestigious position within Rajasthan’s secondary education system, allowing candidates to significantly contribute to academic excellence and teacher quality in government schools.</p>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Attribute</th>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Conducting Authority</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Rajasthan Public Service Commission (RPSC)</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Post Name</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">School Lecturer (School Education)</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Total Vacancies</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#2b6cb0;font-size:1.1rem;">2,202</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Subjects Covered</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">24 subjects including Hindi, English, Political Science, Maths, Science, Commerce, PE & Coaching roles</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Requirements</h2>
+  <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;margin-bottom:16px;">
+    <h3>Age Criteria</h3>
+    <p>21 to 40 years (as on 1 January 2025)</p>
+  </div>
+  <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+    <h3>Educational Qualification</h3>
+    <p>Post‑graduation in the concerned subject + B.Ed (or Diploma/Degree in Education/Physical Education)</p>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Timeline & Important Dates</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Event</th>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Application Start</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">05 November 2024</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Application Deadline</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#e53e3e;">04 December 2024 (midnight)</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Exam Schedule</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">23 June – 04 July 2025<br>Rescheduled for some: 05–06 July 2025</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Admit Card Release</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Mid‑June 2025</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fee Structure</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Category</th>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">General / OBC-CL / EWS</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#2b6cb0;">₹600</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">OBC-NCL / SC / ST / Sahariya / PwD</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#38a169;">₹400</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Correction Fee</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:500;color:#ed8936;">₹500</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy Distribution by Subject</h2>
+  <p>Total 2,202 vacancies across 24 subjects, including:</p>
+  <ul>
+    <li>Hindi – 350, English – 325, Sanskrit – 64, Punjabi – 11, Urdu – 26</li>
+    <li>History – 90, Political Science – 225, Geography – 210</li>
+    <li>Mathematics – 153, Physics – 147, Chemistry – 36, Biology – 67</li>
+    <li>Economics – 35, Commerce – 340, Drawing – 35, Music – 6</li>
+    <li>Physical Education – 37; Coaching: Wrestling/Kho‑Kho/Hockey/Football – total 6</li>
+  </ul>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Exam Pattern & Selection Process</h2>
+  <div class="card" style="padding:20px;background:#f8fafc;border-radius:8px;">
+    <h3>Written Exam (Paper I & II)</h3>
+    <p>
+      • Paper I: General Studies, Educational Psychology, Teaching Methodology, Computer Knowledge (150 Qs, 150 marks)<br>
+      • Paper II: Subject-specific (150 Qs, 300 marks)<br>
+      • Negative marking applies (–⅓ per incorrect)<br>
+      • Mode: Offline (OMR)
+    </p>
+  </div>
+  <div class="card" style="padding:20px;background:#f8fafc;border-radius:8px;margin-top:16px;">
+    <h3>Document Verification</h3>
+    <p>Only for shortlisted candidates; original certificates required.</p>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">How to Download RPSC School Lecturer Admit Card</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Step</th>
+          <th style="background:#f8fafc;font-weight:600;padding:16px;text-align:left;">Guide</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">1</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Visit the official RPSC website: <a href="https://rpsc.rajasthan.gov.in">rpsc.rajasthan.gov.in</a></td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">2</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Click on “Admit Card for School Lecturer 2024”</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">3</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Enter Application Number and Date of Birth</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">4</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Download and print your admit card</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><strong>Admit cards released between 16–20 June 2025</strong>. Exams from 23 June to 6 July 2025.</p>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Updates & Alerts</h2>
+  <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;margin-bottom:12px;">
+    <summary style="font-weight:600;color:#2d3748;cursor:pointer;">Exam Hall Irregularities Reported</summary>
+    <p>On 24 June 2025 in Jhunjhunu, poor lighting and early paper collection were reported. 3 invigilators suspended.</p>
+  </details>
+  <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;margin-bottom:12px;">
+    <summary style="font-weight:600;color:#2d3748;cursor:pointer;">Exam Schedule Announced</summary>
+    <p>Formal schedule for 23 June to 4 July 2025 was released on 27 May 2025.</p>
+  </details>
+  <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;margin-bottom:12px;">
+    <summary style="font-weight:600;color:#2d3748;cursor:pointer;">Admit Cards Released</summary>
+    <p>Group 1 admit cards issued on 20 June 2025.</p>
+  </details>
+</section>
+
+<footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p>📌 Bookmark this page for live updates on RPSC School Lecturer Recruitment 2024–25.</p>
+</footer>
+`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-06-20T08:00:00Z",
+        "updatedAt": "2025-06-30T12:00:00Z",
+        "readTime": 7,
+        "views": 12000,
+        "category": { "name": "State Jobs", "slug": "state-jobs" },
+        "tags": ["RSMSSB", "VDO", "Rajasthan", "Government Jobs"],
+        "seoTitle": "RSMSSB VDO 2025: Eligibility, Vacancies, Apply Online Guide",
+        "seoDescription": "Get full details on RSMSSB VDO 2025 recruitment – eligibility, important dates, application process, fees and preparation tips.",
+        "seoKeywords": ["RSMSSB VDO 2025", "Village Development Officer", "Rajasthan Government Jobs"]
+      },
+      "rsmssb-group-d-recruitment-2025": {
+        "id": "3",
+        "title": "RPSC – School Lecturer (School Education) 2024",
+        "slug": "rsmssb-group-d-recruitment-2025",
+        "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
+        "content": `<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Attribute</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Conducting Authority</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Rajasthan Staff Selection Board (RSMSSB)</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Position</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Group D (Class IV)</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Total Positions</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;font-size:1.1rem;">53,749</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Qualification</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Class 10th from recognized board</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">Official Website</td>
+          <td style="padding:14px 16px;color:#2b6cb0;">rsmssb.rajasthan.gov.in</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Criteria</h3>
+      <p style="margin:0;color:#4a5568;">18 to 40 years as of January 1, 2026 (relaxations applicable as per rules)</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <p style="margin:0;color:#4a5568;">Class 10th (Secondary) pass from a recognized board</p>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Event</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Begins</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;">March 21, 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Deadline</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">April 19, 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Fee Payment Last Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">April 19, 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;color:#4a5568;">CBT Examination Date</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">September 18-21, 2025</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Category</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Application Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General / OBC</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">₹600</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">EWS / OBC NCL / SC / ST / PH</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:600;">₹400</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Correction Fee</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#ed8936;font-weight:500;">₹300</td>
+        </tr>
+        <tr style="background:#fff5f5;">
+          <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Important Note</td>
+          <td style="padding:14px 16px;color:#2d3748;font-size:0.9rem;">One-time registration fee - no additional charges for future RSMSSB applications</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
+  
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #38a169;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Vacancies</h3>
+      <p style="margin:0;color:#2b6cb0;font-size:1.5rem;font-weight:700;">53,749</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #2b6cb0;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Non-TSP Area</h3>
+      <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">48,199</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #ed8936;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">TSP Area</h3>
+      <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">5,550</p>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Visit Official Website</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Go to rsmssb.rajasthan.gov.in and click on "Apply Online" for Group D Recruitment 2025</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Complete Registration</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Register using valid email ID and phone number for OTR (One Time Registration)</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Application Form</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Complete the form with accurate personal and academic details</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload photograph, signature, and required documents in specified format</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay Fee & Submit</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay applicable fee, submit application, and download confirmation receipt</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
+  
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Mode</h3>
+      <p style="margin:0;color:#4a5568;">Computer Based Test (CBT)</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Duration</h3>
+      <p style="margin:0;color:#4a5568;">4 days (Sept 18-21, 2025)</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Question Type</h3>
+      <p style="margin:0;color:#4a5568;">Multiple Choice Questions</p>
+    </div>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p style="margin:0;color:#4a5568;font-weight:500;">📌 Save this page for regular updates on RSMSSB Group D Recruitment 2025</p>
+</footer>
+`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-06-20T08:00:00Z",
+        "updatedAt": "2025-06-30T12:00:00Z",
+        "readTime": 7,
+        "views": 12000,
+        "category": { "name": "State Jobs", "slug": "state-jobs" },
+        "tags": ["RSMSSB", "Group D", "Class IV", "Rajasthan", "Government Jobs"],
+        "seoTitle": "RSMSSB Group D Recruitment 2025: Apply Online for 53749 Vacancies",
+        "seoDescription": "Apply now for RSMSSB Group D (Class IV) Recruitment 2025. Check eligibility, vacancy details, important dates, fees, and step-by-step application process.",
+        "seoKeywords": ["RSMSSB Group D 2025", "Class IV Recruitment Rajasthan", "Rajasthan Govt Jobs 2025", "RSMSSB Apply Online"]
+      },
+      "rajasthan-high-court-peon-class-iv-2025": {
+        "id": "3",
+        "title": "Rajasthan High Court – Peon/Class-IV 2025: Check Eligibility, Vacancies & Apply Online",
+        "slug": "rajasthan-high-court-peon-class-iv-2025",
+        "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
+        "content": `<section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #5d93fe;">Recruitment Overview</h2>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background: #f8fafc; padding: 14px 16px; text-align: left; font-weight: 600; color: #2d3748;">Attribute</th>
+          <th style="background: #f8fafc; padding: 14px 16px; text-align: left; font-weight: 600; color: #2d3748;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Conducting Authority</td>
+          <td style="padding: 14px 16px; color: #2d3748; font-weight: 500;">Rajasthan High Court</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Post Name</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Peon / Class IV</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Total Vacancies</td>
+          <td style="padding: 14px 16px; color: #2b6cb0; font-weight: 600;">To Be Announced</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Qualification</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Class 10th Passed (Secondary)</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Age Limit</td>
+          <td style="padding: 14px 16px; color: #2d3748;">18 to 40 years (as on 01 Jan 2026), age relaxation as per rules</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Official Website</td>
+          <td style="padding: 14px 16px;"><a href="https://hcraj.nic.in" style="color: #2b6cb0; text-decoration: none;">hcraj.nic.in</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Pay Scale</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Level-1 (₹18,000 - ₹56,900) + DA & HRA as per rules</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Job Location</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Rajasthan High Court, Jodhpur & District Courts across Rajasthan</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Dates</h2>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Event</th>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Notification Release</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Expected in August 2025</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Application Start</td>
+          <td style="padding: 14px 16px; color: #2d3748;">To Be Announced</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Last Date to Apply</td>
+          <td style="padding: 14px 16px; color: #2d3748;">To Be Announced</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Admit Card Release</td>
+          <td style="padding: 14px 16px; color: #2d3748;">10 days before exam</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Written Examination</td>
+          <td style="padding: 14px 16px; color: #2d3748;">To Be Announced</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Result Declaration</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Within 30 days of exam</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Age Relaxation Details</h2>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Category</th>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Age Relaxation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">SC/ST</td>
+          <td style="padding: 14px 16px; color: #2d3748;">5 years</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">OBC (Non-Creamy Layer)</td>
+          <td style="padding: 14px 16px; color: #2d3748;">3 years</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">EWS</td>
+          <td style="padding: 14px 16px; color: #2d3748;">As per Government Rules</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Ex-Serviceman</td>
+          <td style="padding: 14px 16px; color: #2d3748;">3 years after deduction of military service</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Physically Handicapped</td>
+          <td style="padding: 14px 16px; color: #2d3748;">10 years (15 years for SC/ST)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Application Fee</h2>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Category</th>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">General / OBC</td>
+          <td style="padding: 14px 16px; color: #2d3748;">₹500</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">SC / ST / EWS</td>
+          <td style="padding: 14px 16px; color: #2d3748;">₹250</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Payment Mode</td>
+          <td style="padding: 14px 16px; color: #2d3748;">Online (Debit Card/Credit Card/Net Banking/UPI)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Selection Process</h2>
+    <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <ol style="padding-left: 20px; color: #4a5568; margin: 0;">
+        <li style="margin-bottom: 12px;"><strong style="color: #2d3748;">Written Examination</strong> - 100 Marks (Objective Type MCQs)</li>
+        <li style="margin-bottom: 12px;"><strong style="color: #2d3748;">Physical Efficiency Test</strong> - Qualifying Nature</li>
+        <li style="margin-bottom: 12px;"><strong style="color: #2d3748;">Document Verification</strong> - For selected candidates</li>
+        <li><strong style="color: #2d3748;">Medical Examination</strong> - Final stage</li>
+      </ol>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Required Documents</h2>
+    <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <ul style="padding-left: 20px; color: #4a5568; margin: 0;">
+        <li style="margin-bottom: 8px;">Class 10th Mark Sheet & Certificate</li>
+        <li style="margin-bottom: 8px;">Date of Birth Certificate</li>
+        <li style="margin-bottom: 8px;">Caste Certificate (SC/ST/OBC/EWS)</li>
+        <li style="margin-bottom: 8px;">Domicile Certificate of Rajasthan</li>
+        <li style="margin-bottom: 8px;">Recent Passport Size Photographs</li>
+        <li style="margin-bottom: 8px;">Valid Email ID & Mobile Number</li>
+        <li style="margin-bottom: 8px;">Signature in prescribed format</li>
+        <li>Any other relevant certificates (if applicable)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Exam Pattern</h2>
+    <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Subject</th>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Questions</th>
+          <th style="background: #f8fafc; padding: 14px 16px; color: #2d3748; text-align: left; font-weight: 600;">Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">General Knowledge</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">Hindi Language</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568;">Mathematics</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+        </tr>
+        <tr style="background: #fafafa;">
+          <td style="padding: 14px 16px; color: #4a5568;">General Science</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+          <td style="padding: 14px 16px; color: #2d3748;">25</td>
+        </tr>
+        <tr>
+          <td style="padding: 14px 16px; color: #4a5568; font-weight: 600;">Total</td>
+          <td style="padding: 14px 16px; color: #2d3748; font-weight: 600;">100</td>
+          <td style="padding: 14px 16px; color: #2d3748; font-weight: 600;">100</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="color: #666; font-size: 0.9rem; margin-top: 10px; font-style: italic;">
+      Duration: 2 Hours | Negative Marking: 1/4 mark for each wrong answer
+    </p>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">How to Apply</h2>
+    <ol style="padding-left: 20px; color: #4a5568;">
+      <li style="margin-bottom: 10px;">Visit the official website: <a href="https://hcraj.nic.in" style="color: #2b6cb0;">hcraj.nic.in</a></li>
+      <li style="margin-bottom: 10px;">Click on "Recruitment" and select the Class IV/Peon notification link</li>
+      <li style="margin-bottom: 10px;">Register with your valid email ID and phone number</li>
+      <li style="margin-bottom: 10px;">Fill out the online form carefully and upload necessary documents</li>
+      <li style="margin-bottom: 10px;">Pay the application fee and submit the final form</li>
+      <li>Download and save a copy of the submitted form for reference</li>
+    </ol>
+  </section>
+
+  <section style="margin-bottom: 40px;">
+    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Instructions</h2>
+    <div style="background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px;">
+      <ul style="padding-left: 20px; color: #856404; margin: 0;">
+        <li style="margin-bottom: 8px;">Candidates must possess Rajasthan domicile certificate</li>
+        <li style="margin-bottom: 8px;">Only online applications will be accepted</li>
+        <li style="margin-bottom: 8px;">Keep all original documents ready for verification</li>
+        <li style="margin-bottom: 8px;">Application fee once paid will not be refunded</li>
+        <li style="margin-bottom: 8px;">False information may lead to disqualification</li>
+        <li>Regular updates will be posted on the official website</li>
+      </ul>
+    </div>
+  </section>`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_110806.png-1751261901726",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-06-20T08:00:00Z",
+        "updatedAt": "2025-06-30T12:00:00Z",
+        "readTime": 7,
+        "views": 12000,
+        "category": { "name": "State Jobs", "slug": "state-jobs" },
+        "tags": ["Rajasthan High Court", "Peon Recruitment", "Class IV Jobs", "Rajasthan Government Jobs", "Court Jobs"],
+        "seoTitle": "Rajasthan High Court Peon Recruitment 2025 – Apply Online for Class IV Vacancies",
+        "seoDescription": "Apply online for Rajasthan High Court Peon/Class-IV Recruitment 2025. Check official notification, eligibility, vacancy details, age limit, application fee, and how to apply.",
+        "seoKeywords": ["Rajasthan High Court Peon 2025", "Class IV Recruitment Rajasthan", "Peon Vacancy 2025", "Rajasthan High Court Jobs", "Government Jobs Rajasthan 2025"]
+      },
+      "rsmssb-conductor-recruitment-2025-apply-online": {
+        "id": "3",
+        "title": "RSMSSB Conductor 2025 Recruitment: Apply for 500 Vacancies",
+        "slug": "rsmssb-conductor-recruitment-2025-apply-online",
+        "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
+        "content": `<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSMSSB Conductor Vacancy 2025 Overview</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Particulars</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Recruiting Body</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Rajasthan Staff Selection Board (RSMSSB)</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Post Name</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Conductor</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Notification Release</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">12 December 2024</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Total Vacancies</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;font-size:1.1rem;">500 Posts</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Start Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;">27 March 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Last Date to Apply</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">25 April 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Exam Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">To be announced</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Selection Process</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Written Exam, Document Verification, Medical</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">Official Website</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:500;">rssb.rajasthan.gov.in</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+          Must have passed Class 10 or 12 from a recognized board
+        </li>
+        <li style="margin:0 0 0 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+          Valid Conductor License issued by competent authority is mandatory
+        </li>
+      </ul>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Limit (as on 01.01.2026)</h3>
+      <p style="margin:0 0 8px 0;color:#4a5568;">Minimum Age: 18 years</p>
+      <p style="margin:0 0 8px 0;color:#4a5568;">Maximum Age: 40 years</p>
+      <p style="margin:0;color:#4a5568;font-size:0.9rem;">Age relaxation applicable for SC/ST/OBC as per Rajasthan Govt norms</p>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Category</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">TSP Area</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Non-TSP Area</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">15</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">180</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OBC</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">5</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">100</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC/ST</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">6</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">100</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">EWS</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">4</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">76</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;font-weight:600;">Total</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">44</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">456</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Category</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General/OBC (CL)</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">₹600</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OBC (NCL)/EWS</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:600;">₹400</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC/ST/PwD</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:600;">₹400</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;color:#4a5568;">Correction Charges</td>
+          <td style="padding:14px 16px;color:#ed8936;font-weight:500;">₹300</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <div style="margin-top:16px;padding:16px;background:#fffaf0;border-radius:8px;border-left:4px solid #ed8936;">
+    <p style="margin:0;color:#4a5568;">Payment can be made via e-Mitra, Net Banking, UPI, Debit/Credit Card</p>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Process</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Written Examination</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Objective type paper with questions from General Knowledge, Rajasthan GK, Traffic Rules</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Document Verification</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Verification of all educational and other certificates by the selection committee</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Medical Examination</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Final medical fitness test to ensure candidate meets health requirements</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Exam Pattern & Syllabus</h2>
+  
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-bottom:20px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Paper Type</h3>
+      <p style="margin:0;color:#4a5568;">Objective Type</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Marks</h3>
+      <p style="margin:0;color:#4a5568;">100</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Duration</h3>
+      <p style="margin:0;color:#4a5568;">2 hours</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Negative Marking</h3>
+      <p style="margin:0;color:#4a5568;">1/3rd per wrong answer</p>
+    </div>
+  </div>
+  
+  <div style="padding:20px;background:#f8fafc;border-radius:8px;">
+    <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Syllabus Coverage</h3>
+    <p style="margin:0;color:#4a5568;">General Knowledge, Rajasthan GK, Traffic Rules, Conduct Rules</p>
+  </div>
+  
+  <div style="margin-top:20px;padding:20px;background:#f8fafc;border-radius:8px;">
+    <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Recommended Books</h3>
+    <ul style="margin:0;padding:0;list-style:none;">
+      <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+        <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#2b6cb0;border-radius:50%;"></span>
+        Lucent GK
+      </li>
+      <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+        <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#2b6cb0;border-radius:50%;"></span>
+        Rajasthan GK by Laxmi Publications
+      </li>
+      <li style="margin:0 0 0 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+        <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#2b6cb0;border-radius:50%;"></span>
+        RSRTC Handbook
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply for RSMSSB Conductor 2025</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Visit Official Portal</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Go to https://rssb.rajasthan.gov.in</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Click Apply Online</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Click on "Apply Online" under the Conductor 2025 section</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Register through SSO ID</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">SSO ID is mandatory for Rajasthan residents</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Details</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Fill in personal and academic details accurately</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload photograph, signature, and required documents</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">6</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay Fee and Submit</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay application fee online, submit and download confirmation receipt</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">How many vacancies are there for RSMSSB Conductor 2025?</summary>
+      <p style="margin:0;color:#4a5568;">There are 500 total posts (TSP: 44, Non-TSP: 456).</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the last date to apply?</summary>
+      <p style="margin:0;color:#4a5568;">The last date to apply online is 25 April 2025.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is a conductor license mandatory?</summary>
+      <p style="margin:0;color:#4a5568;">Yes, a valid conductor license is a must for eligibility.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the salary of an RSMSSB conductor?</summary>
+      <p style="margin:0;color:#4a5568;">Salary is as per Pay Matrix Level-5, approximately ₹20,000 – ₹25,000/month in hand.</p>
+    </details>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Final Words</p>
+  <p style="margin:0;">The RSMSSB Conductor 2025 recruitment offers a secure and respectful job opportunity in Rajasthan’s government transport sector. If you meet the eligibility, don’t miss your chance to apply before the deadline!</p>
+  </footer>`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111611.png-1751262387324",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-06-20T08:00:00Z",
+        "updatedAt": "2025-06-30T12:00:00Z",
+        "readTime": 7,
+        "views": 12000,
+        "tags": [
+          "RSMSSB",
+          "Rajasthan Government Jobs",
+          "RSMSSB Conductor 2025",
+          "RSRTC Conductor Recruitment",
+          "RSMSSB Apply Online",
+          "Transport Department Jobs",
+          "Conductor Vacancy Rajasthan",
+          "RSMSSB Notification 2025",
+          "Sarkari Naukri Rajasthan",
+          "10th Pass Government Jobs"
+        ],
+        "category": { "name": "State Jobs", "slug": "state-jobs" },
+        "seoTitle": "RSMSSB Conductor Recruitment 2025: Apply Online for 500 Vacancies",
+        "seoDescription": "RSMSSB Conductor 2025 recruitment is out for 500 posts. Check eligibility, exam pattern, syllabus, apply online dates, fees and official links here.",
+        "seoKeywords": ["RSMSSB Conductor 2025", "Rajasthan Conductor Vacancy", "RSRTC Conductor Recruitment", "RSMSSB Apply Online", "RSMSSB 2025 Notification"]
+      },
+      "rsmssb-librarian-grade-iii-2025": {
+        "id": "3",
+        "title": "RSMSSB – Librarian Grade III 2025: Check Eligibility, Vacancies & Apply Online",
+        "slug": "rsmssb-librarian-grade-iii-2025",
+        "excerpt": "The Rajasthan Staff Selection Board (RSMSSB) has announced 548 vacancies for the Librarian Grade III post under the Secondary Education and Sanskrit Education Departments. The online application process began on March 5, 2025, and interested candidates can apply until April 3, 2025. This comprehensive guide covers everything you need to know—eligibility, important dates, documents, step-by-step application process, exam structure, and preparation strategy.",
+        "content": `
+<p>The Librarian Grade III plays an essential role in enriching school libraries and supporting the educational infrastructure of Rajasthan. This is a golden opportunity for candidates holding a Library Science qualification to join the state’s academic ecosystem.</p>
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Attribute</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Conducting Authority</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Rajasthan Staff Selection Board (RSMSSB)</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Position</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Librarian Grade III</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">Total Positions</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">548 (Non-TSP: 483, TSP: 65)</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">Departments</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">Secondary Education & Sanskrit Education</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Criteria</h3>
+      <p style="margin:0;color:#4a5568;">18 to 40 years as of January 1, 2026</p>
+      <p style="margin:0;color:#4a5568;">Age relaxation available as per state rules (SC/ST/OBC/PwD)</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <p style="margin:0;color:#4a5568;">Passed 12th (10+2) from a recognized board</p>
+      <p style="margin:0;color:#4a5568;">Certificate/Diploma/Degree in Library Science</p>
+      <p style="margin:0;color:#4a5568;">Working knowledge of Hindi (Devanagari script) and awareness of Rajasthani culture</p>
+    </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Event</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Notification Release</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;">December 12, 2024</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Start Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">March 5, 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Last Date to Apply</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">April 3, 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Admit Card Release</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">July 2025 (expected)</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Written Exam Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">July 27, 2025 (Sunday)</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;color:#4a5568;">Correction Window</td>
+          <td style="padding:14px 16px;color:#4a5568;">April 4 – April 7, 2025</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Category</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Application Fee</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General / OBC (Creamy Layer)</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">₹600</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OBC (Non-Creamy Layer) / SC / ST</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:600;">₹400</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Correction Fee</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#ed8936;font-weight:500;">₹300</td>
+        </tr>
+        <tr style="background:#fff5f5;">
+          <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Important Note</td>
+          <td style="padding:14px 16px;color:#2d3748;font-size:0.9rem;">One-time registration fee - no additional charges for future RSSB applications</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Required Documents</h2>
+  
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;">
+    <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          Library Science Certificate/Diploma
+        </li>
+        <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          10th and 12th Marksheet
+        </li>
+        <li style="margin:0 0 0 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          Aadhaar card copy
+        </li>
+      </ul>
+    </div>
+    
+    <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #2b6cb0;">
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          Valid mobile number & email ID
+        </li>
+        <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          Recent passport-size photograph
+        </li>
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#ed8936;border-radius:50%;">✓</span>
+          Digital signature
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Register via Rajasthan SSO Portal</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Visit sso.rajasthan.gov.in, create an SSO ID, and select the recruitment option.</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Out the Application</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Choose “RSMSSB Librarian Grade III 2025” and complete the online form with accurate details.</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload your photo, signature, and required educational certificates in the specified format.</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay the Application Fee</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay online using Net Banking, UPI, Credit/Debit Card.</p>
+      </div>
+    </div>
+    
+    <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Submit & Download Receipt</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">After final submission, download and save the application confirmation.
+
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
+  
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Mode</h3>
+      <p style="margin:0;color:#4a5568;">Offline (OMR-based)</p>
+    </div>
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Papers</h3>
+      <p style="margin:0;color:#4a5568;">2</p>
+    </div>
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Duration</h3>
+      <p style="margin:0;color:#4a5568;">2 hours per paper</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Marking Scheme</h3>
+      <p style="margin:0;color:#4a5568;">1 mark per correct answer</p>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Negative Marking</h3>
+      <p style="margin:0;color:#4a5568;">1/3rd per wrong answer</p>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Timeline</h2>
+  
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Selection Stage</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Expected Timeline</th>
+          <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Additional Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Admit Card Release</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">July 2025 (Expected)</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Download from official portal</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Written Examination</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">July 27, 2025</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OMR-based offline exam</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Result Declaration</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">August/September 2025</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Merit list with cut-off marks</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;color:#4a5568;">Final Selection</td>
+          <td style="padding:14px 16px;color:#2d3748;font-weight:500;">September–October 2025</td>
+          <td style="padding:14px 16px;color:#4a5568;">Includes document verification</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Can final-year Library Science students apply?</summary>
+      <p style="margin:0;color:#4a5568;">No, only candidates with completed qualifications are eligible.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is there an interview round?</summary>
+      <p style="margin:0;color:#4a5568;">No, selection is based solely on written examination and document verification.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the salary of Librarian Grade III in Rajasthan?</summary>
+      <p style="margin:0;color:#4a5568;">As per Pay Matrix Level-10: Approx. ₹33,800/month starting pay with allowances.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Can I withdraw my application?</summary>
+      <p style="margin:0;color:#4a5568;">Yes, from June 26 to 28, 2025, if needed.</p>
+    </details>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p style="margin:0;color:#4a5568;font-weight:500;">📌 Bookmark this page for real-time updates on the RSMSSB Librarian Recruitment 2025. Don’t miss important deadlines—this is a great chance to enter the Rajasthan government education system!</p>
+</footer>
+
+        `,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111915.png-1751262568321",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-06-20T08:00:00Z",
+        "updatedAt": "2025-06-30T12:00:00Z",
+        "readTime": 7,
+        "views": 12000,
+        "tags": [
+          "RSMSSB",
+          "Rajasthan Government Jobs",
+          "RSMSSB Librarian 2025",
+          "Library Science Jobs",
+          "RSMSSB Apply Online",
+          "Education Department Jobs",
+          "Librarian Vacancy Rajasthan",
+          "RSMSSB Notification 2025",
+          "Sarkari Naukri Rajasthan",
+          "12th Pass Government Jobs"
+        ],
+        "category": {
+          "name": "State Jobs",
+          "slug": "state-jobs"
+        },
+        "seoTitle": "RSMSSB Librarian Grade III Recruitment 2025: Apply Online for 548 Posts",
+        "seoDescription": "RSMSSB Librarian Grade III 2025 notification is out for 548 posts. Check eligibility, age limit, syllabus, apply online steps, and important dates here.",
+        "seoKeywords": [
+          "RSMSSB Librarian 2025",
+          "Rajasthan Librarian Vacancy",
+          "Library Science Government Jobs",
+          "RSMSSB Apply Online",
+          "RSMSSB 2025 Notification"
+        ]
       }
     }
 
@@ -459,49 +1827,49 @@ async function getRelatedPosts(currentSlug: string, category: string): Promise<R
     // Mock related posts database
     const allRelatedPosts: RelatedPost[] = [
       {
-        slug: 'ssc-chsl-2024-notification',
-        title: 'SSC CHSL 2024: Notification Released, Apply Now',
-        excerpt: 'Staff Selection Commission has released CHSL 2024 notification. Check eligibility, important dates, and application process.',
-        featuredImage: '/rr_adv.png',
+        slug: 'rajasthan-rssb-vdo-recruitment-2025-guide',
+        title: 'RSSB VDO',
+        excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
         publishedAt: '2024-06-18T09:00:00Z',
         readTime: 5,
-        category: 'SSC Jobs'
+        category: 'State Jobs'
       },
       {
         slug: 'ssc-gd-constable-recruitment',
-        title: 'SSC GD Constable 2024: 46,617 Vacancies Announced',
-        excerpt: 'Massive recruitment for SSC GD Constable positions across various paramilitary forces. Complete details inside.',
-        featuredImage: '/rr_adv.png',
-        publishedAt: '2024-06-15T14:30:00Z',
-        readTime: 6,
-        category: 'SSC Jobs'
+        title: 'RSSB VDO',
+        excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
+        publishedAt: '2024-06-18T09:00:00Z',
+        readTime: 5,
+        category: 'State Jobs'
       },
       {
         slug: 'railway-recruitment-2024',
-        title: 'Railway Jobs 2024: Latest RRB Notifications',
-        excerpt: 'Stay updated with latest Railway Recruitment Board notifications and upcoming job opportunities.',
-        featuredImage: '/rr_adv.png',
-        publishedAt: '2024-06-12T11:15:00Z',
-        readTime: 7,
-        category: 'Railway Jobs'
+        title: 'RSSB VDO',
+        excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
+        publishedAt: '2024-06-18T09:00:00Z',
+        readTime: 5,
+        category: 'State Jobs'
       },
       {
         slug: 'upsc-civil-services-2024',
-        title: 'UPSC Civil Services 2024: Complete Preparation Guide',
-        excerpt: 'Comprehensive guide for UPSC CSE 2024 preparation including syllabus, strategy, and important resources.',
-        featuredImage: '/rr_adv.png',
-        publishedAt: '2024-06-10T08:30:00Z',
-        readTime: 12,
-        category: 'UPSC Jobs'
+        title: 'RSSB VDO',
+        excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
+        publishedAt: '2024-06-18T09:00:00Z',
+        readTime: 5,
+        category: 'State Jobs'
       },
       {
         slug: 'banking-jobs-2024',
-        title: 'Banking Jobs 2024: SBI, IBPS & RBI Notifications',
-        excerpt: 'Latest banking sector recruitment notifications from SBI, IBPS, RBI and other major banks.',
-        featuredImage: '/rr_adv.png',
-        publishedAt: '2024-06-08T12:00:00Z',
-        readTime: 8,
-        category: 'Banking Jobs'
+        title: 'RSSB VDO',
+        excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
+        publishedAt: '2024-06-18T09:00:00Z',
+        readTime: 5,
+        category: 'State Jobs'
       }
     ]
 
