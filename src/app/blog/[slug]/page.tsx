@@ -2084,10 +2084,10 @@ export default async function BlogPostPage(props: PageProps) {
                     <Clock size={16} />
                     <Text>{post.readTime} min read</Text>
                   </Flex>
-                  <Flex align="center" gap={1}>
+                  {/* <Flex align="center" gap={1}>
                     <Eye size={16} />
                     <Text>{post.views.toLocaleString()} views</Text>
-                  </Flex>
+                  </Flex> */}
                 </Flex>
               </Box>
               {/* Article Content */}
