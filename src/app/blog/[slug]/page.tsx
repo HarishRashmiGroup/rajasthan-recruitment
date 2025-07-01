@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation'
 import NextImage from 'next/image'
 import NextLink from 'next/link'
 import { Box, Flex, Grid, Heading, Text, Link, Button, Stack, Avatar } from '@chakra-ui/react'
-import { Clock, Calendar, Tag, Share2, Eye } from 'lucide-react'
+import { Clock, Calendar, Tag, Share2 } from 'lucide-react'
 import LinkWithLoader from '@/components/LinkWithLoader'
 import type { Metadata } from 'next'
 
