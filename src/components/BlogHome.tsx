@@ -172,31 +172,6 @@ const BlogHome: React.FC = () => {
             "slug": "rajasthan-high-court-peon-class-iv-2025"
         },
         {
-            "id": "5",
-            "title": "RSMSSB – Patwari Recruitment 2025: Check Eligibility, Vacancies & Apply Online",
-            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111142.png-1751262115887",
-            "source": "RSMSSB",
-            "timeAgo": "7h",
-            "likes": 73,
-            "comments": 15,
-            "shares": 10,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rsmssb-patwari-recruitment-2025-apply-now"
-        },
-        {
-            "id": "6",
-            "title": "RMSMSB – NHM (Nurse, CHO, DEO) 2025: Check Eligibility, Vacancies & Apply Online",
-            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111314.png-1751262205829",
-            "source": "RMSMSB",
-            "timeAgo": "11h",
-            "isLarge": true,
-            "likes": 89,
-            "comments": 9,
-            "shares": 9,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rmsmsb-nhm-nurse-cho-deo-2025"
-        },
-        {
             "id": "7",
             "title": "RSMSSB – Conductor Recruitment 2025X: Check Eligibility, Vacancies & Apply Online",
             "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111611.png-1751262387324",
@@ -205,20 +180,9 @@ const BlogHome: React.FC = () => {
             "likes": 89,
             "comments": 6,
             "shares": 7,
+            "isLarge": true,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
             "slug": "rsmssb-conductor-recruitment-2025-apply-online"
-        },
-        {
-            "id": "8",
-            "title": "RSMSSB – RMES (Multiple Posts) 2025: Check Eligibility, Vacancies & Apply Online",
-            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111804.png-1751262497262",
-            "source": "RSMSSB",
-            "timeAgo": "6h",
-            "likes": 37,
-            "comments": 7,
-            "shares": 9,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rsmssb-rmes-recruitment-2025"
         },
         {
             "id": "9",
@@ -231,18 +195,6 @@ const BlogHome: React.FC = () => {
             "shares": 8,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
             "slug": "rsmssb-librarian-grade-iii-2025"
-        },
-        {
-            "id": "10",
-            "title": "RSMSSB – Driver 2025: Check Eligibility, Vacancies & Apply Online",
-            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_112046.png-1751262657680",
-            "source": "RSMSSB",
-            "timeAgo": "3h",
-            "likes": 34,
-            "comments": 5,
-            "shares": 4,
-            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-            "slug": "rsmssb-driver-2025-apply-online"
         }
     ]
         ;

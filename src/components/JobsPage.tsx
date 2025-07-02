@@ -62,29 +62,6 @@ const jobsData: Job[] = [{
     examDate: "TBA",
     level: "State Group D",
     registrationEndDate: "July 26–27, 2025",
-}, {
-    id: 5,
-    title: "RSMSSB – Patwari Recruitment 2025",
-    slug: "",
-    officialSiteUrl: "https://rsmssb.rajasthan.gov.in/",
-    logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-    registrationStartDate: "Re-opened May/June 2025",
-    examDate: "TBA",
-    posts: 3705,
-    notificationDate: "May–June 2025",
-    level: "State",
-    registrationEndDate: "June 29, 2025"
-},
-{
-    id: 6,
-    title: "RMSMSB – NHM (Nurse, CHO, DEO) 2025",
-    posts: 8256,
-    notificationDate: "April 2025",
-    slug: "",
-    officialSiteUrl: "https://ibps.in/",
-    logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-    examDate: "TBA",
-    level: "State",
 },
 {
     id: 7,
@@ -98,18 +75,6 @@ const jobsData: Job[] = [{
     level: "State"
 },
 {
-    id: 8,
-    title: "RSMSSB – RMES (Multiple Posts) 2025",
-    posts: 5142,
-    slug: "",
-    officialSiteUrl: "https://rsmssb.rajasthan.gov.in/",
-    logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-    examDate: "TBA",
-    notificationDate: "April 2025",
-    level: "State",
-    registrationEndDate: "April 2025"
-},
-{
     id: 9,
     title: "RSMSSB – Librarian Grade III 2025",
     posts: 548,
@@ -121,19 +86,6 @@ const jobsData: Job[] = [{
     level: "State",
     registrationEndDate: "Mar 2025"
 },
-{
-    id: 10,
-    title: "RSMSSB – Driver 2025",
-    posts: 2756,
-    slug: "",
-    officialSiteUrl: "https://rsmssb.rajasthan.gov.in/",
-    logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-    examDate: "TBA",
-    notificationDate: "March 25, 2025",
-    level: "State",
-    registrationEndDate: "Mar 2025"
-}
-
 ];
 
 const JobsPage: React.FC = () => {

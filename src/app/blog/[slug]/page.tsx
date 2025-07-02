@@ -1906,7 +1906,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     }
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajasthan-recruitment.vercel.app'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rajasthanrecruitment.in'
   const postUrl = `${siteUrl}/blog/${post.slug}`
 
   return {
@@ -2013,11 +2013,11 @@ export default async function BlogPostPage(props: PageProps) {
     publisher: {
       '@type': 'Organization',
       name: 'Rajasthan Recruitment',
-      logo: { '@type': 'ImageObject', url: `https://rajasthan-recruitment.vercel.app/logo.png` },
+      logo: { '@type': 'ImageObject', url: `https://rajasthanrecruitment.in/logo.png` },
     },
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://rajasthan-recruitment.vercel.app/blog/${post.slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://rajasthanrecruitment.in/blog/${post.slug}` },
     keywords: post.tags.join(', '),
     articleSection: post.category.name,
     wordCount: post.content.replace(/<[^>]*>/g, '').split(' ').length,
