@@ -195,6 +195,19 @@ const BlogHome: React.FC = () => {
             "shares": 8,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
             "slug": "rsmssb-librarian-grade-iii-2025"
+        },
+        {
+            "id": "10",
+            "title": "CURAJ Recruitment 2025: Apply for Professors, Associate & Assistant Professors",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834",
+            "source": "CURAJ",
+            "timeAgo": "6h",
+            "likes": 24,
+            "comments": 20,
+            "isLarge": true,
+            "shares": 8,
+            "sourceLogo": "https://th.bing.com/th/id/OSK.c854a1a56084d3fc19a6719b113af6db?w=80&h=80&r=0&o=6&cb=B&pid=23.1",
+            "slug": "curaj-teaching-recruitment-2025"
         }
     ]
         ;

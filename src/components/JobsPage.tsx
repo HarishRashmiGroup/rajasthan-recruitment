@@ -27,6 +27,16 @@ const jobsData: Job[] = [{
     registrationEndDate: "July 18, 2025",
 },
 {
+    id: 14,
+    title: "CURAJ Recruitment 2025: Apply for Professors, Associate & Assistant Professors",
+    posts: 7,
+    slug: "curaj-teaching-recruitment-2025",
+    officialSiteUrl: "www.curaj.ac.in",
+    logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834",
+    level: "State",
+    registrationEndDate: "11 August 2025, 11:59 PM"
+},
+{
     id: 2,
     title: "RPSC – School Lecturer (School Education) 2024",
     posts: 2202,
@@ -85,7 +95,7 @@ const jobsData: Job[] = [{
     notificationDate: "March 28, 2025",
     level: "State",
     registrationEndDate: "Mar 2025"
-},
+}
 ];
 
 const JobsPage: React.FC = () => {
