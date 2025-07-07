@@ -88,7 +88,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
-        <tr>
+        <tr style="background: #f8f9fa;">
           <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Attribute</th>
           <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Details</th>
         </tr>
@@ -102,7 +102,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Position</td>
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Village Development Officer (VDO)</td>
         </tr>
-        <tr>
+        <tr style="background: #f8f9fa;">
           <td style="padding:14px 16px;color:#4a5568;">Total Positions</td>
           <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">850</td>
         </tr>
@@ -1805,7 +1805,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
   <table>
   <thead>
-    <tr>
+    <tr style="background: #f8f9fa;">
       <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Post</th>
       <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Details</th>
     </tr>
@@ -1819,7 +1819,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         Category: OBC - 01 (Chemistry), UR - 01 (Computer Science)
       </td>
     </tr>
-    <tr>
+    <tr style="background: #f8f9fa;">
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Associate Professor</td>
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
         Vacancies: 01<br>
@@ -1870,7 +1870,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
   <table>
   <thead>
-    <tr>
+    <tr style="background: #f8f9fa;">
       <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Department</th>
       <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Details</th>
     </tr>
@@ -1880,7 +1880,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Chemistry</td>
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Professor: 01<br>Category: OBC</td>
     </tr>
-    <tr>
+    <tr style="background: #f8f9fa;">
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Computer Science</td>
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
         Professor: 01, Associate Prof.: 01, Assistant Prof.: 01<br>
@@ -1891,7 +1891,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Statistics</td>
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor: 01<br>Category: SC (Backlog)</td>
     </tr>
-    <tr>
+    <tr style="background: #f8f9fa;">
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Yoga</td>
       <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor: 01<br>Category: ST (Backlog)</td>
     </tr>
