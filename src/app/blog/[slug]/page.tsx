@@ -1844,7 +1844,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     <section style="margin-bottom: 30px;">
         <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Important Dates</h2>
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
-  <table style="position: relative;min-width: 600px; width: 100%; border-collapse: collapse;">
+  <table style="position: relative; width: 100%; border-collapse: collapse;">
             <thead>
                 <tr style="background: #f8f9fa;">
                     <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Event</th>
