@@ -31,7 +31,7 @@ const jobsData: Job[] = [{
     title: "CURAJ Recruitment 2025: Apply for Professors, Associate & Assistant Professors",
     posts: 7,
     slug: "curaj-teaching-recruitment-2025",
-    officialSiteUrl: "www.curaj.ac.in",
+    officialSiteUrl: "https://www.curaj.ac.in",
     logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834",
     level: "State",
     registrationEndDate: "11 August 2025, 11:59 PM"

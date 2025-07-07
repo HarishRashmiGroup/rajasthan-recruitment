@@ -1091,7 +1091,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
   <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSMSSB Conductor Vacancy 2025 Overview</h2>
   
   <div style="overflow-x:auto;">
-    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
           <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Particulars</th>
@@ -1214,7 +1214,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
   <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
   
   <div style="overflow-x:auto;">
-    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
           <th style="background:#f8fafc;color:#2d3748;padding:16px;text-align:left;font-weight:600;border-bottom:1px solid #e2e8f0;">Category</th>
@@ -1802,43 +1802,49 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         </section>
         <section style="margin-bottom: 30px;">
         <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">CURAJ Teaching Vacancy 2025 Overview</h2>
-        
-        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #ddd;">
-            <thead>
-                <tr style="background: #f8f9fa;">
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Post</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">No. of Vacancies</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Pay Level (7th CPC)</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Category (Reservation)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Professor</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">02</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">Level-14 (Rs. 144200-218200)</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">OBC - 01 (Chemistry), UR - 01 (Computer Science)</td>
-                </tr>
-                <tr style="background: #f9f9f9;">
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Associate Professor</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">Level-13A (Rs. 131400-217100)</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">SC - 01 (Computer Science, Lien)</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">04</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">Level-10 (Rs. 57700-182400)</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">EWS - 01 (CS), EWS - 01 (Economics), SC - 01 (Statistics), ST - 01 (Yoga)</td>
-                </tr>
-            </tbody>
-        </table>
+        <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
+  <table>
+  <thead>
+    <tr>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Post</th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Professor</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
+        Vacancies: 02<br>
+        Pay Level: Level-14 (Rs. 144200-218200)<br>
+        Category: OBC - 01 (Chemistry), UR - 01 (Computer Science)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Associate Professor</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
+        Vacancies: 01<br>
+        Pay Level: Level-13A (Rs. 131400-217100)<br>
+        Category: SC - 01 (Computer Science, Lien)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
+        Vacancies: 04<br>
+        Pay Level: Level-10 (Rs. 57700-182400)<br>
+        Category: EWS - 01 (CS), EWS - 01 (Economics), SC - 01 (Statistics), ST - 01 (Yoga)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+        </div>
     </section>
 
     <section style="margin-bottom: 30px;">
         <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Important Dates</h2>
-        
-        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #ddd;">
+        <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
+  <table style="position: relative;min-width: 600px; width: 100%; border-collapse: collapse;">
             <thead>
                 <tr style="background: #f8f9fa;">
                     <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Event</th>
@@ -1856,59 +1862,47 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                 </tr>
             </tbody>
         </table>
+        </div>
     </section>
 
     <section style="margin-bottom: 30px;">
         <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Department-wise Vacancy Distribution</h2>
-        
-        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #ddd;">
-            <thead>
-                <tr style="background: #f8f9fa;">
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Department</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Professor</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Associate Prof.</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Assistant Prof.</th>
-                    <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Reserved Categories</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Chemistry</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">OBC</td>
-                </tr>
-                <tr style="background: #f9f9f9;">
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Computer Science</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">UR, SC, EWS</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Statistics</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">SC (Backlog)</td>
-                </tr>
-                <tr style="background: #f9f9f9;">
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Yoga</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">ST (Backlog)</td>
-                </tr>
-                <tr>
-                    <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Economics</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">-</td>
-                    <td style="padding: 12px; border: 1px solid #ddd; text-align: center;">01</td>
-                    <td style="padding: 12px; border: 1px solid #ddd;">EWS</td>
-                </tr>
-            </tbody>
-        </table>
+        <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
+  <table>
+  <thead>
+    <tr>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Department</th>
+      <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Chemistry</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Professor: 01<br>Category: OBC</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Computer Science</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">
+        Professor: 01, Associate Prof.: 01, Assistant Prof.: 01<br>
+        Category: UR, SC, EWS
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Statistics</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor: 01<br>Category: SC (Backlog)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Yoga</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor: 01<br>Category: ST (Backlog)</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Economics</td>
+      <td style="padding: 12px; border: 1px solid #ddd; font-weight: 600;">Assistant Professor: 01<br>Category: EWS</td>
+    </tr>
+  </tbody>
+</table>
+
+        </div>
     </section>
 
     <section style="margin-bottom: 30px;">
@@ -1945,8 +1939,8 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
     <section style="margin-bottom: 30px;">
         <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Application Fee</h2>
-        
-        <table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #ddd;">
+        <div style="overflow-x: auto; max-widht: 100% box-sizing: border-box;">
+  <table style="position: relative;width: 100%; border-collapse: collapse;">
             <thead>
                 <tr style="background: #f8f9fa;">
                     <th style="padding: 12px; text-align: left; border: 1px solid #ddd; font-weight: bold;">Category</th>
@@ -1968,6 +1962,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
                 </tr>
             </tbody>
         </table>
+        </div>
     </section>
 
     <section style="margin-bottom: 30px;">
@@ -2365,8 +2360,18 @@ export default async function BlogPostPage(props: PageProps) {
                 </Flex>
               </Box>
               {/* Article Content */}
+              {/* <Box bg={bgCard} p={{ base: 2, md: 4 }} mb={6}>
+                <Box maxW="none" fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textMain} dangerouslySetInnerHTML={{ __html: post.content }} />
+              </Box> */}
               <Box bg={bgCard} p={{ base: 2, md: 4 }} mb={6}>
-                <Box className="prose" maxW="none" fontSize={{ base: 'sm', md: 'md', lg: 'lg' }} color={textMain} dangerouslySetInnerHTML={{ __html: post.content }} />
+                <Box
+                  maxW="100%"
+                  overflowX="auto"
+                  wordBreak="break-word"
+                  fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
+                  color={textMain}
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                />
               </Box>
               {/* Tags */}
               <Box bg={bgCard} p={6} mb={6}>
