@@ -32,7 +32,7 @@ const jobsData: Job[] = [{
     posts: 7,
     slug: "curaj-teaching-recruitment-2025",
     officialSiteUrl: "https://www.curaj.ac.in",
-    logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834",
+    logo: "https://th.bing.com/th/id/OSK.c854a1a56084d3fc19a6719b113af6db?w=80&h=80&r=0&o=6&cb=B&pid=23.1",
     level: "State",
     registrationEndDate: "11 August 2025, 11:59 PM"
 },
