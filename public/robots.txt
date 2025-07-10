@@ -1,7 +1,6 @@
 # *
 User-agent: *
 Allow: /
-Allow: /favicon.ico
 
 # Host
 Host: https://rajasthanrecruitment.in
