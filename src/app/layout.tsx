@@ -9,7 +9,7 @@ import { Box } from "@chakra-ui/react";
 export const metadata: Metadata = {
   title: "Rajasthan Recruitment",
   icons: {
-    icon: '/rr.png'
+    icon: '/favicon.ico'
   },
   description: "Stay updated with the latest Rajasthan government job vacancies, exam results, admit cards, and answer keys. Your one-stop portal for accurate and timely recruitment updates across Rajasthan.",
 };
