@@ -2282,7 +2282,7 @@ export default async function BlogPostPage(props: PageProps) {
     publisher: {
       '@type': 'Organization',
       name: 'Rajasthan Recruitment',
-      logo: { '@type': 'ImageObject', url: `https://rajasthanrecruitment.in/logo.png` },
+      logo: { '@type': 'ImageObject', url: `https://rajasthanrecruitment.in/rr.png` },
     },
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
@@ -2378,10 +2378,10 @@ export default async function BlogPostPage(props: PageProps) {
                 <Heading as="h3" size="md" color={textMain} mb={3}>Tags</Heading>
                 <Flex flexWrap="wrap" gap={2}>
                   {post.tags.map((tag) => (
-                    <Link as={NextLink} key={tag} href={`/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`}
-                      px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}>
-                      #{tag}
-                    </Link>
+                    // <Link as={NextLink} key={tag} href={`/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`}
+                    // px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}>
+                    <Text px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}> #{tag}</Text>
+                    // </Link>
                   ))}
                 </Flex>
               </Box>
@@ -2424,7 +2424,7 @@ export default async function BlogPostPage(props: PageProps) {
                         <Flex gap={3}>
                           <NextImage src={relatedPost.featuredImage} alt={relatedPost.title} width={80} height={60} style={{ borderRadius: 8, objectFit: 'cover', flexShrink: 0 }} />
                           <Box flex={1} minW={0}>
-                            <Text fontWeight="medium" fontSize="sm" color={textMain} maxLines={2} mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
+                            <Text fontWeight="medium" fontSize="sm" color={textMain} lineClamp="2" mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
                             <Flex align="center" gap={2} fontSize="xs" color={textSecondary}>
                               <Text>{relatedPost.category}</Text>
                               <Text>•</Text>
