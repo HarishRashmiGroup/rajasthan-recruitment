@@ -2380,7 +2380,7 @@ export default async function BlogPostPage(props: PageProps) {
                   {post.tags.map((tag) => (
                     // <Link as={NextLink} key={tag} href={`/tag/${tag.toLowerCase().replace(/\s+/g, '-')}`}
                     // px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}>
-                    <Text px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}> #{tag}</Text>
+                    <Text key={tag} px={3} py={1} borderRadius="full" fontSize="sm" bg="gray.100" color="gray.700" _hover={{ bg: 'gray.200' }}> #{tag}</Text>
                     // </Link>
                   ))}
                 </Flex>
