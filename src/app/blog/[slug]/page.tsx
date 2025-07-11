@@ -79,7 +79,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         "slug": "north-western-railway-nwr-sports-quota-recruitment-2025",
         "excerpt": "North Western Railway (NWR) has released its 2025 Sports Quota recruitment for 54 posts across various pay levels. Eligible sportspersons with 10th, 12th, ITI, or Graduation can apply online until August 10, 2025.",
         "content": `<section style="margin-bottom:40px;">
- <p style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;">The Railway Recruitment Cell (RRC), North Western Railway (NWR), Jaipur, has announced the Sports Quota Recruitment 2025 for 54 positions under multiple disciplines and pay levels. This opportunity is open to outstanding sportspersons who have represented the country or state in recognized competitions.
+ <p style="margin:0 0 12px 0;color:#2d3748;">The Railway Recruitment Cell (RRC), North Western Railway (NWR), Jaipur, has announced the Sports Quota Recruitment 2025 for 54 positions under multiple disciplines and pay levels. This opportunity is open to outstanding sportspersons who have represented the country or state in recognized competitions.
 </br>The recruitment spans Level 1 to Level 5, with educational qualifications ranging from 10th pass to graduation, based on the post applied for. Candidates must also meet specific sports performance criteria as outlined in the official notification.
 </br>Whether you’re an athlete, a national player, or a sports achiever looking to serve Indian Railways, this is your chance to secure a government job with competitive pay and job security. Online applications are open from July 11, 2025, to August 10, 2025.</p>
   <div style="overflow-x:auto;">
@@ -271,7 +271,7 @@ www.rrcjaipur.in
 
 <footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
   <p style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Final Words</p>
-  <p style="margin:0;">The RSMSSB Conductor 2025 recruitment offers a secure and respectful job opportunity in Rajasthan’s government transport sector. If you meet the eligibility, don’t miss your chance to apply before the deadline!</p>
+  <p style="margin:0;">he NWR Sports Quota Recruitment 2025 is a golden opportunity for talented sportspersons to turn their achievements into a secure and prestigious government career with Indian Railways. With 54 vacancies across various pay levels, this recruitment not only values your sports merit but also offers a stable job with excellent benefits and growth.</p>
   </footer>
   `,
         "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
