@@ -2358,7 +2358,7 @@ async function getRelatedPosts(currentSlug: string, category: string): Promise<R
     const allRelatedPosts: RelatedPost[] = [
       {
         slug: 'rajasthan-rssb-vdo-recruitment-2025-guide',
-        title: 'RSSB VDO',
+        title: 'RSSB Village Development Officer Recruitment 2025: A Complete Guide',
         excerpt: 'The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.',
         featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100',
         publishedAt: '2024-06-18T09:00:00Z',
@@ -2669,7 +2669,7 @@ export default async function BlogPostPage(props: PageProps) {
                         <Flex gap={3}>
                           <NextImage src={relatedPost.featuredImage} alt={relatedPost.title} width={80} height={60} style={{ borderRadius: 8, objectFit: 'cover', flexShrink: 0 }} />
                           <Box flex={1} minW={0}>
-                            <Text fontWeight="medium" fontSize="sm" color={textMain} lineClamp="2" mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
+                            <Text fontWeight="medium" fontSize="sm" color={textMain} lineClamp="2" lineHeight={'normal'} mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
                             <Flex align="center" gap={2} fontSize="xs" color={textSecondary}>
                               <Text>{relatedPost.category}</Text>
                               <Text>•</Text>
