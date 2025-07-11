@@ -86,7 +86,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
-          <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Level</th>
+          <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;">Level</th>
           <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">No. of Posts</th>
           <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">	Pay Level</th>
         </tr>
