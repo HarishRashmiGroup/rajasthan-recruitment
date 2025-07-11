@@ -2669,7 +2669,7 @@ export default async function BlogPostPage(props: PageProps) {
                         <Flex gap={3}>
                           <NextImage src={relatedPost.featuredImage} alt={relatedPost.title} width={80} height={60} style={{ borderRadius: 8, objectFit: 'cover', flexShrink: 0 }} />
                           <Box flex={1} minW={0}>
-                            <Text fontWeight="medium" fontSize="sm" color={textMain} lineClamp="2" lineHeight={'normal'} mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
+                            <Text fontWeight="medium" fontSize="sm" color={textMain} lineClamp="2" lineHeight="tight" mb={1} _groupHover={{ color: 'blue.600' }}>{relatedPost.title}</Text>
                             <Flex align="center" gap={2} fontSize="xs" color={textSecondary}>
                               <Text>{relatedPost.category}</Text>
                               <Text>•</Text>
