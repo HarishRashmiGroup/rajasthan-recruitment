@@ -79,8 +79,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         "slug": "north-western-railway-nwr-sports-quota-recruitment-2025",
         "excerpt": "North Western Railway (NWR) has released its 2025 Sports Quota recruitment for 54 posts across various pay levels. Eligible sportspersons with 10th, 12th, ITI, or Graduation can apply online until August 10, 2025.",
         "content": `<section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">North Western Railway (NWR) Sports Quota Recruitment 2025</h2>
-  <p style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;">The Railway Recruitment Cell (RRC), North Western Railway (NWR), Jaipur, has announced the Sports Quota Recruitment 2025 for 54 positions under multiple disciplines and pay levels. This opportunity is open to outstanding sportspersons who have represented the country or state in recognized competitions.
+ <p style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;">The Railway Recruitment Cell (RRC), North Western Railway (NWR), Jaipur, has announced the Sports Quota Recruitment 2025 for 54 positions under multiple disciplines and pay levels. This opportunity is open to outstanding sportspersons who have represented the country or state in recognized competitions.
 </br>The recruitment spans Level 1 to Level 5, with educational qualifications ranging from 10th pass to graduation, based on the post applied for. Candidates must also meet specific sports performance criteria as outlined in the official notification.
 </br>Whether you’re an athlete, a national player, or a sports achiever looking to serve Indian Railways, this is your chance to secure a government job with competitive pay and job security. Online applications are open from July 11, 2025, to August 10, 2025.</p>
   <div style="overflow-x:auto;">
