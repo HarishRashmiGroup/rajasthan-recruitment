@@ -131,9 +131,22 @@ const BlogHome: React.FC = () => {
             "likes": 80,
             "comments": 7,
             "shares": 10,
-            "isLarge": true,
+            "isLarge": false,
             "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
             "slug": "rajasthan-rssb-vdo-recruitment-2025-guide"
+        },
+        {
+            "id": "12",
+            "title": "North Western Railway (NWR) Sports Quota Recruitment 2025",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
+            "source": "North Western Railway",
+            "timeAgo": "12h",
+            "likes": 80,
+            "comments": 7,
+            "shares": 10,
+            "isLarge": true,
+            "sourceLogo": "https://www.rrcjaipur.in/images/logo.png",
+            "slug": "north-western-railway-nwr-sports-quota-recruitment-2025"
         },
         {
             "id": "2",

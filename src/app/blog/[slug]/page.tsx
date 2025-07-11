@@ -72,6 +72,242 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // Mock database/API response
     const mockPosts: Record<string, BlogPost> =
     {
+
+      "north-western-railway-nwr-sports-quota-recruitment-2025": {
+        "id": "10",
+        "title": "North Western Railway (NWR) Sports Quota Recruitment 2025",
+        "slug": "north-western-railway-nwr-sports-quota-recruitment-2025",
+        "excerpt": "North Western Railway (NWR) has released its 2025 Sports Quota recruitment for 54 posts across various pay levels. Eligible sportspersons with 10th, 12th, ITI, or Graduation can apply online until August 10, 2025.",
+        "content": `<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">North Western Railway (NWR) Sports Quota Recruitment 2025</h2>
+  <p style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;">The Railway Recruitment Cell (RRC), North Western Railway (NWR), Jaipur, has announced the Sports Quota Recruitment 2025 for 54 positions under multiple disciplines and pay levels. This opportunity is open to outstanding sportspersons who have represented the country or state in recognized competitions.
+</br>The recruitment spans Level 1 to Level 5, with educational qualifications ranging from 10th pass to graduation, based on the post applied for. Candidates must also meet specific sports performance criteria as outlined in the official notification.
+</br>Whether you’re an athlete, a national player, or a sports achiever looking to serve Indian Railways, this is your chance to secure a government job with competitive pay and job security. Online applications are open from July 11, 2025, to August 10, 2025.</p>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Level</th>
+          <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">No. of Posts</th>
+          <th style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">	Pay Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Level 4/5</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">05</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹29,200–₹92,300</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Level 2/3</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">16</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹19,900–₹63,200</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Level 1</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">33</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹18,000–₹56,900</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Department</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;" colspan="2">Railway Recruitment Cell (RRC), NWR Jaipur</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Last Date to Apply</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;" colspan="2">25 April 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">Official Website</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:500;"><a href="https://www.rrcjaipur.in" target="_blank" rel="noopener noreferrer">
+www.rrcjaipur.in
+</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         10th/12th/ITI/Graduation depending on level
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         Sports achievements in national/international competitions (see full notification)
+        </li>
+      </ul>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Important Dates</h3>
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Notification Released:</b> 11 July 2025
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Application Start Date:</b> 11 July 2025
+        </li></li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Last Date to Apply:</b>  10 August 2025
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+      padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Visit Official Portal</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Go to <a href="https://rrcjaipur.in" target="_blank" 
+          rel="noopener noreferrer">rrcjaipur.in</a> and open the Sports Quota Notification (Advt 01/2025).</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Register Login & Register</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Create an account or login using a valid mobile number and email on the portal.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Fill Application Form</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Complete the form with accurate personal, educational, and sports credentials.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">4</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Upload scanned photo, signature, IDs, and sports certificates.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">5</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Pay Fee</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          General ₹500, SC/ST/Women/Minorities/EBC ₹250 (refundable after trial attendance) ﹣ pay online.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">6</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Submit & Download</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Submit your form, and download the receipt and application number for records.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the last date to apply for RSSB Lab Attendant 2025?</summary>
+      <p style="margin:0;color:#4a5568;">The last date will be updated in the official notification PDF, expected soon.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Who can apply for the Sports Quota posts?</summary>
+      <p style="margin:0;color:#4a5568;">Candidates with valid sports achievements and a minimum academic qualification (10th, 12th, or graduation depending on level) can apply.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the application fee?</summary>
+      <p style="margin:0;color:#4a5568;">The application fee varies by category and post. Refer to the notification for exact fee structure.</p>
+    </details>
+      </div>
+</section>
+
+<footer style="text-align:center;padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Final Words</p>
+  <p style="margin:0;">The RSMSSB Conductor 2025 recruitment offers a secure and respectful job opportunity in Rajasthan’s government transport sector. If you meet the eligibility, don’t miss your chance to apply before the deadline!</p>
+  </footer>
+  `,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-11T08:00:00Z",
+        "updatedAt": "2025-07-11T12:00:00Z",
+        "readTime": 6,
+        "views": 8900,
+        "tags": [
+          "NWR Recruitment 2025",
+          "Railway Sports Quota Jobs",
+          "North Western Railway Jobs",
+          "RRC Jaipur Vacancy",
+          "Indian Railway Recruitment",
+          "Railway Jobs 2025",
+          "Sports Quota Govt Jobs",
+          "Railway Sports Person Recruitment",
+          "10th Pass Railway Jobs",
+          "Sarkari Naukri Rajasthan"
+        ],
+        "category": { "name": "State Jobs", "slug": "state-jobs" },
+        "seoTitle": "NWR Sports Quota Recruitment 2025: Apply Online for 54 Railway Posts",
+        "seoDescription": "North Western Railway (NWR) Sports Quota Recruitment 2025 is open for 54 posts. Check eligibility, pay scale, sports qualifications, and apply online before 10 August 2025.",
+        "seoKeywords": [
+          "NWR Sports Quota Recruitment 2025",
+          "Railway Sports Quota Jobs 2025",
+          "North Western Railway Vacancy",
+          "RRC Jaipur Sports Quota",
+          "Railway Recruitment 2025"
+        ]
+      },
       "rajasthan-rssb-vdo-recruitment-2025-guide": {
         "id": "1",
         "slug": "rajasthan-rssb-vdo-recruitment-2025-guide",
@@ -2136,9 +2372,19 @@ async function getRelatedPosts(currentSlug: string, category: string): Promise<R
         excerpt: 'The Central University of Rajasthan (CURAJ) has released a rolling advertisement for the recruitment of Professors, Associate Professors, and Assistant Professors in various departments. Online applications are open until August 11, 2025, followed by hardcopy submission by August 21. This guide covers eligibility criteria, department-wise vacancies, important dates, pay scale, application process, and FAQs.',
         featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834',
         publishedAt: '2025-07-05T08:00:00Z',
-        readTime: 5,
+        readTime: 7,
+        category: 'State Jobs'
+      },
+      {
+        slug: 'north-western-railway-nwr-sports-quota-recruitment-2025',
+        title: 'NWR Sports Quota Recruitment 2025: Apply Online for 54 Railway Posts',
+        excerpt: 'North Western Railway (NWR) has announced 54 vacancies under Sports Quota for Group C positions. Eligible sportspersons can apply online by August 10, 2025. This guide covers eligibility, discipline-wise vacancy details, pay levels, trial schedule, application process, and FAQs to help you apply smoothly.',
+        featuredImage: 'https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685',
+        publishedAt: '2025-07-11T08:00:00Z',
+        readTime: 6,
         category: 'State Jobs'
       }
+
     ]
 
     // Filter out current post and get posts from same or related categories
