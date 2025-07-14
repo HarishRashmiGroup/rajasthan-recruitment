@@ -19,7 +19,7 @@ const jobsData: Job[] = [
         title: "RSSB – Lab Attendant Recruitment 2025",
         slug: "rssb-lab-attendant-recruitment-2025",
         officialSiteUrl: "https://rssb.rajasthan.gov.in/",
-        logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.pn",
+        logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
         notificationDate: "July 11, 2025",
         registrationStartDate: "July 11, 2025",
         registrationEndDate: "August 9, 2025",

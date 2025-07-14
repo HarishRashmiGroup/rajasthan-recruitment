@@ -149,16 +149,17 @@ const BlogHome: React.FC = () => {
             "slug": "north-western-railway-nwr-sports-quota-recruitment-2025"
         },
         {
-            "id": "2",
-            "title": "RPSC – School Lecturer (School Education) 2024: Check Eligibility, Vacancies & Apply Online",
-            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
-            "source": "RPSC",
-            "timeAgo": "4h",
-            "likes": 58,
-            "comments": 12,
-            "shares": 2,
-            "sourceLogo": "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
-            "slug": "rpsc-school-lecturer-2024-apply-online"
+            "id": "16",
+            "title": "RSSB – Lab Attendant Recruitment 2025: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB%E2%80%93Lab_Attendant_Recruitment-2025.png-1752477736867",
+            "source": "RSMSSB",
+            "timeAgo": "1h",
+            "likes": 80,
+            "comments": 7,
+            "shares": 10,
+            "isLarge": false,
+            "sourceLogo": "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+            "slug": "rssb-lab-attendant-recruitment-2025"
         },
         {
             "id": "3",
@@ -221,9 +222,19 @@ const BlogHome: React.FC = () => {
             "shares": 8,
             "sourceLogo": "https://th.bing.com/th/id/OSK.c854a1a56084d3fc19a6719b113af6db?w=80&h=80&r=0&o=6&cb=B&pid=23.1",
             "slug": "curaj-teaching-recruitment-2025"
-        }
-    ]
-        ;
+        },
+        {
+            "id": "2",
+            "title": "RPSC – School Lecturer (School Education) 2024: Check Eligibility, Vacancies & Apply Online",
+            "image": "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
+            "source": "RPSC",
+            "timeAgo": "4h",
+            "likes": 58,
+            "comments": 12,
+            "shares": 2,
+            "sourceLogo": "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+            "slug": "rpsc-school-lecturer-2024-apply-online"
+        }];
 
 
     return (

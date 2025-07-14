@@ -146,7 +146,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
@@ -185,7 +185,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
 <section style="margin-bottom:40px;">
   <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
-      padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply</h2>
+      padding-bottom:8px;border-bottom:2px solid #5d93fe;">How to Apply</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;
@@ -272,7 +272,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
@@ -296,7 +296,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
   <p style="text-align:center;margin:0 0 8px 0;color:#2d3748;font-weight:600;">Final Words</p>
   <p style="margin:0;">The RSSB Lab Attendant Recruitment 2025 is an excellent opportunity for individuals looking to start their career in the Rajasthan government sector with minimal educational requirements. Given the low competition threshold for Class 10th-level jobs, candidates who start early preparation stand a strong chance.</p>
   </footer> `,
-        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB%E2%80%93Lab_Attendant_Recruitment-2025.png-1752477736867",
         "author": {
           "name": "Amit Sharma",
           "avatar": "/images/authors/amit-sharma.jpg",
