@@ -1,11 +1,11 @@
 import { Box, Image, Stack, Text } from "@chakra-ui/react";
-import AnnouncementBar from "./AnnouncementBar";
+// import AnnouncementBar from "./AnnouncementBar";
 
 export const FrontPage = () => {
     return (
         <>
             <Box mt={4} w={'full'} position={'relative'}>
-                <AnnouncementBar />
+                {/* <AnnouncementBar /> */}
             </Box>
             <Stack m={{ base: 2, md: 2, lg: 0 }} minH={{ base: '30vh', md: '50vh' }} justifyContent={{ base: 'space-between', md: 'space-around' }} alignItems={'center'} display={'flex'} direction={{ base: 'row', md: 'row' }}>
                 <Text color={'#6B7280'} fontSize={{ base: '16px', md: '48px' }}>
