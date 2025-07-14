@@ -15,17 +15,17 @@ import { ChevronDownIcon } from 'lucide-react';
 
 const jobsData: Job[] = [
     {
-        "id": 16,
-        "title": "RSSB – Lab Attendant Recruitment 2025",
-        "slug": "rssb-lab-attendant-recruitment-2025",
-        "officialSiteUrl": "https://rsmssb.rajasthan.gov.in/",
-        "logo": "https://rsmssb.rajasthan.gov.in/Static/icons/logo.png",
-        "notificationDate": "July 11, 2025",
-        "registrationStartDate": "July 11, 2025",
-        "registrationEndDate": "August 9, 2025",
-        "posts": 54,
-        "level": "State – Group D (Level 1)",
-        "examDate": "Written Exam: September 2025 (Tentative)"
+        id: 16,
+        title: "RSSB – Lab Attendant Recruitment 2025",
+        slug: "rssb-lab-attendant-recruitment-2025",
+        officialSiteUrl: "https://rssb.rajasthan.gov.in/",
+        logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.pn",
+        notificationDate: "July 11, 2025",
+        registrationStartDate: "July 11, 2025",
+        registrationEndDate: "August 9, 2025",
+        posts: 54,
+        level: "State – Group D (Level 1)",
+        examDate: "Written Exam: September 2025 (Tentative)"
     },
     {
         id: 12,
