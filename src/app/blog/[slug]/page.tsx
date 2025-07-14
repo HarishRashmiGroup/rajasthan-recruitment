@@ -72,7 +72,267 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // Mock database/API response
     const mockPosts: Record<string, BlogPost> =
     {
+      "rssb-lab-attendant-recruitment-2025": {
+        "id": "16",
+        "title": "RSSB Lab Attendant Recruitment 2025 – Apply for 54 Posts in PHED",
+        "slug": "rssb-lab-attendant-recruitment-2025",
+        "excerpt": "Rajasthan Staff Selection Board (RSSB) has announced the 2025 Lab Attendant recruitment under the Public Health Engineering Department (PHED). A total of 54 vacancies are available for candidates with minimum 10th pass qualifications. Apply online from July 11 to August 9, 2025.",
+        "content": `<section style="margin-bottom:40px;">
+ <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan Staff Selection Board (RSSB) has released the official notification for Lab Attendant Recruitment 2025 under the Public Health Engineering Department (PHED). A total of 54 vacancies are open for candidates who have passed 10th standard and possess knowledge of Hindi in the Devanagari script and Rajasthan’s culture. This recruitment provides a valuable opportunity for entry-level aspirants to secure a government job in the technical support sector. Interested candidates can apply online from July 11, 2025, through the official portal. The last date for submission is August 9, 2025. Selection will be based on a written examination, followed by document verification. Eligible individuals are encouraged to apply early and prepare thoroughly.
+</p>
+<h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSSB Lab Attendant Recruitment 2025 – Overview</h2>
+  <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Posts:</b> 54 Lab Attendant positions, including 48 Non‑TSP and 6 TSP‑area seats 
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Department:</b> Public Health Engineering, under the Rajasthan Staff Selection Board (RSSB/RSMSSB)
+        </li>
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Notification Released:</b> 10–11 July 2025
+        </li>
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Apply Online:</b> Opens 11 July 2025, closes 9 August 2025 
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Exam Date:</b> 	Post‑August (TBA)
+        </li>
+      </ul>
+    </div>
+    
+</section>
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy & Category Details</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Category</b></td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>No. of Posts</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">28 seats</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">EWS</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">4 seats</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OBC</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">8 seats</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">EBC</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;" >2 seats</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#e53e3e;font-weight:600;">4 seats</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;color:#4a5568;">ST</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:500;">6 seats</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Education:</b> Minimum Class X pass (Matriculation) from a recognized board 
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+        <b>Language & Culture:</b> Proficient in Hindi (Devanagari script) and familiar with Rajasthan’s culture
+        </li>
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+        <b>Age (as of 1 Jan 2026):</b> 18–40 years; age relaxation for reserved categories as per norms
+        </li>
+      </ul>
+    </div>
+    
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Important Dates</h3>
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Notification Released:</b> 11 July 2025
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Application Start Date:</b> 11 July 2025
+        </li></li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Last Date to Apply:</b>  10 August 2025
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+      padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Visit the RSSB official website:</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Go to <a href="https://rssb.rajasthan.gov.in" target="_blank" 
+          rel="noopener noreferrer">rssb.rajasthan.gov.in</a> or <a href="https://recruitment.rajasthan.gov.in" target="_blank" 
+          rel="noopener noreferrer">recruitment.rajasthan.gov.in</a></p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Register Login & Register</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Create an account or login using a valid mobile number and email on the portal.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Fill Application Form</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Complete the form with accurate personal, educational.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">4</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Upload scanned photo, signature and IDs.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">5</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Pay Fee</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          General, Creamy‑layer OBC: ₹600, SC/ST/EWS/OBC‑non‑creamy / Divyang: ₹400 ﹣ pay online.</p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">6</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Submit & Download</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+          Submit your form, and download the receipt and application number for records.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Who can apply for the RSSB Lab Attendant Recruitment 2025?</summary>
+      <p style="margin:0;color:#4a5568;">Anyone who has passed Class 10th (Matriculation) from a recognized board is eligible. Additionally, applicants must have working knowledge of Hindi written in Devanagari script and awareness of Rajasthan’s culture and traditions, as mandated by the Rajasthan government norms.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the selection process for the Lab Attendant post?</summary>
+      <p style="margin:0;color:#4a5568;">The selection is primarily based on a written examination conducted by RSSB. Shortlisted candidates from the exam will be called for document verification and a medical fitness test before final appointment.</p>
+    </details>
+    
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is prior work experience required to apply?</summary>
+      <p style="margin:0;color:#4a5568;">No, prior work experience is not required. This is an entry-level government job, making it an excellent opportunity for freshers and those looking to enter the government sector for the first time.</p>
+    </details>
+      </div>
+</section>
+
+<footer style="padding:24px;background:#f8fafc;border-radius:8px;border-top:1px solid #e2e8f0;">
+  <p style="text-align:center;margin:0 0 8px 0;color:#2d3748;font-weight:600;">Final Words</p>
+  <p style="margin:0;">The RSSB Lab Attendant Recruitment 2025 is an excellent opportunity for individuals looking to start their career in the Rajasthan government sector with minimal educational requirements. Given the low competition threshold for Class 10th-level jobs, candidates who start early preparation stand a strong chance.</p>
+  </footer> `,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-11T08:00:00Z",
+        "updatedAt": "2025-07-11T12:00:00Z",
+        "readTime": 5,
+        "views": 10400,
+        "tags": [
+          "RSSB Recruitment 2025",
+          "Lab Attendant Jobs",
+          "Rajasthan PHED Jobs",
+          "RSMSSB Vacancy",
+          "10th Pass Govt Jobs",
+          "Sarkari Naukri Rajasthan",
+          "State Govt Jobs 2025",
+          "RSSB Lab Attendant Notification",
+          "Rajasthan Staff Selection Board",
+          "Rajasthan Government Jobs"
+        ],
+        "category": {
+          "name": "State Jobs",
+          "slug": "state-jobs"
+        },
+        "seoTitle": "RSSB Lab Attendant Recruitment 2025: Apply for 54 PHED Posts",
+        "seoDescription": "Apply now for RSSB Lab Attendant Recruitment 2025 under the Public Health Engineering Department. A total of 54 vacancies are open for 10th pass candidates. Check eligibility, salary, and application steps. Last date: August 9, 2025.",
+        "seoKeywords": [
+          "RSSB Lab Attendant Recruitment 2025",
+          "Rajasthan Lab Attendant Vacancy",
+          "PHED Rajasthan Jobs",
+          "RSMSSB Recruitment 2025",
+          "10th Pass Government Jobs",
+          "Sarkari Naukri Rajasthan"
+        ]
+      },
       "north-western-railway-nwr-sports-quota-recruitment-2025": {
         "id": "10",
         "title": "North Western Railway (NWR) Sports Quota Recruitment 2025",
@@ -2356,6 +2616,16 @@ async function getRelatedPosts(currentSlug: string, category: string): Promise<R
 
     // Mock related posts database
     const allRelatedPosts: RelatedPost[] = [
+      {
+        slug: "rssb-lab-attendant-recruitment-2025",
+        title: "RSSB Lab Attendant Recruitment 2025: A Complete Guide",
+        excerpt: "The Rajasthan Staff Selection Board (RSSB) has released 54 vacancies for the Lab Attendant post under the Public Health Engineering Department (PHED). Online applications begin from 11 July 2025 and will close on 9 August 2025. This comprehensive guide includes eligibility criteria, important dates, required documents, step-by-step application process, selection procedure, FAQs, and final advice. A great opportunity for 10th pass candidates to join the Rajasthan government workforce in a technical support role.",
+        featuredImage: "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-07-11_124540.png-1752291943920",
+        publishedAt: "2025-07-11T09:00:00Z",
+        readTime: 5,
+        category: "State Jobs"
+      }
+      ,
       {
         slug: 'rajasthan-rssb-vdo-recruitment-2025-guide',
         title: 'RSSB Village Development Officer Recruitment 2025: A Complete Guide',
