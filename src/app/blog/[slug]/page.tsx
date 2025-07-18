@@ -82,7 +82,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy breakdown</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy breakdown</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -117,7 +117,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
   </div>
 </section>
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Dates</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Dates</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -149,7 +149,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
@@ -168,7 +168,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;
       padding-bottom:8px;border-bottom:2px solid #5d93fe;">Selection Process</h2>
   
   <div style="display:grid;gap:16px;">
@@ -227,7 +227,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fees</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fees</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -251,7 +251,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Quick Summary</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Quick Summary</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -283,7 +283,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
 
@@ -382,7 +382,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         "content": `<section style="margin-bottom:40px;">
  <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan Staff Selection Board (RSSB) has released the official notification for Lab Attendant Recruitment 2025 under the Public Health Engineering Department (PHED). A total of 54 vacancies are open for candidates who have passed 10th standard and possess knowledge of Hindi in the Devanagari script and Rajasthan’s culture. This recruitment provides a valuable opportunity for entry-level aspirants to secure a government job in the technical support sector. Interested candidates can apply online from July 11, 2025, through the official portal. The last date for submission is August 9, 2025. Selection will be based on a written examination, followed by document verification. Eligible individuals are encouraged to apply early and prepare thoroughly.
 </p>
-<h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSSB Lab Attendant Recruitment 2025 – Overview</h2>
+<h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSSB Lab Attendant Recruitment 2025 – Overview</h2>
   <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
@@ -408,7 +408,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     
 </section>
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy & Category Details</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy & Category Details</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -448,7 +448,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
@@ -468,7 +468,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Important Dates</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Important Dates</h3>
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
           <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
@@ -486,7 +486,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;
       padding-bottom:8px;border-bottom:2px solid #5d93fe;">How to Apply</h2>
   
   <div style="display:grid;gap:16px;">
@@ -574,7 +574,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
@@ -689,7 +689,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
@@ -706,7 +706,7 @@ www.rrcjaipur.in
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Important Dates</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Important Dates</h3>
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
           <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
@@ -724,7 +724,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;
       padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply</h2>
   
   <div style="display:grid;gap:16px;">
@@ -811,7 +811,7 @@ www.rrcjaipur.in
 
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
@@ -880,7 +880,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -909,16 +909,16 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Criteria</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Age Criteria</h3>
       <p style="margin:0;color:#4a5568;">18 to 40 years as of January 1, 2026</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Educational Qualification</h3>
       <p style="margin:0;color:#4a5568;">Bachelor's degree in any discipline from a recognized university</p>
     </div>
     
@@ -947,7 +947,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -988,7 +988,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1021,7 +1021,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Required Documents</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Required Documents</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;">
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
@@ -1065,7 +1065,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
@@ -1111,21 +1111,21 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Mode</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Exam Mode</h3>
       <p style="margin:0;color:#4a5568;">Offline (Pen & Paper)</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Marking Scheme</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Marking Scheme</h3>
       <p style="margin:0;color:#4a5568;">1 mark per correct answer</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Negative Marking</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Negative Marking</h3>
       <p style="margin:0;color:#4a5568;">Check official notification</p>
     </div>
   </div>
@@ -1137,7 +1137,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Timeline</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Timeline</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1175,7 +1175,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
@@ -1392,7 +1392,7 @@ www.rrcjaipur.in
         "slug": "rsmssb-group-d-recruitment-2025",
         "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
         "content": `<section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1429,23 +1429,23 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Criteria</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Age Criteria</h3>
       <p style="margin:0;color:#4a5568;">18 to 40 years as of January 1, 2026 (relaxations applicable as per rules)</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Educational Qualification</h3>
       <p style="margin:0;color:#4a5568;">Class 10th (Secondary) pass from a recognized board</p>
     </div>
   </div>
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1478,7 +1478,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1511,28 +1511,28 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #38a169;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Vacancies</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Total Vacancies</h3>
       <p style="margin:0;color:#2b6cb0;font-size:1.5rem;font-weight:700;">53,749</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #2b6cb0;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Non-TSP Area</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Non-TSP Area</h3>
       <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">48,199</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #ed8936;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">TSP Area</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">TSP Area</h3>
       <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">5,550</p>
     </div>
   </div>
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
@@ -1578,21 +1578,21 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Mode</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Exam Mode</h3>
       <p style="margin:0;color:#4a5568;">Computer Based Test (CBT)</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Duration</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Exam Duration</h3>
       <p style="margin:0;color:#4a5568;">4 days (Sept 18-21, 2025)</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Question Type</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Question Type</h3>
       <p style="margin:0;color:#4a5568;">Multiple Choice Questions</p>
     </div>
   </div>
@@ -1885,7 +1885,7 @@ www.rrcjaipur.in
         "slug": "rsmssb-conductor-recruitment-2025-apply-online",
         "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
         "content": `<section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSMSSB Conductor Vacancy 2025 Overview</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">RSMSSB Conductor Vacancy 2025 Overview</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -1938,7 +1938,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Criteria</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
@@ -1956,7 +1956,7 @@ www.rrcjaipur.in
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Limit (as on 01.01.2026)</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Age Limit (as on 01.01.2026)</h3>
       <p style="margin:0 0 8px 0;color:#4a5568;">Minimum Age: 18 years</p>
       <p style="margin:0 0 8px 0;color:#4a5568;">Maximum Age: 40 years</p>
       <p style="margin:0;color:#4a5568;font-size:0.9rem;">Age relaxation applicable for SC/ST/OBC as per Rajasthan Govt norms</p>
@@ -1965,7 +1965,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Vacancy Distribution</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2008,7 +2008,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2045,7 +2045,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Process</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Process</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
@@ -2075,26 +2075,26 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Exam Pattern & Syllabus</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Exam Pattern & Syllabus</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px;margin-bottom:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Paper Type</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Paper Type</h3>
       <p style="margin:0;color:#4a5568;">Objective Type</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Marks</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Total Marks</h3>
       <p style="margin:0;color:#4a5568;">100</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Duration</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Duration</h3>
       <p style="margin:0;color:#4a5568;">2 hours</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Negative Marking</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Negative Marking</h3>
       <p style="margin:0;color:#4a5568;">1/3rd per wrong answer</p>
     </div>
   </div>
@@ -2124,7 +2124,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply for RSMSSB Conductor 2025</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">How to Apply for RSMSSB Conductor 2025</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
@@ -2178,7 +2178,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
@@ -2242,7 +2242,7 @@ www.rrcjaipur.in
         "content": `
 <p>The Librarian Grade III plays an essential role in enriching school libraries and supporting the educational infrastructure of Rajasthan. This is a golden opportunity for candidates holding a Library Science qualification to join the state’s academic ecosystem.</p>
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2275,17 +2275,17 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Eligibility Requirements</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Age Criteria</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Age Criteria</h3>
       <p style="margin:0;color:#4a5568;">18 to 40 years as of January 1, 2026</p>
       <p style="margin:0;color:#4a5568;">Age relaxation available as per state rules (SC/ST/OBC/PwD)</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Educational Qualification</h3>
       <p style="margin:0;color:#4a5568;">Passed 12th (10+2) from a recognized board</p>
       <p style="margin:0;color:#4a5568;">Certificate/Diploma/Degree in Library Science</p>
       <p style="margin:0;color:#4a5568;">Working knowledge of Hindi (Devanagari script) and awareness of Rajasthani culture</p>
@@ -2293,7 +2293,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Important Timeline</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2334,7 +2334,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Fee Structure</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2367,7 +2367,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Required Documents</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Required Documents</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;">
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
@@ -2407,7 +2407,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Application Process</h2>
   
   <div style="display:grid;gap:16px;">
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
@@ -2455,36 +2455,36 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Examination Details</h2>
   
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Mode</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Exam Mode</h3>
       <p style="margin:0;color:#4a5568;">Offline (OMR-based)</p>
     </div>
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Total Papers</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Total Papers</h3>
       <p style="margin:0;color:#4a5568;">2</p>
     </div>
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Duration</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Exam Duration</h3>
       <p style="margin:0;color:#4a5568;">2 hours per paper</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Marking Scheme</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Marking Scheme</h3>
       <p style="margin:0;color:#4a5568;">1 mark per correct answer</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;">
-      <h3 style="margin:0 0 8px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Negative Marking</h3>
+      <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Negative Marking</h3>
       <p style="margin:0;color:#4a5568;">1/3rd per wrong answer</p>
     </div>
   </div>
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Timeline</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Selection Timeline</h2>
   
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
@@ -2522,7 +2522,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #e2e8f0;">Frequently Asked Questions</h2>
   
   <div style="display:grid;gap:16px;">
     <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
