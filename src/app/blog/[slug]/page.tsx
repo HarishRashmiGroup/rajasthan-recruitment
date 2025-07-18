@@ -72,6 +72,308 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // Mock database/API response
     const mockPosts: Record<string, BlogPost> =
     {
+      "rpsc-sub-inspector-platoon-commander-2025": {
+        "id": "17",
+        "title": "RPSC Sub-Inspector (SI) & Platoon Commander (RAC) 2025",
+        "slug": "rpsc-sub-inspector-platoon-commander-2025",
+        "excerpt": "RPSC has announced 1,015 posts for Sub‑Inspector and Platoon Commander under the Rajasthan Police & RAC 2025 recruitment. Apply online from August 10 to September 8, and prepare for written tests and physical exams.",
+        "content": `<section style="margin-bottom:40px;">
+ <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan Public Service Commission (RPSC) has officially released the notification for Sub-Inspector (SI) in the Rajasthan Police and Platoon Commander in the Rajasthan Armed Constabulary (RAC) for the year 2025. A total of 1,015 vacancies are open for eligible graduates under this prestigious recruitment drive. The selection process includes a written exam, physical efficiency test (PET), and interview/personality assessment. Candidates can apply online through the RPSC portal from August 10 to September 8, 2025. This is a golden opportunity for aspirants aiming to serve in Rajasthan Police under a Class–II officer rank.</p>  
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy breakdown</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Post</b></td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Vacancy</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sub Inspector( AP )</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">896</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Platoon Commander</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">64</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sub Inspector( IB )</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">26</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sub Inspector( Scheduled Area )</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">25</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sub Inspector( Sahariya )</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">4</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Dates</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Entity</b></td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Dates</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Notification released</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">July 17, 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Start</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">August 10, 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Close</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">September 08, 2025</td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Exam Date</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#38a169;font-weight:500;" >November 2025</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+      <ul style="margin:0;padding:0;list-style:none;">
+        <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+         <b>Age Criteria:</b> 20–25 years as of January 1, 2025; reserved categories get age relaxation per norms (e.g., SC/ST/BC/BC‑NCL/Women: +5–10 years; EWS: +3 years)
+        </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+          <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+        <b>Physical Standards:</br></b><b>Men:</b> Height ≥168 cm, Chest 81–86 cm with 5 cm expansion </br>
+        <b>Women:</b> Height ≥152 cm (no chest requirement).
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;
+      padding-bottom:8px;border-bottom:2px solid #5d93fe;">Selection Process</h2>
+  
+  <div style="display:grid;gap:16px;">
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">1</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Written Examination</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+          <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+          <b>Two papers:</b> General Hindi (100 MCQs, 200 marks) and General Knowledge & General Science (100 MCQs, 200 marks); each paper 2 hours; marking: +2 per correct, –⅓ per wrong; total = 400 marks</p>
+      </p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">2</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Physical Measurement Test (PMT) & Physical Efficiency Test (PET)</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+          <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+          Both men and women undergo specific races and field events:
+        </p>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+          <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+          <b>Men:</b> 100 m race (40 marks for ≤14s), long jump (up to 30), chin-ups (up to 30) 
+        </p>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+          <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+          <b>Women:</b> 100 m race, long jump, and shot-put (4 kg) with similar marks distribution.
+        </p>
+      </div>
+    </div>
+
+    <div style="display:flex;align-items:flex-start;padding:20px;
+        background:#f8fafc;border-radius:8px;">
+      <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+          color:white;border-radius:50%;display:flex;align-items:center;
+          justify-content:center;font-weight:600;margin-right:16px;">3</div>
+      <div>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+            font-weight:600;">Aptitude Test & Interview</h3>
+        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+          <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+           The final stage involves psychological/aptitude evaluation and personal interview, followed by document and medical verification </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fees</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Category</b></td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Fee</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General & EWS</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹600 </td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC/ST/OBC-NCL/PwD/Other</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹400</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Quick Summary</h2>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+      <thead>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Features</b></td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Details</b></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Vacancies</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">1,015 </td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application window</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">Aug 10 – Sep 8, 2025</td>
+        </tr>
+        <tr style="background:#fafafa;">
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Exams</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">2 Written Papers → PMT/PET → Interview </td>
+        </tr>
+        <tr>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Pay Scale</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹67,700–₹2,08,700 (Level 11) + allowances</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">How many vacancies are available?</summary>
+      <p style="margin:0;color:#4a5568;">RPSC has announced a total of 1,015 vacancies for Sub-Inspector (AP/IB/MBC) and Platoon Commander (RAC) posts.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">When is the application period?</summary>
+      <p style="margin:0;color:#4a5568;">The online application process starts from August 10, 2025, and ends on September 8, 2025.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What are the eligibility criteria?</summary>
+      <p style="margin:0;color:#4a5568;">Applicants must hold a bachelor's degree from a recognized university. The age limit is 20 to 25 years as on January 1, 2025. Age relaxation applies as per government rules.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #d53f8c;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the selection process?</summary>
+      <p style="margin:0;color:#4a5568;">The selection process includes a written examination, a physical measurement & efficiency test (PMT & PET), an aptitude test, and an interview/personality assessment.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the exam pattern?</summary>
+      <p style="margin:0;color:#4a5568;">There are two papers: General Hindi and General Knowledge/Science, each carrying 200 marks. The exam includes negative marking of 1/3 mark per incorrect answer.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #2f855a;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What are the physical standards for PET/PMT?</summary>
+      <p style="margin:0;color:#4a5568;">
+        <strong>Men:</strong> Height ≥ 168 cm; Chest 81–86 cm (5 cm expansion)<br>
+        <strong>Women:</strong> Height ≥ 152 cm. No chest requirement.
+      </p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #e53e3e;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is there an interview stage?</summary>
+      <p style="margin:0;color:#4a5568;">Yes. Candidates who qualify the written and physical tests are called for an interview/personality test carrying 50 marks, followed by document and medical verification.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #dd6b20;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the application fee?</summary>
+      <p style="margin:0;color:#4a5568;">₹600 for General/OBC (Creamy Layer)/EWS and ₹400 for SC/ST/OBC (Non-Creamy Layer)/PwD candidates.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #3182ce;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the salary and pay scale?</summary>
+      <p style="margin:0;color:#4a5568;">The pay scale is Level 11 (₹67,700–₹2,08,700) with additional allowances such as DA, HRA, and other benefits applicable to Class–II Rajasthan government officers.</p>
+    </details>
+
+  </div>
+</section>`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC_SI_%26_Platoon_Commander_Recruitment_2025.png-1752830550077",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-18T08:00:00Z",
+        "updatedAt": "2025-07-18T12:00:00Z",
+        "readTime": 5,
+        "views": 10400,
+        "tags": [
+          "RPSC Recruitment 2025",
+          "Sub Inspector Jobs Rajasthan",
+          "Rajasthan Police Vacancy",
+          "RAC Platoon Commander",
+          "Graduate Govt Jobs",
+          "Sarkari Naukri Rajasthan",
+          "Rajasthan Government Jobs",
+          "RPSC SI Notification 2025",
+          "State Police Jobs",
+          "Defense Jobs 2025"
+        ],
+        "category": {
+          "name": "State Jobs",
+          "slug": "state-jobs"
+        },
+        "seoTitle": "RPSC SI & Platoon Commander Recruitment 2025 – 1015 Rajasthan Police Vacancies",
+        "seoDescription": "Apply online for RPSC Sub-Inspector & Platoon Commander Recruitment 2025. Rajasthan Police has announced 1015 vacancies. Check eligibility, salary, exam pattern, and apply between August 10 to September 8, 2025.",
+        "seoKeywords": [
+          "RPSC SI Recruitment 2025",
+          "Rajasthan Police Jobs",
+          "Rajasthan Platoon Commander Vacancy",
+          "Sub Inspector Govt Jobs",
+          "RPSC New Vacancy",
+          "Rajasthan Police SI 2025"
+        ]
+      },
       "rssb-lab-attendant-recruitment-2025": {
         "id": "16",
         "title": "RSSB Lab Attendant Recruitment 2025 – Apply for 54 Posts in PHED",
@@ -2665,7 +2967,7 @@ async function getRelatedPosts(currentSlug: string, category: string): Promise<R
         // Then sort by published date (newest first)
         return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
       })
-      .slice(0, 4) 
+      .slice(0, 4)
 
     return relatedPosts
   } catch (error) {

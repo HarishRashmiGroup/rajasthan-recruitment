@@ -15,6 +15,20 @@ import { ChevronDownIcon } from 'lucide-react';
 
 const jobsData: Job[] = [
     {
+        id: 17,
+        title: "RPSC – Sub-Inspector (SI) & Platoon Commander Recruitment 2025",
+        slug: "rpsc-sub-inspector-platoon-commander-2025",
+        officialSiteUrl: "https://sso.rajasthan.gov.in/signin",
+        logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+        notificationDate: "July 11, 2025",
+        registrationStartDate: "August 10, 2025",
+        registrationEndDate: "September 8, 2025",
+        posts: 1015,
+        level: "State – Group B (Gazetted Officer)",
+        examDate: "Written Exam: November 2025 (Tentative)"
+    }
+    ,
+    {
         id: 16,
         title: "RSSB – Lab Attendant Recruitment 2025",
         slug: "rssb-lab-attendant-recruitment-2025",
