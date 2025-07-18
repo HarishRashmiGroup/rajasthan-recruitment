@@ -1230,7 +1230,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Key Recruitment Overview</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -1250,7 +1250,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Requirements</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Requirements</h2>
   <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;margin-bottom:16px;">
     <h3>Age Criteria</h3>
     <p>21 to 40 years (as on 1 January 2025)</p>
@@ -1262,7 +1262,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Timeline & Important Dates</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Timeline & Important Dates</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -1282,7 +1282,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fee Structure</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fee Structure</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -1301,7 +1301,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy Distribution by Subject</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy Distribution by Subject</h2>
   <p>Total 2,202 vacancies across 24 subjects, including:</p>
   <ul>
     <li>Hindi – 350, English – 325, Sanskrit – 64, Punjabi – 11, Urdu – 26</li>
@@ -1313,7 +1313,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Exam Pattern & Selection Process</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Exam Pattern & Selection Process</h2>
   <div class="card" style="padding:20px;background:#f8fafc;border-radius:8px;">
     <h3>Written Exam (Paper I & II)</h3>
     <p>
@@ -1330,7 +1330,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">How to Download RPSC School Lecturer Admit Card</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">How to Download RPSC School Lecturer Admit Card</h2>
   <div style="overflow-x:auto;">
     <table style="width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
       <thead>
@@ -1351,7 +1351,7 @@ www.rrcjaipur.in
 </section>
 
 <section style="margin-bottom:40px;">
-  <h2 style="font-size:1.5rem;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Updates & Alerts</h2>
+  <h2 style="font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Updates & Alerts</h2>
   <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;margin-bottom:12px;">
     <summary style="font-weight:600;color:#2d3748;cursor:pointer;">Exam Hall Irregularities Reported</summary>
     <p>On 24 June 2025 in Jhunjhunu, poor lighting and early paper collection were reported. 3 invigilators suspended.</p>
@@ -1516,7 +1516,7 @@ www.rrcjaipur.in
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #38a169;">
       <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Total Vacancies</h3>
-      <p style="margin:0;color:#2b6cb0;font-size:1.5rem;font-weight:700;">53,749</p>
+      <p style="margin:0;color:#2b6cb0;font-weight:700;">53,749</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #2b6cb0;">
