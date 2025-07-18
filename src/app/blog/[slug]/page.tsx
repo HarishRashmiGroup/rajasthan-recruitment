@@ -178,9 +178,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Written Examination</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+        <p style="margin:0;color:#4a5568;position:relative">
           <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
           <b>Two papers:</b> General Hindi (100 MCQs, 200 marks) and General Knowledge & General Science (100 MCQs, 200 marks); each paper 2 hours; marking: +2 per correct, –⅓ per wrong; total = 400 marks</p>
       </p>
@@ -193,17 +193,17 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Physical Measurement Test (PMT) & Physical Efficiency Test (PET)</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+        <p style="margin:0;color:#4a5568;position:relative">
           <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
           Both men and women undergo specific races and field events:
         </p>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+        <p style="margin:0;color:#4a5568;position:relative">
           <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
           <b>Men:</b> 100 m race (40 marks for ≤14s), long jump (up to 30), chin-ups (up to 30) 
         </p>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+        <p style="margin:0;color:#4a5568;position:relative">
           <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
           <b>Women:</b> 100 m race, long jump, and shot-put (4 kg) with similar marks distribution.
         </p>
@@ -216,9 +216,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Aptitude Test & Interview</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;position:relative">
+        <p style="margin:0;color:#4a5568;position:relative">
           <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
            The final stage involves psychological/aptitude evaluation and personal interview, followed by document and medical verification </p>
       </div>
@@ -496,9 +496,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Visit the RSSB official website:</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Go to <a href="https://rssb.rajasthan.gov.in" target="_blank" 
           rel="noopener noreferrer">rssb.rajasthan.gov.in</a> or <a href="https://recruitment.rajasthan.gov.in" target="_blank" 
           rel="noopener noreferrer">recruitment.rajasthan.gov.in</a></p>
@@ -511,9 +511,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Register Login & Register</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Create an account or login using a valid mobile number and email on the portal.</p>
       </div>
     </div>
@@ -524,9 +524,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Fill Application Form</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Complete the form with accurate personal, educational.</p>
       </div>
     </div>
@@ -537,9 +537,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Upload Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Upload scanned photo, signature and IDs.</p>
       </div>
     </div>
@@ -550,9 +550,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Pay Fee</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           General, Creamy‑layer OBC: ₹600, SC/ST/EWS/OBC‑non‑creamy / Divyang: ₹400 ﹣ pay online.</p>
       </div>
     </div>
@@ -563,9 +563,9 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">6</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Submit & Download</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Submit your form, and download the receipt and application number for records.</p>
       </div>
     </div>
@@ -693,7 +693,7 @@ www.rrcjaipur.in
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
-      <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Educational Qualification</h3>
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
           <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
@@ -734,9 +734,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Visit Official Portal</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Go to <a href="https://rrcjaipur.in" target="_blank" 
           rel="noopener noreferrer">rrcjaipur.in</a> and open the Sports Quota Notification (Advt 01/2025).</p>
       </div>
@@ -748,9 +748,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Register Login & Register</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Create an account or login using a valid mobile number and email on the portal.</p>
       </div>
     </div>
@@ -761,9 +761,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Fill Application Form</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Complete the form with accurate personal, educational, and sports credentials.</p>
       </div>
     </div>
@@ -774,9 +774,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Upload Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Upload scanned photo, signature, IDs, and sports certificates.</p>
       </div>
     </div>
@@ -787,9 +787,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Pay Fee</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           General ₹500, SC/ST/Women/Minorities/EBC ₹250 (refundable after trial attendance) ﹣ pay online.</p>
       </div>
     </div>
@@ -800,9 +800,9 @@ www.rrcjaipur.in
           color:white;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-weight:600;margin-right:16px;">6</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;
+        <h3 style="margin:0 0 4px 0;color:#2d3748;
             font-weight:600;">Submit & Download</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">
+        <p style="margin:0;color:#4a5568;">
           Submit your form, and download the receipt and application number for records.</p>
       </div>
     </div>
@@ -901,7 +901,7 @@ www.rrcjaipur.in
         </tr>
         <tr style="background: #f8f9fa;">
           <td style="padding:14px 16px;color:#4a5568;">Total Positions</td>
-          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">850</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">850</td>
         </tr>
       </tbody>
     </table>
@@ -923,7 +923,7 @@ www.rrcjaipur.in
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
-      <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Computer Proficiency (Any One Required)</h3>
+      <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Computer Proficiency (Any One Required)</h3>
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
           <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#ed8936;border-radius:50%;"></span>
@@ -1013,7 +1013,7 @@ www.rrcjaipur.in
         </tr>
         <tr style="background:#fff5f5;">
           <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Important Note</td>
-          <td style="padding:14px 16px;color:#2d3748;font-size:0.9rem;">One-time registration fee - no additional charges for future RSSB applications</td>
+          <td style="padding:14px 16px;color:#2d3748;">One-time registration fee - no additional charges for future RSSB applications</td>
         </tr>
       </tbody>
     </table>
@@ -1027,15 +1027,15 @@ www.rrcjaipur.in
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           Graduation degree certificate
         </li>
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           Class 10th mark sheet
         </li>
         <li style="margin:0 0 0 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           Aadhaar card copy
         </li>
       </ul>
@@ -1044,11 +1044,11 @@ www.rrcjaipur.in
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #2b6cb0;">
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;">✓</span>
           Valid mobile number & email ID
         </li>
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;">✓</span>
           Recent passport-size photograph
         </li>
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
@@ -1071,40 +1071,40 @@ www.rrcjaipur.in
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Register on RSSB Portal</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Create your account on the official RSSB One Time Registration (OTR) portal</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Register on RSSB Portal</h3>
+        <p style="margin:0;color:#4a5568;">Create your account on the official RSSB One Time Registration (OTR) portal</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Required Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload photograph, signature, and all required documents in specified format</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Upload Required Documents</h3>
+        <p style="margin:0;color:#4a5568;">Upload photograph, signature, and all required documents in specified format</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay Application Fee</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Complete fee payment online (₹600 for General/OBC, ₹400 for OBC-NCL/SC/ST)</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Pay Application Fee</h3>
+        <p style="margin:0;color:#4a5568;">Complete fee payment online (₹600 for General/OBC, ₹400 for OBC-NCL/SC/ST)</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Complete Application Form</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Fill the VDO application form with accurate personal and educational details</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Complete Application Form</h3>
+        <p style="margin:0;color:#4a5568;">Fill the VDO application form with accurate personal and educational details</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Submit and Download</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Submit application, note down application number, and download confirmation receipt</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Submit and Download</h3>
+        <p style="margin:0;color:#4a5568;">Submit application, note down application number, and download confirmation receipt</p>
       </div>
     </div>
   </div>
@@ -1131,7 +1131,7 @@ www.rrcjaipur.in
   </div>
   
   <div style="margin-top:20px;padding:20px;background:#f8fafc;border-radius:8px;">
-    <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Exam Syllabus Coverage</h3>
+    <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Exam Syllabus Coverage</h3>
     <p style="margin:0;color:#4a5568;">General Knowledge, Science, Rajasthan History & Culture, Rural Development, Computer Knowledge, Reasoning & Mental Ability</p>
   </div>
 </section>
@@ -1242,7 +1242,7 @@ www.rrcjaipur.in
       <tbody>
         <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Conducting Authority</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Rajasthan Public Service Commission (RPSC)</td></tr>
         <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Post Name</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">School Lecturer (School Education)</td></tr>
-        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Total Vacancies</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#2b6cb0;font-size:1.1rem;">2,202</td></tr>
+        <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Total Vacancies</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;font-weight:600;color:#2b6cb0;">2,202</td></tr>
         <tr><td style="padding:16px;border-bottom:1px solid #e2e8f0;">Subjects Covered</td><td style="padding:16px;border-bottom:1px solid #e2e8f0;">24 subjects including Hindi, English, Political Science, Maths, Science, Commerce, PE & Coaching roles</td></tr>
       </tbody>
     </table>
@@ -1413,7 +1413,7 @@ www.rrcjaipur.in
         </tr>
         <tr>
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Total Positions</td>
-          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;font-size:1.1rem;">53,749</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">53,749</td>
         </tr>
         <tr style="background:#fafafa;">
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Qualification</td>
@@ -1503,7 +1503,7 @@ www.rrcjaipur.in
         </tr>
         <tr style="background:#fff5f5;">
           <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Important Note</td>
-          <td style="padding:14px 16px;color:#2d3748;font-size:0.9rem;">One-time registration fee - no additional charges for future RSMSSB applications</td>
+          <td style="padding:14px 16px;color:#2d3748;">One-time registration fee - no additional charges for future RSMSSB applications</td>
         </tr>
       </tbody>
     </table>
@@ -1521,12 +1521,12 @@ www.rrcjaipur.in
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #2b6cb0;">
       <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Non-TSP Area</h3>
-      <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">48,199</p>
+      <p style="margin:0;color:#4a5568;font-weight:600;">48,199</p>
     </div>
     
     <div style="padding:20px;background:#f8fafc;border-radius:8px;text-align:center;border-left:4px solid #ed8936;">
       <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">TSP Area</h3>
-      <p style="margin:0;color:#4a5568;font-size:1.2rem;font-weight:600;">5,550</p>
+      <p style="margin:0;color:#4a5568;font-weight:600;">5,550</p>
     </div>
   </div>
 </section>
@@ -1538,40 +1538,40 @@ www.rrcjaipur.in
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Visit Official Website</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Go to rsmssb.rajasthan.gov.in and click on "Apply Online" for Group D Recruitment 2025</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Visit Official Website</h3>
+        <p style="margin:0;color:#4a5568;">Go to rsmssb.rajasthan.gov.in and click on "Apply Online" for Group D Recruitment 2025</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Complete Registration</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Register using valid email ID and phone number for OTR (One Time Registration)</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Complete Registration</h3>
+        <p style="margin:0;color:#4a5568;">Register using valid email ID and phone number for OTR (One Time Registration)</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Application Form</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Complete the form with accurate personal and academic details</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Fill Application Form</h3>
+        <p style="margin:0;color:#4a5568;">Complete the form with accurate personal and academic details</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload photograph, signature, and required documents in specified format</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;">Upload photograph, signature, and required documents in specified format</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay Fee & Submit</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay applicable fee, submit application, and download confirmation receipt</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Pay Fee & Submit</h3>
+        <p style="margin:0;color:#4a5568;">Pay applicable fee, submit application, and download confirmation receipt</p>
       </div>
     </div>
   </div>
@@ -1624,7 +1624,7 @@ www.rrcjaipur.in
         "slug": "rajasthan-high-court-peon-class-iv-2025",
         "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
         "content": `<section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #5d93fe;">Recruitment Overview</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #5d93fe;">Recruitment Overview</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
@@ -1670,7 +1670,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Dates</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Dates</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
@@ -1708,7 +1708,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Age Relaxation Details</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Age Relaxation Details</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
@@ -1742,7 +1742,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Application Fee</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Application Fee</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
@@ -1768,7 +1768,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Selection Process</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Selection Process</h2>
     <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <ol style="padding-left: 20px; color: #4a5568; margin: 0;">
         <li style="margin-bottom: 12px;"><strong style="color: #2d3748;">Written Examination</strong> - 100 Marks (Objective Type MCQs)</li>
@@ -1780,7 +1780,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Required Documents</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Required Documents</h2>
     <div style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <ul style="padding-left: 20px; color: #4a5568; margin: 0;">
         <li style="margin-bottom: 8px;">Class 10th Mark Sheet & Certificate</li>
@@ -1796,7 +1796,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Exam Pattern</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Exam Pattern</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
         <tr>
@@ -1833,13 +1833,13 @@ www.rrcjaipur.in
         </tr>
       </tbody>
     </table>
-    <p style="color: #666; font-size: 0.9rem; margin-top: 10px; font-style: italic;">
+    <p style="color: #666;  margin-top: 10px; font-style: italic;">
       Duration: 2 Hours | Negative Marking: 1/4 mark for each wrong answer
     </p>
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">How to Apply</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">How to Apply</h2>
     <ol style="padding-left: 20px; color: #4a5568;">
       <li style="margin-bottom: 10px;">Visit the official website: <a href="https://hcraj.nic.in" style="color: #2b6cb0;">hcraj.nic.in</a></li>
       <li style="margin-bottom: 10px;">Click on "Recruitment" and select the Class IV/Peon notification link</li>
@@ -1851,7 +1851,7 @@ www.rrcjaipur.in
   </section>
 
   <section style="margin-bottom: 40px;">
-    <h2 style="color: #2d3748; margin: 0 0 20px 0; font-size: 1.5rem; font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Instructions</h2>
+    <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0;">Important Instructions</h2>
     <div style="background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px;">
       <ul style="padding-left: 20px; color: #856404; margin: 0;">
         <li style="margin-bottom: 8px;">Candidates must possess Rajasthan domicile certificate</li>
@@ -1910,7 +1910,7 @@ www.rrcjaipur.in
         </tr>
         <tr style="background:#fafafa;">
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Total Vacancies</td>
-          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;font-size:1.1rem;">500 Posts</td>
+          <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2b6cb0;font-weight:600;">500 Posts</td>
         </tr>
         <tr>
           <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Application Start Date</td>
@@ -1942,7 +1942,7 @@ www.rrcjaipur.in
   
   <div style="display:grid;gap:16px;">
     <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
-      <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Educational Qualification</h3>
+      <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Educational Qualification</h3>
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
           <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
@@ -1959,7 +1959,7 @@ www.rrcjaipur.in
       <h3 style="margin:0 0 8px 0;color:#2d3748;font-weight:600;">Age Limit (as on 01.01.2026)</h3>
       <p style="margin:0 0 8px 0;color:#4a5568;">Minimum Age: 18 years</p>
       <p style="margin:0 0 8px 0;color:#4a5568;">Maximum Age: 40 years</p>
-      <p style="margin:0;color:#4a5568;font-size:0.9rem;">Age relaxation applicable for SC/ST/OBC as per Rajasthan Govt norms</p>
+      <p style="margin:0;color:#4a5568;">Age relaxation applicable for SC/ST/OBC as per Rajasthan Govt norms</p>
     </div>
   </div>
 </section>
@@ -2051,24 +2051,24 @@ www.rrcjaipur.in
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Written Examination</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Objective type paper with questions from General Knowledge, Rajasthan GK, Traffic Rules</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Written Examination</h3>
+        <p style="margin:0;color:#4a5568;">Objective type paper with questions from General Knowledge, Rajasthan GK, Traffic Rules</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Document Verification</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Verification of all educational and other certificates by the selection committee</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Document Verification</h3>
+        <p style="margin:0;color:#4a5568;">Verification of all educational and other certificates by the selection committee</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Medical Examination</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Final medical fitness test to ensure candidate meets health requirements</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Medical Examination</h3>
+        <p style="margin:0;color:#4a5568;">Final medical fitness test to ensure candidate meets health requirements</p>
       </div>
     </div>
   </div>
@@ -2100,12 +2100,12 @@ www.rrcjaipur.in
   </div>
   
   <div style="padding:20px;background:#f8fafc;border-radius:8px;">
-    <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Syllabus Coverage</h3>
+    <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Syllabus Coverage</h3>
     <p style="margin:0;color:#4a5568;">General Knowledge, Rajasthan GK, Traffic Rules, Conduct Rules</p>
   </div>
   
   <div style="margin-top:20px;padding:20px;background:#f8fafc;border-radius:8px;">
-    <h3 style="margin:0 0 12px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Recommended Books</h3>
+    <h3 style="margin:0 0 12px 0;color:#2d3748;font-weight:600;">Recommended Books</h3>
     <ul style="margin:0;padding:0;list-style:none;">
       <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
         <span style="position:absolute;left:0;top:8px;width:4px;height:4px;background:#2b6cb0;border-radius:50%;"></span>
@@ -2130,48 +2130,48 @@ www.rrcjaipur.in
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Visit Official Portal</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Go to https://rssb.rajasthan.gov.in</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Visit Official Portal</h3>
+        <p style="margin:0;color:#4a5568;">Go to https://rssb.rajasthan.gov.in</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Click Apply Online</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Click on "Apply Online" under the Conductor 2025 section</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Click Apply Online</h3>
+        <p style="margin:0;color:#4a5568;">Click on "Apply Online" under the Conductor 2025 section</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Register through SSO ID</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">SSO ID is mandatory for Rajasthan residents</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Register through SSO ID</h3>
+        <p style="margin:0;color:#4a5568;">SSO ID is mandatory for Rajasthan residents</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Details</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Fill in personal and academic details accurately</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Fill Details</h3>
+        <p style="margin:0;color:#4a5568;">Fill in personal and academic details accurately</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload photograph, signature, and required documents</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;">Upload photograph, signature, and required documents</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">6</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay Fee and Submit</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay application fee online, submit and download confirmation receipt</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Pay Fee and Submit</h3>
+        <p style="margin:0;color:#4a5568;">Pay application fee online, submit and download confirmation receipt</p>
       </div>
     </div>
   </div>
@@ -2263,11 +2263,11 @@ www.rrcjaipur.in
         </tr>
         <tr>
           <td style="padding:14px 16px;color:#4a5568;">Total Positions</td>
-          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">548 (Non-TSP: 483, TSP: 65)</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">548 (Non-TSP: 483, TSP: 65)</td>
         </tr>
         <tr>
           <td style="padding:14px 16px;color:#4a5568;">Departments</td>
-          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;font-size:1.1rem;">Secondary Education & Sanskrit Education</td>
+          <td style="padding:14px 16px;color:#2b6cb0;font-weight:600;">Secondary Education & Sanskrit Education</td>
         </tr>
       </tbody>
     </table>
@@ -2359,7 +2359,7 @@ www.rrcjaipur.in
         </tr>
         <tr style="background:#fff5f5;">
           <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Important Note</td>
-          <td style="padding:14px 16px;color:#2d3748;font-size:0.9rem;">One-time registration fee - no additional charges for future RSSB applications</td>
+          <td style="padding:14px 16px;color:#2d3748;">One-time registration fee - no additional charges for future RSSB applications</td>
         </tr>
       </tbody>
     </table>
@@ -2373,15 +2373,15 @@ www.rrcjaipur.in
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           Library Science Certificate/Diploma
         </li>
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           10th and 12th Marksheet
         </li>
         <li style="margin:0 0 0 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#38a169;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#38a169;">✓</span>
           Aadhaar card copy
         </li>
       </ul>
@@ -2390,11 +2390,11 @@ www.rrcjaipur.in
     <div style="padding:16px;background:#f8fafc;border-radius:8px;border-left:4px solid #2b6cb0;">
       <ul style="margin:0;padding:0;list-style:none;">
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;">✓</span>
           Valid mobile number & email ID
         </li>
         <li style="margin:0 0 12px 0;color:#4a5568;position:relative;padding-left:24px;">
-          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;font-size:1.1rem;">✓</span>
+          <span style="position:absolute;left:0;top:2px;color:#2b6cb0;">✓</span>
           Recent passport-size photograph
         </li>
         <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
@@ -2413,40 +2413,40 @@ www.rrcjaipur.in
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">1</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Register via Rajasthan SSO Portal</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Visit sso.rajasthan.gov.in, create an SSO ID, and select the recruitment option.</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Register via Rajasthan SSO Portal</h3>
+        <p style="margin:0;color:#4a5568;">Visit sso.rajasthan.gov.in, create an SSO ID, and select the recruitment option.</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">2</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Fill Out the Application</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Choose “RSMSSB Librarian Grade III 2025” and complete the online form with accurate details.</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Fill Out the Application</h3>
+        <p style="margin:0;color:#4a5568;">Choose “RSMSSB Librarian Grade III 2025” and complete the online form with accurate details.</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">3</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Upload Documents</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Upload your photo, signature, and required educational certificates in the specified format.</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Upload Documents</h3>
+        <p style="margin:0;color:#4a5568;">Upload your photo, signature, and required educational certificates in the specified format.</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">4</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Pay the Application Fee</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">Pay online using Net Banking, UPI, Credit/Debit Card.</p>
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Pay the Application Fee</h3>
+        <p style="margin:0;color:#4a5568;">Pay online using Net Banking, UPI, Credit/Debit Card.</p>
       </div>
     </div>
     
     <div style="display:flex;align-items:flex-start;padding:20px;background:#f8fafc;border-radius:8px;">
       <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;color:white;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:600;margin-right:16px;">5</div>
       <div>
-        <h3 style="margin:0 0 4px 0;color:#2d3748;font-size:1.1rem;font-weight:600;">Submit & Download Receipt</h3>
-        <p style="margin:0;color:#4a5568;font-size:0.95rem;">After final submission, download and save the application confirmation.
+        <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Submit & Download Receipt</h3>
+        <p style="margin:0;color:#4a5568;">After final submission, download and save the application confirmation.
 
 </p>
       </div>
@@ -2598,7 +2598,7 @@ www.rrcjaipur.in
           <p style="margin:0;color:#2d3748;">Whether you're a Ph.D. holder aiming for a Professor role or a NET-qualified candidate seeking your first Assistant Professor job, this CURAJ recruitment drive offers opportunities across disciplines like Chemistry, Computer Science, Statistics, Economics, and Yoga. With detailed eligibility criteria, structured pay scales, and a transparent selection process, CURAJ continues to uphold its reputation as a premier institution for higher education. Read on to get complete insights into the application process, important deadlines, subject-wise qualifications, and tips for a strong application.</p>
         </section>
         <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">CURAJ Teaching Vacancy 2025 Overview</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">CURAJ Teaching Vacancy 2025 Overview</h2>
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
   <table>
   <thead>
@@ -2639,7 +2639,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Important Dates</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Important Dates</h2>
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
   <table style="position: relative; width: 100%; border-collapse: collapse;">
             <thead>
@@ -2663,7 +2663,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Department-wise Vacancy Distribution</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Department-wise Vacancy Distribution</h2>
         <div style="overflow-x: auto; max-width: 100%; box-sizing: border-box;">
   <table>
   <thead>
@@ -2703,10 +2703,10 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Eligibility Criteria</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Eligibility Criteria</h2>
         
         <div style="margin-bottom: 20px;">
-            <h3 style="color: #2c3e50; font-size: 1.3em; margin-bottom: 10px;">For Professor:</h3>
+            <h3 style="color: #2c3e50;  margin-bottom: 10px;">For Professor:</h3>
             <ul style="margin-left: 20px;">
                 <li style="margin-bottom: 8px;">Ph.D. in relevant/allied discipline</li>
                 <li style="margin-bottom: 8px;">10 years of teaching/research experience with minimum 10 publications</li>
@@ -2715,7 +2715,7 @@ www.rrcjaipur.in
         </div>
 
         <div style="margin-bottom: 20px;">
-            <h3 style="color: #2c3e50; font-size: 1.3em; margin-bottom: 10px;">For Associate Professor:</h3>
+            <h3 style="color: #2c3e50;  margin-bottom: 10px;">For Associate Professor:</h3>
             <ul style="margin-left: 20px;">
                 <li style="margin-bottom: 8px;">Ph.D. in relevant subject</li>
                 <li style="margin-bottom: 8px;">Master's degree with at least 50% marks</li>
@@ -2725,7 +2725,7 @@ www.rrcjaipur.in
         </div>
 
         <div style="margin-bottom: 20px;">
-            <h3 style="color: #2c3e50; font-size: 1.3em; margin-bottom: 10px;">For Assistant Professor:</h3>
+            <h3 style="color: #2c3e50;  margin-bottom: 10px;">For Assistant Professor:</h3>
             <ul style="margin-left: 20px;">
                 <li style="margin-bottom: 8px;">Master's degree in relevant field with minimum 55% marks (some departments allow 50%)</li>
                 <li style="margin-bottom: 8px;">NET qualification mandatory (Ph.D. holders exempted)</li>
@@ -2735,7 +2735,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Application Fee</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Application Fee</h2>
         <div style="overflow-x: auto; max-widht: 100% box-sizing: border-box;">
   <table style="position: relative;width: 100%; border-collapse: collapse;">
             <thead>
@@ -2763,7 +2763,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">How to Apply</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">How to Apply</h2>
         
         <ol style="margin-left: 20px;">
             <li style="margin-bottom: 10px;">Visit the official website: <strong>www.curaj.ac.in</strong></li>
@@ -2780,7 +2780,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Selection Process</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Selection Process</h2>
         
         <ul style="margin-left: 20px;">
             <li style="margin-bottom: 8px;">Presentation-cum-Interview for all shortlisted candidates</li>
@@ -2791,7 +2791,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Key Points to Remember</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Key Points to Remember</h2>
         
         <ul style="margin-left: 20px;">
             <li style="margin-bottom: 8px;">Medium of instruction: English</li>
@@ -2803,7 +2803,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Frequently Asked Questions (FAQs)</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Frequently Asked Questions (FAQs)</h2>
         
         <div style="margin-bottom: 15px;">
             <h4 style="color: #2c3e50; margin-bottom: 5px;">Q: Who can apply for these positions?</h4>
@@ -2832,7 +2832,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Direct Links</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Direct Links</h2>
         
         <ul style="margin-left: 20px;">
             <li style="margin-bottom: 8px;"><strong>CURAJ Official Website:</strong> <a href="https://www.curaj.ac.in" style="color: #007bff; text-decoration: none;">www.curaj.ac.in</a></li>
@@ -2842,7 +2842,7 @@ www.rrcjaipur.in
     </section>
 
     <section style="margin-bottom: 30px;">
-        <h2 style="color: #2c3e50; font-size: 1.6em; margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Final Thoughts</h2>
+        <h2 style="color: #2c3e50;  margin-bottom: 15px; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Final Thoughts</h2>
         <p style="margin-bottom: 15px;">If you aspire to teach in a central university, this is a valuable opportunity. CURAJ offers a research-oriented academic culture and excellent pay scales according to the 7th Pay Commission recommendations.</p>
         <p style="margin-bottom: 15px;">The university provides a conducive environment for academic growth and research activities. With departments across various disciplines, there are opportunities for interdisciplinary collaboration and innovative research.</p>
         <p style="margin-bottom: 0; font-weight: bold; color: #dc3545;">Don't miss the deadline - Apply before August 11, 2025, and ensure your hardcopy reaches by August 21, 2025.</p>
