@@ -3153,7 +3153,7 @@ export default async function BlogPostPage(props: PageProps) {
                   <NextImage src={post.featuredImage} alt={post.title} width={400} height={200} style={{ width: '100%', height: '150px', objectFit: 'cover' }} priority />
                 </Box>
                 {/* Article Meta */}
-                <Flex flexWrap="wrap" align="center" gap={6} pb={2} fontSize="sm" color={textSecondary} borderBottomWidth={1} borderColor={borderColor} pt={4}>
+                <Flex flexWrap="wrap" align="center" gap={6} pb={2} fontSize="sm" color={textSecondary} borderBottomWidth={2} borderColor={borderColor} pt={4}>
                   <Flex align="center" gap={2}>
                     <Avatar.Root size={'sm'} key={post.author.avatar}>
                       <Avatar.Fallback name={post.author.name} />
