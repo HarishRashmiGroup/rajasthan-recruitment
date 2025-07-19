@@ -1,4 +1,4 @@
-import { Box, Image, Stack, Text } from "@chakra-ui/react";
+import { Image, Stack, Text } from "@chakra-ui/react";
 // import AnnouncementBar from "./AnnouncementBar";
 
 export const FrontPage = () => {
