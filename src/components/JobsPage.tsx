@@ -144,7 +144,7 @@ const JobsPage: React.FC = () => {
     return (
         <Box >
             <Box mx="auto" position={'relative'} px={0} pb={12}>
-                <Heading as={'h1'} size={'3xl'} color={'#5d93fe'}>Latest Government Job Notifications  {new Date().getFullYear()} - Apply Online</Heading>
+                <Heading as={'h1'} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }} color={'#5d93fe'}>Latest Government Job Notifications  {new Date().getFullYear()} - Apply Online</Heading>
                 <Stack mb={12} spaceX={4} w={'full'} position={'relative'} direction={{ base: 'column', md: 'row' }}>
                     <Grid
                         gap={4}

@@ -3183,6 +3183,7 @@ export default async function BlogPostPage(props: PageProps) {
                 <Box
                   maxW="100%"
                   overflowX="auto"
+                  fontFamily="inherit"
                   wordBreak="break-word"
                   fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
                   color={textMain}

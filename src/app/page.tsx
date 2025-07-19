@@ -11,7 +11,7 @@ function App() {
         <HomePageTabs />
       </Box>
       <Box display={'block'} m={{ base: 2, md: 4 }}>
-        <Heading mt={4} p={2} size={'3xl'} color={'#5d93fe'} >Latest Blog Posts on Career, Education & Government Jobs</Heading>
+        <Heading mt={4} p={2} as={'h1'} fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }} color={'#5d93fe'} >Latest Blog Posts on Career, Education & Government Jobs</Heading>
         <BlogHome />
       </Box>
     </Box>

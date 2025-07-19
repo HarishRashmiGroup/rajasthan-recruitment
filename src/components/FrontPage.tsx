@@ -4,9 +4,9 @@ import { Box, Image, Stack, Text } from "@chakra-ui/react";
 export const FrontPage = () => {
     return (
         <>
-            <Box mt={4} w={'full'} position={'relative'}>
+            {/* <Box mt={4} w={'full'} position={'relative'}> */}
                 {/* <AnnouncementBar /> */}
-            </Box>
+            {/* </Box> */}
             <Stack m={{ base: 2, md: 2, lg: 0 }} minH={{ base: '30vh', md: '50vh' }} justifyContent={{ base: 'space-between', md: 'space-around' }} alignItems={'center'} display={'flex'} direction={{ base: 'row', md: 'row' }}>
                 <Text color={'#6B7280'} fontSize={{ base: '16px', md: '48px' }}>
                     राह सही हो तो,<br />
