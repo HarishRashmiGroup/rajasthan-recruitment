@@ -40,7 +40,7 @@ const JobCard: React.FC<{
                         borderRadius="md"
                     />
                     <Box>
-                        <Heading fontSize="lg" mb={1}>{job.title}</Heading>
+                        <Heading fontSize={{ base: "md", lg: "lg" }} lineHeight={'normal'} mb={1}>{job.title}</Heading>
                         <Flex gap={4} mt={1} fontSize="sm" color="gray.500">
                             <Flex align="center" gap={1}><Users size={16} /> {job.posts}</Flex>
                             <Flex align="center" gap={1}><Briefcase size={16} /> {job.level}</Flex>

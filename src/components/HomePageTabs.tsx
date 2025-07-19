@@ -32,7 +32,7 @@ export const HomePageTabs = () => {
                 >
                     Jobs
                 </Tabs.Trigger>
-                {/* <Tabs.Trigger
+                <Tabs.Trigger
                     value="admit"
                     px="4"
                     py="2"
@@ -88,7 +88,7 @@ export const HomePageTabs = () => {
                     }}
                 >
                     Ans Key
-                </Tabs.Trigger> */}
+                </Tabs.Trigger>
             </Tabs.List>
             <Tabs.Content
                 value="jobs"
@@ -99,14 +99,14 @@ export const HomePageTabs = () => {
             >
                 <JobsPage />
             </Tabs.Content>
-            {/* <Tabs.Content
+            <Tabs.Content
                 value="admit"
                 minH={'300px'}
                 p="0"
                 rounded="md"
                 mt="4"
             >
-                Manage your projects
+                No updates please check office notification.
             </Tabs.Content>
             <Tabs.Content
                 value="result"
@@ -115,7 +115,7 @@ export const HomePageTabs = () => {
                 rounded="md"
                 mt="4"
             >
-                Manage your tasks for freelancers
+                No updates please check office notification.
             </Tabs.Content>
             <Tabs.Content
                 value="ansKey"
@@ -124,8 +124,8 @@ export const HomePageTabs = () => {
                 rounded="md"
                 mt="4"
             >
-                Manage your tasks for freelancers
-            </Tabs.Content> */}
+                No updates please check office notification.
+            </Tabs.Content>
         </Tabs.Root>
     )
 }
