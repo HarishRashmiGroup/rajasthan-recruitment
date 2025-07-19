@@ -15,19 +15,31 @@ import { ChevronDownIcon } from 'lucide-react';
 
 const jobsData: Job[] = [
     {
+        id: 18,
+        title: "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2",
+        slug: "rsmssb-reet-mains-2025-teacher-recruitment",
+        officialSiteUrl: "https://sso.rajasthan.gov.in/signin",
+        logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+        notificationDate: "July 17, 2025",
+        registrationStartDate: "August 10, 2025",
+        registrationEndDate: "September 8, 2025",
+        posts: 7759,
+        level: "State",
+        examDate: "January 17-21, 2026 (Tentative)"
+    },
+    {
         id: 17,
         title: "RPSC – Sub-Inspector (SI) & Platoon Commander Recruitment 2025",
         slug: "rpsc-sub-inspector-platoon-commander-2025",
         officialSiteUrl: "https://sso.rajasthan.gov.in/signin",
         logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
-        notificationDate: "July 11, 2025",
+        notificationDate: "July 17, 2025",
         registrationStartDate: "August 10, 2025",
         registrationEndDate: "September 8, 2025",
         posts: 1015,
         level: "State – Group B (Gazetted Officer)",
         examDate: "Written Exam: November 2025 (Tentative)"
-    }
-    ,
+    },
     {
         id: 16,
         title: "RSSB – Lab Attendant Recruitment 2025",

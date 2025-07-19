@@ -72,6 +72,316 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // Mock database/API response
     const mockPosts: Record<string, BlogPost> =
     {
+      "rsmssb-reet-mains-2025-teacher-recruitment": {
+        "id": "18",
+        "title": "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2 – Apply Online",
+        "slug": "rsmssb-reet-mains-2025-teacher-recruitment",
+        "excerpt": "RSMSSB has announced 7,759 vacancies for 3rd Grade Teachers under REET Mains 2025. The recruitment covers Level 1 (Primary) and Level 2 (Upper Primary) posts across various subjects. Eligible candidates with REET qualification can apply online soon. Get complete details on vacancies, eligibility, syllabus, exam dates, and more.",
+        "content": `
+        <section style="margin-bottom:40px;">
+          <p style="margin:0 0 25px 0;color:#2d3748;">Only candidates who qualified REET 2022 are eligible to apply. The selection will be based on the REET Mains written exam and document verification. The notification was issued on 17 July 2025, and application dates will be announced soon. Detailed vacancy, subject-wise posts, and eligibility criteria are available in the official release. This is a key opportunity for aspiring government teachers in Rajasthan.</p>  
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy breakdown</h2>
+            <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Level 1 – Primary Teacher</h3>
+            <div style="overflow-x:auto;margin-bottom:20px;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Department</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>General</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>TSP</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General Education</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">4,422</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">27</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sanskrit Education</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">4,500</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">500</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Elementary Education</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">187</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">10</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Level 2 – Upper Primary Teacher</h3>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Subject</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>General</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Maths & Science</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">1,043</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Sanskrit</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">389</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Social Science</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">296</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">English</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">221</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Hindi</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">174</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Dates</h2>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Entity</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Dates</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Notification released</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">July 17, 2025</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Application Window</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>August 2025</b></td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Written Exam</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">January 17-21, 2026</td>
+                  </tr>
+                  <tr >
+                    <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Pay Level</td>
+                    <td style="padding:14px 16px;color:#2d3748;">Level 10; Approx ₹23,700–₹44,300 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
+            
+            <div style="display:grid;gap:16px;">
+              <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+                <ul style="margin:0;padding:0;list-style:none;">
+                  <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+                    <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+                  <b>Age Criteria:</b> 21–40 years (as of 1 Jan 2027); relaxations for reserved categories.
+                  </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+                    <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+                  <b>Educational Qualification:</br></b><b>Leve 1:</b> Class 12 + REET Level 1 clearance + D.El.Ed./B.El.Ed./Special Ed.</br>
+                  <b>Level 2:</b> Graduation + REET Level 2 clearance + B.Ed/D.El.Ed/Relevant Teaching Diploma.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;
+                padding-bottom:8px;border-bottom:2px solid #5d93fe;">Exam Pattern & Process</h2>
+            
+            <div style="display:grid;gap:16px;">
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">1</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Written OMR Test</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    150 marks, 150 multiple-choice questions (2½ hours)</p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    <b>Level 1:</b> Topics include Child Development & Pedagogy, Language I & II, Math, EVS</p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    <b>Level 2:</b> Covers same plus specialized sections – either Math & Science or Social Science</p>
+                </div>
+              </div>
+
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">2</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Scoring</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Each correct answer = +1
+                  </p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Negative marking applied (⅓ marks deducted for incorrect answers or unanswered? Confirm in official notification; level of marking varies) 
+                  </p>
+                </div>
+              </div>
+
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">3</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Aptitude Test & Interview</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Written exam</p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Merit list based solely on written test</p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Document verification (original certificates, REET, ID proofs)</p>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Final appointment and school posting</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fees</h2>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Category</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Fee</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General / OBC / EWS</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹600</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC / ST / PwD</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹400</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Correction Charges (if applicable)</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹300</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
+            
+            <div style="display:grid;gap:16px;">
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">How many vacancies are available?</summary>
+                <p style="margin:0;color:#4a5568;">RSMSSB has released a total of 7,759 vacancies for 3rd Grade Teachers under REET Mains 2025, including both Level 1 and Level 2 positions.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Who can apply for REET Mains?</summary>
+                <p style="margin:0;color:#4a5568;">Only candidates who have qualified REET 2022 with the required cut-off marks are eligible to apply for REET Mains 2025.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What are the eligibility criteria?</summary>
+                <p style="margin:0;color:#4a5568;">For Level 1, candidates must have a senior secondary qualification with D.El.Ed/B.El.Ed. For Level 2, graduation with B.Ed or equivalent is required. REET 2022 qualification is mandatory for both levels.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #d53f8c;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the selection process?</summary>
+                <p style="margin:0;color:#4a5568;">The selection is based on performance in the REET Mains written exam. The final merit list is prepared based on marks obtained in this exam only.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the exam pattern?</summary>
+                <p style="margin:0;color:#4a5568;">The REET Mains exam consists of multiple-choice questions (MCQs) including subject knowledge, pedagogy, general knowledge, and current affairs. Negative marking applies as per the official notice.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #2f855a;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Can candidates from other states apply?</summary>
+                <p style="margin:0;color:#4a5568;">Yes, but candidates from other states will be considered under the General category only and must fulfill all other eligibility conditions.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #e53e3e;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is there any interview or skill test?</summary>
+                <p style="margin:0;color:#4a5568;">No. There is no interview or skill test. Selection is purely based on marks scored in the REET Mains written examination.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #dd6b20;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the application fee?</summary>
+                <p style="margin:0;color:#4a5568;">The application fee is ₹600 for General/OBC (CL)/EWS candidates and ₹400 for SC/ST/OBC (NCL)/PwD candidates. Correction charges, if any, are ₹300.</p>
+              </details>
+
+              <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #3182ce;">
+                <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the salary for 3rd Grade Teachers?</summary>
+                <p style="margin:0;color:#4a5568;">Selected candidates will be paid under Pay Matrix Level 10 with a fixed probationary period salary (approx. ₹23,700/month initially), followed by regular pay after confirmation.</p>
+              </details>
+
+            </div>
+          </section>
+        `,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RSMSSB_REET_Mains_2025.png-1752906107938",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-18T08:00:00Z",
+        "updatedAt": "2025-07-18T12:00:00Z",
+        "readTime": 5,
+        "views": 10400,
+        "tags": [
+          "REET Mains 2025",
+          "RSMSSB Teacher Vacancy",
+          "3rd Grade Teacher Recruitment",
+          "Level 1 Teacher Jobs",
+          "Level 2 Teacher Jobs",
+          "Rajasthan Govt Teacher Vacancy",
+          "Sarkari Naukri Rajasthan",
+          "Teacher Eligibility Test Rajasthan",
+          "RSMSSB REET Notification",
+          "Primary & Upper Primary Teacher Jobs"
+        ],
+        "category": {
+          "name": "State Jobs",
+          "slug": "state-jobs"
+        },
+        "seoTitle": "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2 – Apply Online",
+        "seoDescription": "RSMSSB has released the REET Mains 2025 notification for 7759 3rd Grade Teacher posts across Level 1 (Primary) and Level 2 (Upper Primary). Check vacancy details, eligibility, syllabus, exam dates, and how to apply online.",
+        "seoKeywords": [
+          "REET Mains 2025",
+          "RSMSSB 3rd Grade Teacher Vacancy",
+          "Rajasthan Teacher Bharti 2025",
+          "Level 1 Teacher Jobs Rajasthan",
+          "Level 2 Teacher Vacancy",
+          "RSMSSB REET Notification 2025"
+        ]
+      },
       "rpsc-sub-inspector-platoon-commander-2025": {
         "id": "17",
         "title": "RPSC Sub-Inspector (SI) & Platoon Commander (RAC) 2025",
