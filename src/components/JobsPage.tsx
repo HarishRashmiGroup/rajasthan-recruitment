@@ -89,17 +89,19 @@ const jobsData: Job[] = [
         level: "State",
         registrationEndDate: "11 August 2025, 11:59 PM"
     },
-    {
-        id: 2,
-        title: "RPSC – School Lecturer (School Education) 2024",
-        posts: 2202,
-        slug: "rpsc-school-lecturer-2024-apply-online",
-        officialSiteUrl: "https://rpsc.rajasthan.gov.in/advertisements?Pie=332",
-        logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
-        notificationDate: "Late 2024",
-        level: "State Grade A/B",
-        examDate: "June 23 – July 4, 2025",
-    },
+    // {
+    //     id: 2,
+    //     title: "RPSC – School Lecturer (School Education) 2024",
+    //     posts: 2202,
+    //     slug: "rpsc-school-lecturer-2024-apply-online",
+    //     officialSiteUrl: "https://rpsc.rajasthan.gov.in/advertisements?Pie=332",
+    //     logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+    //     notificationDate: "Late 2024",
+    //     registrationEndDate:"",
+    //     registrationStartDate:"November 5, 2024",
+    //     level: "State Grade A/B",
+    //     examDate: "June 23 – July 4, 2025",
+    // },
     {
         id: 3,
         title: "RSMSSB – Group D (Class IV) 2025",
@@ -110,7 +112,7 @@ const jobsData: Job[] = [
         officialSiteUrl: "https://sso.rajasthan.gov.in/",
         logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
         registrationStartDate: "Mar 21, 2025",
-        examDate: "As per RSMSSB calendar",
+        examDate: "September 18 to 21, 2025",
         registrationEndDate: "Apr 19, 2025",
     },
     {
@@ -144,7 +146,7 @@ const jobsData: Job[] = [
         slug: "rsmssb-librarian-grade-iii-2025",
         officialSiteUrl: "https://rsmssb.rajasthan.gov.in/",
         logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-        examDate: "TBA",
+        examDate: "July 27, 2025",
         notificationDate: "March 28, 2025",
         level: "State",
         registrationEndDate: "Mar 2025"
