@@ -21,8 +21,6 @@ const jobsData: Job[] = [
         officialSiteUrl: "https://sso.rajasthan.gov.in/signin",
         logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
         notificationDate: "July 17, 2025",
-        registrationStartDate: "August 10, 2025",
-        registrationEndDate: "September 8, 2025",
         posts: 7759,
         level: "State",
         examDate: "January 17-21, 2026 (Tentative)"
