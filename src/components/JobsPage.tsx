@@ -137,7 +137,7 @@ const jobsData: Job[] = [
         officialSiteUrl: "https://hcraj.nic.in/hcraj/recruitment_detail.php?id=NTU=",
         logo: "https://hcraj.nic.in/hcraj/img/logo12102023.png",
         registrationStartDate: "Open now",
-        examDate: "TBA",
+        examDate: "September 18 to 21, 2025",
         level: "State Group D",
         registrationEndDate: "July 26–27, 2025",
     },
