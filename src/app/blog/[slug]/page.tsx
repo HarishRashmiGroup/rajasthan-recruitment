@@ -78,7 +78,6 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
         "slug": "rpsc-assistant-agriculture-engineer-recruitment-2025",
         "excerpt": "RPSC has released the 2025 notification for 281 Assistant Agriculture Engineer posts in the Rajasthan Agriculture Department. Eligible candidates can apply online from 28 July to 26 August 2025. Check vacancy details, eligibility, syllabus, and application process here.",
         "content": `
-      
         <section style="margin-bottom:40px;">
           <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan Public Service Commission (RPSC) has officially announced the Assistant Agriculture Engineer (AAE) Recruitment 2025 through Advt. No. 03/2025-26. A total of 281 vacancies have been released for qualified Agricultural Engineering graduates under the Rajasthan Agriculture Department. The online application process will be open from 28 July to 26 August 2025. The selection will be based on a written examination without an interview. This is an excellent opportunity for engineering graduates looking to secure a government job in the agriculture sector. Interested candidates are advised to read the full notification, check the eligibility criteria, and apply within the stipulated timeline.</p>
           </section>
@@ -2199,7 +2198,11 @@ www.rrcjaipur.in
         "title": "Rajasthan High Court – Peon/Class-IV 2025: Check Eligibility, Vacancies & Apply Online",
         "slug": "rajasthan-high-court-peon-class-iv-2025",
         "excerpt": "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
-        "content": `<section style="margin-bottom: 40px;">
+        "content": `
+        <section style="margin-bottom:40px;">
+          <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan High Court – Peon/Class-IV Recruitment 2025 offers a golden opportunity for 10th pass candidates seeking government jobs in Rajasthan. With 53,749 Group D vacancies announced under RSMSSB, eligible applicants can apply online for positions such as Peon, Driver, and other Class-IV roles. The recruitment process includes a written examination scheduled between September 18 to 21, 2025. This massive recruitment drive aims to strengthen the support staff in various government departments. Check the detailed eligibility criteria, important dates, reservation rules, fee details, and how to apply in the full article.</p>
+          </section>
+        <section style="margin-bottom: 40px;">
     <h2 style="color: #2d3748; margin: 0 0 20px 0;  font-weight: 600; padding-bottom: 8px; border-bottom: 2px solid #5d93fe;">Recruitment Overview</h2>
     <table style="width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
       <thead>
