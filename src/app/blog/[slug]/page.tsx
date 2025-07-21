@@ -72,6 +72,272 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
     // Mock database/API response
     const mockPosts: Record<string, BlogPost> =
     {
+      "rpsc-assistant-agriculture-engineer-recruitment-2025": {
+        "id": "19",
+        "title": "RPSC Assistant Agriculture Engineer Recruitment 2025",
+        "slug": "rpsc-assistant-agriculture-engineer-recruitment-2025",
+        "excerpt": "RPSC has released the 2025 notification for 281 Assistant Agriculture Engineer posts in the Rajasthan Agriculture Department. Eligible candidates can apply online from 28 July to 26 August 2025. Check vacancy details, eligibility, syllabus, and application process here.",
+        "content": `
+      
+        <section style="margin-bottom:40px;">
+          <p style="margin:0 0 25px 0;color:#2d3748;">The Rajasthan Public Service Commission (RPSC) has officially announced the Assistant Agriculture Engineer (AAE) Recruitment 2025 through Advt. No. 03/2025-26. A total of 281 vacancies have been released for qualified Agricultural Engineering graduates under the Rajasthan Agriculture Department. The online application process will be open from 28 July to 26 August 2025. The selection will be based on a written examination without an interview. This is an excellent opportunity for engineering graduates looking to secure a government job in the agriculture sector. Interested candidates are advised to read the full notification, check the eligibility criteria, and apply within the stipulated timeline.</p>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Vacancy breakdown</h2>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Category</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Total Posts</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>For Women</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">UR (General)</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">71</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">20 + 8(DW)</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">32</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">9 + 4(DW)</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">ST</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">24</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">7 + 3(DW)</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">OBC</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">42</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">12 + 4(DW)</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">MBC</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">14</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">10 + 3(DW)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Important Dates</h2>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Entity</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Dates</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Notification released</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">July 17, 2025</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;">Online Registration Opens</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">July 28, 2025</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Last Date to Apply</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">August 26, 2025</td>
+                  </tr>
+                  <tr >
+                    <td style="padding:14px 16px;color:#4a5568;font-weight:500;">Pay Level</td>
+                    <td style="padding:14px 16px;color:#2d3748;">Pay Matrix Level-14 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Eligibility Criteria</h2>
+            
+            <div style="display:grid;gap:16px;">
+              <div style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38b2ac;">
+                <ul style="margin:0;padding:0;list-style:none;">
+                  <li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+                    <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+                  <b>Age Criteria:</b> 20–40 years (as of 1 Jan 2026); SC/ST/OBC/MBC up to 5–10 years, widows/divorcees & PwD – special relaxations per state norms.
+                  </li><li style="margin:0 0 8px 0;padding:8px 0;color:#4a5568;position:relative;padding-left:24px;">
+                    <span style="position:absolute;left:0;top:15px;width:4px;height:4px;background:#38b2ac;border-radius:50%;"></span>
+                  <b>Educational Qualification:</b>Bachelor’s degree in Agricultural Engineering (final-year students may apply if results declared before joining)
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;
+                padding-bottom:8px;border-bottom:2px solid #5d93fe;">Exam Pattern & Process</h2>
+            
+            <div style="display:grid;gap:16px;">
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">1</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Stage</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    Single written examination (no interview).</p>
+                </div>
+              </div>
+
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">2</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Format</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    150 objective‑type questions in 2½ hours (150 marks)
+                  </p>
+                </div>
+              </div>
+
+              <div style="display:flex;align-items:flex-start;padding:20px;
+                  background:#f8fafc;border-radius:8px;">
+                <div style="flex-shrink:0;width:32px;height:32px;background:#4299e1;
+                    color:white;border-radius:50%;display:flex;align-items:center;
+                    justify-content:center;font-weight:600;margin-right:16px;">3</div>
+                <div>
+                  <h3 style="margin:0 0 4px 0;color:#2d3748;font-weight:600;">Marking Scheme</h3>
+                  <p style="margin:0;color:#4a5568;position:relative">
+                    <span style="position:absolute;left:-10px;top:8px;width:4px;height:4px;background:#5d93fe;border-radius:50%;"></span>
+                    +1 for correct answers; penalty of –1/3 for each wrong answer</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+            <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Application Fees</h2>
+            <div style="overflow-x:auto;">
+              <table style="width:100%;border-collapse:collapse;background:white;border-radius:8px;overflow:auto;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
+                <thead>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;font-weight:500;"><b>Category</b></td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;"><b>Fee</b></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">General / OBC / EWS</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹600</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">SC / ST / PwD</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹400</td>
+                  </tr>
+                  <tr style="background:#fafafa;">
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#4a5568;">Correction Charges (if applicable)</td>
+                    <td style="padding:14px 16px;border-bottom:1px solid #f1f5f9;color:#2d3748;font-weight:500;">₹500</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section style="margin-bottom:40px;">
+  <h2 style="color:#2d3748;margin:0 0 20px 0;font-weight:600;padding-bottom:8px;border-bottom:2px solid #5d93fe;">Frequently Asked Questions</h2>
+  
+  <div style="display:grid;gap:16px;">
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #4299e1;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">How many vacancies are available?</summary>
+      <p style="margin:0;color:#4a5568;">RPSC has released a total of 281 vacancies for the post of Assistant Agriculture Engineer (AAE) under the Rajasthan Agriculture Department.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #38a169;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Who can apply for the AAE post?</summary>
+      <p style="margin:0;color:#4a5568;">Candidates with a Bachelor's degree in Agricultural Engineering and proficiency in Hindi and knowledge of Rajasthan culture are eligible to apply.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #ed8936;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What are the eligibility criteria?</summary>
+      <p style="margin:0;color:#4a5568;">Applicants must hold a B.Tech/B.E. in Agricultural Engineering. The age limit is 20 to 40 years as on 01.01.2026. Age relaxation is applicable as per Rajasthan government norms.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #d53f8c;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the selection process?</summary>
+      <p style="margin:0;color:#4a5568;">The selection process consists of a single written examination. There is no interview. Final selection is based solely on the marks obtained in the exam.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #805ad5;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the exam pattern?</summary>
+      <p style="margin:0;color:#4a5568;">The written exam includes 150 multiple-choice questions (MCQs) covering technical subjects and general knowledge. Each correct answer awards 1 mark. 1/3 mark is deducted for each wrong answer.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #2f855a;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Can candidates from other states apply?</summary>
+      <p style="margin:0;color:#4a5568;">Yes, candidates from other states can apply, but they will be considered under the General (Unreserved) category only and must fulfill all eligibility conditions.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #e53e3e;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">Is there any interview or skill test?</summary>
+      <p style="margin:0;color:#4a5568;">No, there is no interview or skill test. Selection will be based solely on the written examination marks.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #dd6b20;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the application fee?</summary>
+      <p style="margin:0;color:#4a5568;">Application fee is ₹600 for General/OBC (Creamy Layer)/EWS and ₹400 for SC/ST/OBC (Non-Creamy Layer)/PwD. Correction charges, if applicable, are ₹500.</p>
+    </details>
+
+    <details style="padding:20px;background:#f8fafc;border-radius:8px;border-left:4px solid #3182ce;">
+      <summary style="font-weight:600;color:#2d3748;cursor:pointer;margin-bottom:8px;">What is the salary for AAE posts?</summary>
+      <p style="margin:0;color:#4a5568;">Selected candidates will be appointed under Pay Matrix Level 14 as per the 7th Pay Commission, with allowances as applicable by the Rajasthan government.</p>
+    </details>
+
+  </div>
+                    </section>`,
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RSMSSB_REET_Mains_2025.png-1752906107938",
+        "author": {
+          "name": "Amit Sharma",
+          "avatar": "/images/authors/amit-sharma.jpg",
+          "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-21T08:00:00Z",
+        "updatedAt": "2025-07-21T12:00:00Z",
+        "readTime": 4,
+        "views": 10400,
+        "tags": [
+          "RPSC Recruitment 2025",
+          "Assistant Agriculture Engineer Vacancy",
+          "Rajasthan Agriculture Department Jobs",
+          "B.Tech Agriculture Engineer Jobs",
+          "RPSC AAE Notification",
+          "Sarkari Naukri Rajasthan",
+          "RPSC Online Form 2025",
+          "Govt Jobs for Agricultural Engineers",
+          "Rajasthan Engineer Vacancy",
+          "RPSC AAE Exam Pattern"
+        ],
+        "category": {
+          "name": "State Jobs",
+          "slug": "state-jobs"
+        },
+        "seoTitle": "RPSC Assistant Agriculture Engineer Recruitment 2025 – 281 Vacancies",
+        "seoDescription": "RPSC invites applications for 281 Assistant Agriculture Engineer posts in 2025. Check eligibility, age, application dates, syllabus, and apply online.",
+        "seoKeywords": [
+          "RPSC AAE Recruitment 2025",
+          "Assistant Agriculture Engineer Rajasthan",
+          "RPSC Agriculture Engineer Vacancy",
+          "RPSC Jobs 2025",
+          "B.Tech Agriculture Govt Jobs",
+          "Rajasthan AAE Notification 2025"
+        ]
+      },
       "rsmssb-reet-mains-2025-teacher-recruitment": {
         "id": "18",
         "title": "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2 – Apply Online",

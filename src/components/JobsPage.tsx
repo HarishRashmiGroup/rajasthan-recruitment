@@ -15,6 +15,19 @@ import { ChevronDownIcon } from 'lucide-react';
 
 const jobsData: Job[] = [
     {
+        id: 19,
+        title: "RPSC Assistant Agriculture Engineer Recruitment 2025",
+        slug: "rpsc-assistant-agriculture-engineer-recruitment-2025",
+        officialSiteUrl: "https://rpsc.rajasthan.gov.in",
+        logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
+        notificationDate: "July 18, 2025",
+        registrationStartDate: "July 22, 2025",
+        registrationEndDate: "August 20, 2025",
+        posts: 281,
+        level: "State",
+        examDate: "To Be Announced"
+    },
+    {
         id: 18,
         title: "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2",
         slug: "rsmssb-reet-mains-2025-teacher-recruitment",
