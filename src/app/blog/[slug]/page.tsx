@@ -301,7 +301,7 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
   </div>
                     </section>`,
-        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RSMSSB_REET_Mains_2025.png-1752906107938",
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC_Assistant_Agriculture_Engineer_Recruitment_2025.png-1753071870025",
         "author": {
           "name": "Amit Sharma",
           "avatar": "/images/authors/amit-sharma.jpg",
