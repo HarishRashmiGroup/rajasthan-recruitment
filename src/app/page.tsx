@@ -10,7 +10,7 @@ import { Box, Heading, Stack, Text } from "@chakra-ui/react"
 import { ChevronDownIcon } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Rajasthan Govt Jobs 2024 - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment",
+  title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
   description: "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
   keywords: [
     "Rajasthan government jobs",
@@ -22,13 +22,13 @@ export const metadata: Metadata = {
     "Sarkari Naukri",
     "Answer key Rajasthan",
     "Latest jobs Rajasthan",
-    "Rajasthan Recruitment 2024"
+    `Rajasthan Recruitment ${new Date().getFullYear()}`
   ],
   alternates: {
     canonical: "https://rajasthanrecruitment.in/"
   },
   openGraph: {
-    title: "Rajasthan Govt Jobs 2024 - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment",
+    title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
     description: "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
     url: "https://rajasthanrecruitment.in/",
     siteName: "Rajasthan Recruitment",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rajasthan Govt Jobs 2024 - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment",
+    title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
     description: "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
     images: ["https://rajasthanrecruitment.in/rr-home.jpg"]
   }
