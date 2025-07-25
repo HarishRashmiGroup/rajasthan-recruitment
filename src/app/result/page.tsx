@@ -57,6 +57,6 @@ export default async function JobsPage() {
           </Box>
         </Box>
       </Box>
-    </Box >
+    </Box>
   );
 }
