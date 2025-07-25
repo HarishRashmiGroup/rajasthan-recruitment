@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { ChakraUIProvider } from "@/lib/providers/chakra-provider";
 import { Navbar } from "@/components/NavBar";
 import Footer from "@/components/Footer";

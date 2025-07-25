@@ -1,7 +1,7 @@
 import { Image, Stack, Text } from "@chakra-ui/react";
 // import AnnouncementBar from "./AnnouncementBar";
 
-export const FrontPage = () => {
+export const LandingMotivation = () => {
     return (
         <>
             {/* <Box mt={4} w={'full'} position={'relative'}> */}

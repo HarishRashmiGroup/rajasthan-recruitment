@@ -1,18 +1,60 @@
+'use client'
 import { Tabs } from "@chakra-ui/react"
-import JobsPage from "./JobsPage"
+import { usePathname, useRouter } from "next/navigation"
+import { useEffect, useState } from "react"
+import FullScreenLoader from "../FullScreenLoader"
 
-export const HomePageTabs = () => {
+type TabKey = "jobs" | "admit" | "result" | "ansKey"
+
+const routeToTab: Record<string, TabKey> = {
+    "/": "jobs",
+    "/admit-card": "admit",
+    "/result": "result",
+    "/ans-key": "ansKey",
+}
+
+const tabToRoute: Record<TabKey, string> = {
+    jobs: "/",
+    admit: "/admit-card",
+    result: "/result",
+    ansKey: "/ans-key",
+}
+
+export const TabsNavigation = () => {
+    const pathname = usePathname()
+    const router = useRouter()
+    const [loading, setLoading] = useState(false);
+    const [activeTab, setActiveTab] = useState<TabKey>("jobs")
+
+    useEffect(() => {
+        const currentTab = routeToTab[pathname] || "jobs"
+        setActiveTab(currentTab)
+        setLoading(false);
+    }, [pathname])
+
+    const handleTabChange = (details: { value: string }) => {
+        setLoading(true);
+        const tabKey = details.value as TabKey
+        const route = tabToRoute[tabKey]
+        if (route) {
+            router.push(route)
+        }
+    }
+
     return (
-        <Tabs.Root defaultValue="jobs" variant="plain">
+        <Tabs.Root
+            value={activeTab}
+            onValueChange={handleTabChange}
+            variant="plain"
+            position={'relative'}
+        >
+            {loading && <FullScreenLoader />}
             <Tabs.List
                 bg="gray.100"
                 rounded="lg"
                 p="1"
-                zIndex={98}
                 w={'full'}
                 gap={2.5}
-                position="sticky"
-                top={'73px'}
             >
                 <Tabs.Trigger
                     value="jobs"
@@ -90,42 +132,6 @@ export const HomePageTabs = () => {
                     Ans Key
                 </Tabs.Trigger>
             </Tabs.List>
-            <Tabs.Content
-                value="jobs"
-                minH={'300px'}
-                p="0"
-                rounded="md"
-                mt="4"
-            >
-                <JobsPage />
-            </Tabs.Content>
-            <Tabs.Content
-                value="admit"
-                minH={'300px'}
-                p="0"
-                rounded="md"
-                mt="4"
-            >
-                No updates please check office notification.
-            </Tabs.Content>
-            <Tabs.Content
-                value="result"
-                minH={'300px'}
-                p="0"
-                rounded="md"
-                mt="4"
-            >
-                No updates please check office notification.
-            </Tabs.Content>
-            <Tabs.Content
-                value="ansKey"
-                minH={'300px'}
-                p="0"
-                rounded="md"
-                mt="4"
-            >
-                No updates please check office notification.
-            </Tabs.Content>
         </Tabs.Root>
     )
 }

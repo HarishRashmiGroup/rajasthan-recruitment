@@ -14,7 +14,7 @@ import {
     Briefcase,
     ExternalLink,
 } from 'lucide-react';
-import type { Job } from '../types';
+import { Job } from '@/lib/api/types';
 const JobCard: React.FC<{
     job: Job;
 }> = ({ job }) => {

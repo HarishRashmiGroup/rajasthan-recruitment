@@ -1,11 +1,13 @@
 'use client'
 import { Box, Button, Icon, Image, Text } from "@chakra-ui/react";
 import { UserPlus2 } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export const Navbar = () => {
+    const route = useRouter();
     return (
         <Box bg={'white'} position={'sticky'} w={'full'} top={0} zIndex={99} display={'flex'} justifyContent={'space-between'} p={4} borderBottom={'2px solid #5d93fe'}>
-            <Box display={'flex'} justifyContent={'left'}>
+            <Box display={'flex'} justifyContent={'left'}  onClick={()=>route.push('/')} cursor={'pointer'}>
                 <Box minW={'40px'}>
                     <Image src='/rr.png' alt="" boxSize="40px" mr={3} />
                 </Box>
