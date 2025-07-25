@@ -38,7 +38,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url, description = '
 
     const encodedUrl = encodeURIComponent(url);
     const encodedTitle = encodeURIComponent(title);
-    const encodedDescription = encodeURIComponent(description);
+    // const encodedDescription = encodeURIComponent(description);
 
     const shareLinks: Record<string, string> = {
         facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,

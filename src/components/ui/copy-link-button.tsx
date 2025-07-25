@@ -33,6 +33,7 @@ const CopyLinkButton: React.FC<CopyLinkButtonProps> = ({
             // });
             setTimeout(() => setCopied(false), 2000);
         } catch (err) {
+            console.log(err);
             // toast({
             //     title: "Failed to copy link",
             //     status: "error",
