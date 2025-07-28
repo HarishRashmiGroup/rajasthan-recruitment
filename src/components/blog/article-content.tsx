@@ -286,7 +286,7 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                                 key={idx}
                                 align="flex-start"
                                 p={2}
-                                bg={'gray.50'}
+                                // bg={'gray.50'}
                                 borderRadius="md"
                                 gap={4}
                             >
