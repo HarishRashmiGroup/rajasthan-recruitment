@@ -3432,43 +3432,6 @@ export const BLOG_POSTS: Record<string, BlogPost> =
                     ]
                 },
                 {
-                    "id": 1753357747645.0317,
-                    "type": "heading",
-                    "title": "Frequently Asked Questions (FAQs)",
-                    "content": [
-                        {
-                            "id": 1753357757615.1003,
-                            "type": "faq",
-                            "items": [
-                                {
-                                    "question": "Who can apply for these positions?",
-                                    "answer": "Indian Citizens and Overseas Citizens of India (OCIs) with relevant qualifications can apply."
-                                },
-                                {
-                                    "question": "Is NET compulsory for Assistant Professor positions?",
-                                    "answer": "Yes, NET qualification is mandatory unless the candidate holds a UGC-compliant Ph.D. degree."
-                                },
-                                {
-                                    "question": "Can final-year Ph.D. students apply?",
-                                    "answer": "Only if the Ph.D. degree is awarded before the application closing date."
-                                },
-                                {
-                                    "question": "Is it necessary to send hardcopy of application?",
-                                    "answer": "Yes, both online application and physical submission of hardcopy with documents is mandatory."
-                                },
-                                {
-                                    "question": "Is it necessary to send hardcopy of application?",
-                                    "answer": "Yes, both online application and physical submission of hardcopy with documents is mandatory."
-                                },
-                                {
-                                    "question": "Will travel allowance be provided for interview?",
-                                    "answer": "SC/ST/PWD candidates not in government service will get 2nd class train fare reimbursement."
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
                     "id": 1753357860119.3218,
                     "type": "heading",
                     "title": "Direct Links",
@@ -3502,6 +3465,43 @@ export const BLOG_POSTS: Record<string, BlogPost> =
                             "id": 1753357949793.4036,
                             "type": "paragraph",
                             "text": "If you aspire to teach in a central university, this is a valuable opportunity. CURAJ offers a research-oriented academic culture and excellent pay scales according to the 7th Pay Commission recommendations.\n\nThe university provides a conducive environment for academic growth and research activities. With departments across various disciplines, there are opportunities for interdisciplinary collaboration and innovative research."
+                        }
+                    ]
+                },
+                {
+                    "id": 1753357747645.0317,
+                    "type": "heading",
+                    "title": "Frequently Asked Questions (FAQs)",
+                    "content": [
+                        {
+                            "id": 1753357757615.1003,
+                            "type": "faq",
+                            "items": [
+                                {
+                                    "question": "Who can apply for these positions?",
+                                    "answer": "Indian Citizens and Overseas Citizens of India (OCIs) with relevant qualifications can apply."
+                                },
+                                {
+                                    "question": "Is NET compulsory for Assistant Professor positions?",
+                                    "answer": "Yes, NET qualification is mandatory unless the candidate holds a UGC-compliant Ph.D. degree."
+                                },
+                                {
+                                    "question": "Can final-year Ph.D. students apply?",
+                                    "answer": "Only if the Ph.D. degree is awarded before the application closing date."
+                                },
+                                {
+                                    "question": "Is it necessary to send hardcopy of application?",
+                                    "answer": "Yes, both online application and physical submission of hardcopy with documents is mandatory."
+                                },
+                                {
+                                    "question": "Is it necessary to send hardcopy of application?",
+                                    "answer": "Yes, both online application and physical submission of hardcopy with documents is mandatory."
+                                },
+                                {
+                                    "question": "Will travel allowance be provided for interview?",
+                                    "answer": "SC/ST/PWD candidates not in government service will get 2nd class train fare reimbursement."
+                                }
+                            ]
                         }
                     ]
                 }
