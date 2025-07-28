@@ -143,14 +143,14 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                 return (
                     <Box
                         key={itemId}
-                        mb={6}
-                        pt={4}
-                        pb={4}
+                        // mb={6}
+                        // pt={4}
+                        // pb={4}
                         pl={4}
-                        bg={'teal.50'}
+                        // bg={'teal.50'}
                         borderRadius="md"
-                        borderLeft="4px solid"
-                        borderColor="teal.400"
+                        // borderLeft="4px solid"
+                        // borderColor="teal.400"   
                     >
                         <List.Root as={ListComponent} gap={2} pl={4}>
                             {(contentItem.items as string[]).map((item, idx) => (
