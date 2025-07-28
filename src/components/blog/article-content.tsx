@@ -54,7 +54,7 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                         mb={4}
                         lineHeight="tall"
                         color={textColor}
-                        fontSize="md"
+                        fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
                         whiteSpace="pre-wrap"
                     >
                         {contentItem.text}
@@ -149,8 +149,8 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                         pl={4}
                         // bg={'teal.50'}
                         borderRadius="md"
-                        // borderLeft="4px solid"
-                        // borderColor="teal.400"   
+                    // borderLeft="4px solid"
+                    // borderColor="teal.400"   
                     >
                         <List.Root as={ListComponent} gap={2} pl={4}>
                             {(contentItem.items as string[]).map((item, idx) => (

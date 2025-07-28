@@ -61,16 +61,17 @@ export default async function BlogPostPage(props: PageProps) {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Box minH="100vh">
-        <Breadcrumb
-          items={[
-            { label: 'Home', href: '/' },
-            { label: 'Blog', href: '/blog' },
-            { label: post.category.name, href: `/category/${post.category.slug}` },
-            { label: post.title }
-          ]}
-        />
-
+      <Box minH="100vh" position={'relative'}>
+        <Box bg={'white'} position={'sticky'} top={"73.5px"}>
+          <Breadcrumb
+            items={[
+              { label: 'Home', href: '/' },
+              { label: 'Blog', href: '/blog' },
+              { label: post.category.name, href: `/category/${post.category.slug}` },
+              { label: post.title }
+            ]}
+          />
+        </Box>
         <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
           <Grid templateColumns={{ base: '1fr', lg: '3fr 1fr' }} gap={8}>
             <Box as="article" overflow={'auto'}>
