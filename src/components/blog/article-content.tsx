@@ -12,7 +12,6 @@ import {
     HStack,
     Circle
 } from '@chakra-ui/react';
-import SectionWrapper from './section-wrapper';
 
 export interface ContentItem {
     id: string | number;
@@ -379,13 +378,6 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                             >
                                 {section.title}
                             </Heading>
-                            <Box display={{base: 'none', lg: 'box'}}>
-                                <SectionWrapper
-                                    className=''
-                                    title={section.title}
-                                    sectionId={section.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}
-                                >{null}</SectionWrapper>
-                            </Box>
                             <VStack align="stretch" gap={4}>
                                 {section.content?.map(contentItem => renderContent(contentItem))}
                             </VStack>
