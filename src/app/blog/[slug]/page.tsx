@@ -83,7 +83,7 @@ export default async function BlogPostPage(props: PageProps) {
 
             <Box as="aside" position="relative">
               <Box position={{ base: 'auto', md: 'sticky' }} top={{ base: 'auto', md: '103px' }}>
-                <Box display={{ sm: 'none', lg: 'block' }}><TableOfContents content={post.content} /></Box>
+                <Box display={{ base: 'none', sm: 'none', md: 'none', lg: 'block' }}><TableOfContents content={post.content} /></Box>
                 <ShareButtons
                   title={post.title}
                   description={post.excerpt}
