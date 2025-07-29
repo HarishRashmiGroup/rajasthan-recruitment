@@ -196,7 +196,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
             <Box
                 ref={tocContainerRef}
                 position="relative"
-                overflow="auto"
+                overflowY="auto"
                 maxH="40vh"
                 css={{
                     '&::-webkit-scrollbar': { width: '4px' },
@@ -231,11 +231,11 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
                                     borderLeftColor={isActive ? 'blue.500' : 'transparent'}
                                     _hover={{
                                         bg: isActive ? 'blue.100' : 'gray.50',
-                                        transform: 'translateX(4px)',
+                                        // transform: 'translateX(4px)',
                                         textDecoration: 'none'
                                     }}
                                     _active={{
-                                        transform: 'translateX(2px)'
+                                        // transform: 'translateX(2px)'
                                     }}
                                     cursor="pointer"
                                 >
