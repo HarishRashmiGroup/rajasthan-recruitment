@@ -30,7 +30,7 @@ const BlogList: React.FC = async () => {
                         </Box>
                     ))}
                 </SimpleGrid>
-                <Box maxW={'250px'} display={{ base: 'none', md: 'block' }} position={'relative'}>
+                <Box maxW={'250px'} minW={'100px'} display={{ base: 'none', md: 'block' }} position={'relative'}>
                     <Image alt='Advertisement' borderRadius={'md'} zIndex={2} position={{ base: 'relative', md: 'sticky', lg: 'sticky' }} top={{ base: 'auto', md: '102px' }} src="rr_adv.png"></Image>
                 </Box>
                 <Box position={'absolute'} w={'full'} display={'flex'} justifyContent={'center'} bottom={-12}>
