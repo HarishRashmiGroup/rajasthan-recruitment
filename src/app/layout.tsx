@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Rajasthan Recruitment",
     images: [
       {
-        url: "https://rajasthanrecruitment.in/logo.png", 
+        url: "https://rajasthanrecruitment.in/logo.png",
         width: 1200,
         height: 630,
         alt: "Rajasthan Recruitment Logo",
@@ -53,7 +53,7 @@ export default function RootLayout({
           })}
         </Script>
       </head>
-      <body>
+      <body style={{ scrollBehavior: 'smooth'}}>
         <ChakraUIProvider>
           <Box w="full" display="flex" justifyContent="center">
             <Box
