@@ -14,8 +14,7 @@ import { ArticleContentProps } from './article-content';
 const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
     const [activeSection, setActiveSection] = useState<string | null>(null);
     const tocContainerRef = useRef<HTMLDivElement | null>(null);
-    const manualScrollRef = useRef(false);
-    const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+    const manualScrollRef = useRef(false); 
 
     const headings = useMemo(
         () => content.sections.filter(section => section.type === 'heading'),
@@ -42,12 +41,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
         const element = document.getElementById(anchor);
         if (!element) return;
 
-        // Clear any existing timeout
-        if (scrollTimeoutRef.current) {
-            clearTimeout(scrollTimeoutRef.current);
-        }
-
-        manualScrollRef.current = true;
+        manualScrollRef.current = true; 
         setActiveSection(anchor);
 
         element.scrollIntoView({
@@ -73,10 +67,9 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
             }
         }
 
-        // Reset manual scroll flag after a shorter delay
-        scrollTimeoutRef.current = setTimeout(() => {
+        setTimeout(() => {
             manualScrollRef.current = false;
-        }, 300); // Reduced from 1000ms to 300ms
+        }, 1000);
     }, []);
 
     useEffect(() => {
@@ -84,40 +77,30 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
 
         const observer = new IntersectionObserver(
             entries => {
-                // Don't update if we're in the middle of a manual scroll
                 if (manualScrollRef.current) return;
 
-                // Find the most visible section
-                let mostVisible: { ratio: number; id: string | null; top: number } = {
+                let mostVisible: { ratio: number; id: string | null } = {
                     ratio: 0,
-                    id: null,
-                    top: Infinity
+                    id: null
                 };
 
                 entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const rect = entry.boundingClientRect;
-                        
-                        // Prefer sections that are more visible or closer to the top
-                        if (entry.intersectionRatio > mostVisible.ratio || 
-                            (entry.intersectionRatio === mostVisible.ratio && rect.top < mostVisible.top)) {
-                            mostVisible = {
-                                ratio: entry.intersectionRatio,
-                                id: entry.target.id,
-                                top: rect.top
-                            };
-                        }
+                    if (entry.isIntersecting && entry.intersectionRatio > mostVisible.ratio) {
+                        mostVisible = {
+                            ratio: entry.intersectionRatio,
+                            id: entry.target.id
+                        };
                     }
                 });
 
-                if (mostVisible.id && mostVisible.id !== activeSection) {
+                if (mostVisible.id) {
                     setActiveSection(mostVisible.id);
                 }
             },
             {
                 root: null,
-                rootMargin: '-10% 0px -60% 0px', // Better margin for detection
-                threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0]
+                rootMargin: '0px 0px -60% 0px',
+                threshold: [0.1, 0.25, 0.5, 0.75, 1.0]
             }
         );
 
@@ -128,36 +111,17 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
 
         return () => {
             observer.disconnect();
-            if (scrollTimeoutRef.current) {
-                clearTimeout(scrollTimeoutRef.current);
-            }
         };
-    }, [headingsWithAnchors, activeSection]);
+    }, [headingsWithAnchors]);
 
-    // Add scroll event listener to detect when user manually scrolls
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
-        let scrollTimer: NodeJS.Timeout;
-
-        const handleScroll = () => {
-            // If we detect scrolling while manual scroll is true, it means the smooth scroll finished
-            // and user is now manually scrolling
-            if (manualScrollRef.current) {
-                clearTimeout(scrollTimer);
-                scrollTimer = setTimeout(() => {
-                    manualScrollRef.current = false;
-                }, 100);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll, { passive: true });
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-            clearTimeout(scrollTimer);
-        };
-    }, []);
+        const hash = window.location.hash.substring(1);
+        if (hash && headingsWithAnchors.some(h => h.anchor === hash)) {
+            setActiveSection(hash);
+        }
+    }, [headingsWithAnchors]);
 
     const progressData = useMemo(() => {
         if (!activeSection)
@@ -196,7 +160,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
             <Box
                 ref={tocContainerRef}
                 position="relative"
-                overflowY="auto"
+                overflow="auto"
                 maxH="40vh"
                 css={{
                     '&::-webkit-scrollbar': { width: '4px' },
