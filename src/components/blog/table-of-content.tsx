@@ -34,7 +34,40 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
         [headings, generateAnchor]
     );
 
-    // ✅ Handle TOC click
+    const scrollTocToActiveItem = useCallback((anchor: string) => {
+        // Add a small delay to ensure DOM is ready
+        setTimeout(() => {
+            if (!tocContainerRef.current) return;
+
+            const tocItem = tocContainerRef.current.querySelector(
+                `[data-toc-item="${anchor}"]`
+            ) as HTMLElement;
+            
+            if (!tocItem) return;
+
+            const container = tocContainerRef.current;
+            const containerRect = container.getBoundingClientRect();
+            const itemRect = tocItem.getBoundingClientRect();
+            
+            // Calculate relative positions
+            const itemRelativeTop = itemRect.top - containerRect.top + container.scrollTop;
+            const containerHeight = container.clientHeight;
+            const itemHeight = itemRect.height;
+            
+            // Calculate ideal scroll position to center the item
+            const idealScroll = itemRelativeTop - containerHeight / 2 + itemHeight / 2;
+            
+            // Ensure we don't scroll beyond bounds
+            const maxScroll = container.scrollHeight - containerHeight;
+            const finalScroll = Math.max(0, Math.min(idealScroll, maxScroll));
+
+            container.scrollTo({
+                top: finalScroll,
+                behavior: 'smooth'
+            });
+        }, 100); // Small delay to ensure DOM is ready
+    }, []);
+
     const handleSectionClick = useCallback((anchor: string) => {
         if (typeof window === 'undefined') return;
 
@@ -43,33 +76,20 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
 
         setActiveSection(anchor);
 
-        window.history.replaceState(null, '', `#${anchor}`);
+        // Use requestAnimationFrame to ensure state update is processed
+        requestAnimationFrame(() => {
+            window.history.replaceState(null, '', `#${anchor}`);
 
-        element.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+
+            // Scroll TOC after a short delay to allow for smooth scrolling
+            scrollTocToActiveItem(anchor);
         });
+    }, [scrollTocToActiveItem]);
 
-        // Scroll TOC container so active item stays centered
-        if (tocContainerRef.current) {
-            const tocItem = tocContainerRef.current.querySelector(
-                `[data-toc-item="${anchor}"]`
-            ) as HTMLElement;
-            if (tocItem) {
-                const container = tocContainerRef.current;
-                const itemTop = tocItem.offsetTop;
-                const containerHeight = container.offsetHeight;
-                const idealScroll = itemTop - containerHeight / 2 + tocItem.offsetHeight / 2;
-
-                container.scrollTo({
-                    top: idealScroll,
-                    behavior: 'smooth'
-                });
-            }
-        }
-    }, []);
-
-    // ✅ Update activeSection when scrolling (observer)
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
@@ -89,38 +109,51 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
                     }
                 });
 
-                if (mostVisible.id) {
+                if (mostVisible.id && mostVisible.id !== activeSection) {
                     setActiveSection(mostVisible.id);
                 }
             },
             {
                 root: null,
-                rootMargin: '0px 0px -60% 0px', // triggers a bit before section leaves
+                rootMargin: '0px 0px -60% 0px',
                 threshold: [0.1, 0.25, 0.5, 0.75, 1.0]
             }
         );
 
-        headingsWithAnchors.forEach(heading => {
-            const el = document.getElementById(heading.anchor);
-            if (el) observer.observe(el);
-        });
+        // Add a delay to ensure all elements are rendered
+        const observeElements = () => {
+            headingsWithAnchors.forEach(heading => {
+                const el = document.getElementById(heading.anchor);
+                if (el) observer.observe(el);
+            });
+        };
+
+        // Use requestAnimationFrame to ensure DOM is ready
+        requestAnimationFrame(observeElements);
 
         return () => {
             observer.disconnect();
         };
-    }, [headingsWithAnchors]);
+    }, [headingsWithAnchors, activeSection]);
 
-    // ✅ Initialize from URL hash
+    // Auto-scroll TOC when active section changes (from intersection observer)
+    useEffect(() => {
+        if (activeSection) {
+            scrollTocToActiveItem(activeSection);
+        }
+    }, [activeSection, scrollTocToActiveItem]);
+
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
         const hash = window.location.hash.substring(1);
         if (hash && headingsWithAnchors.some(h => h.anchor === hash)) {
             setActiveSection(hash);
+            // Scroll to the TOC item after component mounts
+            setTimeout(() => scrollTocToActiveItem(hash), 500);
         }
-    }, [headingsWithAnchors]);
+    }, [headingsWithAnchors, scrollTocToActiveItem]);
 
-    // ✅ Progress bar calculation
     const progressData = useMemo(() => {
         if (!activeSection)
             return { current: 0, total: headings.length, percentage: 0 };
@@ -192,11 +225,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
                                     borderLeftColor={isActive ? 'blue.500' : 'transparent'}
                                     _hover={{
                                         bg: isActive ? 'blue.100' : 'gray.50',
-                                        // transform: 'translateX(4px)',
                                         textDecoration: 'none'
-                                    }}
-                                    _active={{
-                                        // transform: 'translateX(2px)'
                                     }}
                                     cursor="pointer"
                                 >
