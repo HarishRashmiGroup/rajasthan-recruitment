@@ -14,7 +14,6 @@ import { ArticleContentProps } from './article-content';
 const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
     const [activeSection, setActiveSection] = useState<string | null>(null);
     const tocContainerRef = useRef<HTMLDivElement | null>(null);
-    const manualScrollRef = useRef(false); 
 
     const headings = useMemo(
         () => content.sections.filter(section => section.type === 'heading'),
@@ -35,20 +34,23 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
         [headings, generateAnchor]
     );
 
+    // ✅ Handle TOC click
     const handleSectionClick = useCallback((anchor: string) => {
         if (typeof window === 'undefined') return;
 
         const element = document.getElementById(anchor);
         if (!element) return;
 
-        manualScrollRef.current = true; 
         setActiveSection(anchor);
+
+        window.history.replaceState(null, '', `#${anchor}`);
 
         element.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
         });
 
+        // Scroll TOC container so active item stays centered
         if (tocContainerRef.current) {
             const tocItem = tocContainerRef.current.querySelector(
                 `[data-toc-item="${anchor}"]`
@@ -57,8 +59,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
                 const container = tocContainerRef.current;
                 const itemTop = tocItem.offsetTop;
                 const containerHeight = container.offsetHeight;
-                const idealScroll =
-                    itemTop - containerHeight / 2 + tocItem.offsetHeight / 2;
+                const idealScroll = itemTop - containerHeight / 2 + tocItem.offsetHeight / 2;
 
                 container.scrollTo({
                     top: idealScroll,
@@ -66,19 +67,14 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
                 });
             }
         }
-
-        setTimeout(() => {
-            manualScrollRef.current = false;
-        }, 1000);
     }, []);
 
+    // ✅ Update activeSection when scrolling (observer)
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
         const observer = new IntersectionObserver(
             entries => {
-                if (manualScrollRef.current) return;
-
                 let mostVisible: { ratio: number; id: string | null } = {
                     ratio: 0,
                     id: null
@@ -99,7 +95,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
             },
             {
                 root: null,
-                rootMargin: '0px 0px -60% 0px',
+                rootMargin: '0px 0px -60% 0px', // triggers a bit before section leaves
                 threshold: [0.1, 0.25, 0.5, 0.75, 1.0]
             }
         );
@@ -114,6 +110,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
         };
     }, [headingsWithAnchors]);
 
+    // ✅ Initialize from URL hash
     useEffect(() => {
         if (typeof window === 'undefined') return;
 
@@ -123,6 +120,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
         }
     }, [headingsWithAnchors]);
 
+    // ✅ Progress bar calculation
     const progressData = useMemo(() => {
         if (!activeSection)
             return { current: 0, total: headings.length, percentage: 0 };
@@ -131,8 +129,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
             h => h.anchor === activeSection
         );
         const current = currentIndex >= 0 ? currentIndex + 1 : 0;
-        const percentage =
-            headings.length > 0 ? (current / headings.length) * 100 : 0;
+        const percentage = headings.length > 0 ? (current / headings.length) * 100 : 0;
 
         return { current, total: headings.length, percentage };
     }, [activeSection, headings.length, headingsWithAnchors]);
