@@ -3542,5 +3542,518 @@ export const BLOG_POSTS: Record<string, BlogPost> =
             "Central University Teaching Jobs",
             "CURAJ Apply Online"
         ]
+    },
+    "ib-acio-recruitment-2025": {
+        "id": "13",
+        "title": "IB ACIO Recruitment 2025: Apply for Assistant Central Intelligence Officer Posts",
+        "slug": "ib-acio-recruitment-2025",
+        "excerpt": "The IB ACIO (Assistant Central Intelligence Officer) exam is one of the most prestigious recruitment opportunities under the Ministry of Home Affairs (MHA). This guide provides candidates with everything they need to know—eligibility, exam pattern, syllabus, preparation strategy, salary details, application process, and FAQs. If you’re aspiring to join the Intelligence Bureau, this article will help you plan step by step and maximize your chances of success.",
+        "description": "The Intelligence Bureau (IB), India’s premier internal intelligence agency under the Ministry of Home Affairs (MHA), conducts recruitment for the post of Assistant Central Intelligence Officer (ACIO) Grade-II/Executive. This job is one of the most prestigious opportunities for graduates aspiring to join the nation’s intelligence and security framework.",
+        "content": {
+            "sections": [
+                {
+                    "id": 1753846222639,
+                    "type": "heading",
+                    "title": "Overview of IB ACIO",
+                    "content": [
+                        {
+                            "id": 1753846299725.104,
+                            "type": "list",
+                            "items": [
+                                "Post Name: Assistant Central Intelligence Officer (ACIO) Grade-II/Executive.",
+                                "Conducting Body: Ministry of Home Affairs (MHA).",
+                                "Level of Job: Group C, Gazetted, Non-Ministerial.",
+                                "Nature of Work: Intelligence collection, analysis, internal security, handling sensitive operations, coordination with law enforcement.",
+                                "Job Location: Across India (transferable job)."
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753846403587.4065,
+                    "type": "heading",
+                    "title": "Key Dates (Tentative for 2025)",
+                    "content": [
+                        {
+                            "id": 1753846416269.274,
+                            "type": "table",
+                            "headers": [
+                                "Entity",
+                                "Date"
+                            ],
+                            "rows": [
+                                [
+                                    "Notification Release",
+                                    "18 July 2025"
+                                ],
+                                [
+                                    "Application Last Date",
+                                    "10 August 2025... Read more at: https://www.bankersadda.com/ib-acio-exam-date-2025"
+                                ],
+                                [
+                                    "Tier I Exam",
+                                    "Dec 2025 / Jan 2026"
+                                ],
+                                [
+                                    "Tier II Exam",
+                                    "Feb–March 2026"
+                                ],
+                                [
+                                    "Interview",
+                                    "April 2026"
+                                ],
+                                [
+                                    "Final Result",
+                                    "Mid 2026"
+                                ]
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1753846733429.5793,
+                    "type": "heading",
+                    "title": "Eligibility Criteria",
+                    "content": [
+                        {
+                            "id": 1753846748649.7476,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Nationality"
+                        },
+                        {
+                            "id": 1753846757681.8691,
+                            "type": "list",
+                            "items": [
+                                "Must be a citizen of India."
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753846765040.0044,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Educational Qualification"
+                        },
+                        {
+                            "id": 1753846773430.6272,
+                            "type": "list",
+                            "items": [
+                                "Graduation in any discipline from a recognized university."
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753846781494.0693,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Age Limit"
+                        },
+                        {
+                            "id": 1753846792545.2842,
+                            "type": "list",
+                            "items": [
+                                "Minimum: 18 years",
+                                "Maximum: 27 years",
+                                "Relaxations: SC/ST (5 years), OBC (3 years), PwD (10 years)."
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753846823136.6448,
+                    "type": "heading",
+                    "title": "Selection Process",
+                    "content": [
+                        {
+                            "id": 1753846836933.347,
+                            "type": "paragraph",
+                            "text": "The recruitment has three stages:"
+                        },
+                        {
+                            "id": 1753846841929.5413,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Tier I – Objective Test (100 Marks, 1 Hour)"
+                        },
+                        {
+                            "id": 1753846849608.374,
+                            "type": "list",
+                            "items": [
+                                "General Awareness (20 Qs)",
+                                "Quantitative Aptitude (20 Qs)",
+                                "Logical/Analytical Ability (20 Qs)",
+                                "English Language (20 Qs)",
+                                "General Studies (20 Qs)"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753846886011.1172,
+                            "type": "note",
+                            "text": "Negative marking: 0.25 marks per wrong answer.",
+                            "noteType": "warning"
+                        },
+                        {
+                            "id": 1753846898067.9695,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Tier II – Descriptive Test (50 Marks, 1 Hour)"
+                        },
+                        {
+                            "id": 1753846907213.497,
+                            "type": "list",
+                            "items": [
+                                "Essay (30 Marks) – Current affairs / Security / Socio-political topics.",
+                                "English comprehension & précis writing (20 Marks)."
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753846924341.9937,
+                            "type": "heading",
+                            "level": "h2",
+                            "text": "Interview – 100 Marks"
+                        },
+                        {
+                            "id": 1753846932900.612,
+                            "type": "list",
+                            "items": [
+                                "Personality test to assess confidence, intelligence, and suitability for intelligence work."
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753846937747.247,
+                    "type": "heading",
+                    "title": "Salary and Perks",
+                    "content": [
+                        {
+                            "id": 1753846953502.8315,
+                            "type": "list",
+                            "items": [
+                                "Pay Scale: Level 7 (₹44,900 – ₹1,42,400)",
+                                "Basic Pay: ~₹44,900",
+                                "In-hand Salary: ~₹55,000 – ₹65,000 (with allowances)",
+                                "Perks: Special security allowances, government accommodation, job stability, career growth."
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753846991422.1484,
+                    "type": "heading",
+                    "title": "Syllabus Breakdown",
+                    "content": [
+                        {
+                            "id": 1753847002563.0662,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "General Awareness"
+                        },
+                        {
+                            "id": 1753847012220.2124,
+                            "type": "list",
+                            "items": [
+                                "Current Affairs (National & International)",
+                                "Indian Polity, Constitution",
+                                "History & Geography of India",
+                                "Economics & Schemes",
+                                "Security & Intelligence-related developments"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847060830.7275,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Quantitative Aptitude"
+                        },
+                        {
+                            "id": 1753847071772.4402,
+                            "type": "list",
+                            "items": [
+                                "Simplification, Ratio, Percentage",
+                                "Profit & Loss, SI & CI",
+                                "Speed, Time, Distance",
+                                "Probability, Permutations, Statistics"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847106241.141,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Logical Reasoning"
+                        },
+                        {
+                            "id": 1753847122528.835,
+                            "type": "list",
+                            "items": [
+                                "Coding-Decoding",
+                                "Puzzles, Blood Relations",
+                                "Syllogism, Series",
+                                "Seating Arrangement"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847149642.2942,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "English"
+                        },
+                        {
+                            "id": 1753847159612.419,
+                            "type": "list",
+                            "items": [
+                                "Grammar, Vocabulary",
+                                "Synonyms/Antonyms",
+                                "Reading Comprehension",
+                                "Cloze Test, Error Detection"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847185145.0752,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Essay & Writing"
+                        },
+                        {
+                            "id": 1753847195311.8838,
+                            "type": "list",
+                            "items": [
+                                "Cybersecurity, Terrorism, Social Media & Security",
+                                "India’s Foreign Policy, Border Security Issues",
+                                "Internal Security Challenges"
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753847220916.13,
+                    "type": "heading",
+                    "title": "Preparation Strategy",
+                    "content": [
+                        {
+                            "id": 1753847240186.7761,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Phase-wise Plan"
+                        },
+                        {
+                            "id": 1753847246672.543,
+                            "type": "list",
+                            "items": [
+                                "Tier I (3–4 months focus) – Daily practice of reasoning & aptitude, read newspapers for GA.",
+                                "Tier II (1–2 months focus) – Write 2–3 essays per week, practice précis writing.",
+                                "Interview (final stage) – Work on confidence, body language, and awareness of national security issues."
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847268548.8555,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Daily Routine (Ideal)"
+                        },
+                        {
+                            "id": 1753847280351.2512,
+                            "type": "list",
+                            "items": [
+                                "2 hrs Current Affairs & GK",
+                                "2 hrs Quant & Reasoning practice",
+                                "1 hr English (grammar + reading)",
+                                "1 hr Writing practice"
+                            ],
+                            "listType": "unordered"
+                        },
+                        {
+                            "id": 1753847304670.582,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Recommended Books"
+                        },
+                        {
+                            "id": 1753847314566.9822,
+                            "type": "list",
+                            "items": [
+                                "Lucent’s General Knowledge",
+                                "Quantitative Aptitude by R.S. Aggarwal",
+                                "Analytical Reasoning by M.K. Pandey",
+                                "Wren & Martin English Grammar",
+                                "The Hindu / Indian Express (editorial section)"
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753847354107.205,
+                    "type": "heading",
+                    "title": "Common Mistakes to Avoid",
+                    "content": [
+                        {
+                            "id": 1753847362157.6863,
+                            "type": "list",
+                            "items": [
+                                "Ignoring Essay Writing (many fail in Tier II because of poor writing).",
+                                "Overemphasis on one section; balance is key.",
+                                "Neglecting current affairs & security-related issues.",
+                                "Leaving practice for descriptive paper till the end."
+                            ],
+                            "listType": "unordered"
+                        }
+                    ]
+                },
+                {
+                    "id": 1753847427290.0732,
+                    "type": "heading",
+                    "title": "How to Apply for IB ACIO Exam",
+                    "content": [
+                        {
+                            "id": 1753847488618.6135,
+                            "type": "paragraph",
+                            "text": "The application process for IB ACIO recruitment is completely online through the official Ministry of Home Affairs (MHA) website. Candidates should keep all required documents and details ready before applying."
+                        },
+                        {
+                            "id": 1753847498072.247,
+                            "type": "heading",
+                            "level": "h3",
+                            "text": "Step-by-Step Guide"
+                        },
+                        {
+                            "id": 1753847505849.4612,
+                            "type": "process",
+                            "steps": [
+                                {
+                                    "title": "Visit Official Website",
+                                    "description": "Go to https://www.mha.gov.in\nNavigate to the “What’s New” or “Vacancy/Notification” section.\nClick on the IB ACIO Recruitment 2025 notification link.",
+                                    "number": 1
+                                },
+                                {
+                                    "title": "Read Notification Carefully",
+                                    "description": "Check eligibility, important dates, and exam instructions.\nDownload the notification PDF for future reference.",
+                                    "number": 2
+                                },
+                                {
+                                    "title": "Click on “Apply Online”",
+                                    "description": "You’ll be redirected to the online application portal.",
+                                    "number": 3
+                                },
+                                {
+                                    "title": "Registration",
+                                    "description": "Enter basic details: Name, Email, Mobile number, Date of Birth.\nCreate login credentials (Registration ID & Password).",
+                                    "number": 4
+                                },
+                                {
+                                    "title": "Fill Application Form",
+                                    "description": "Enter personal details (address, category, etc.).\nProvide educational qualifications.\nSelect exam centers (usually 3 preferences).",
+                                    "number": 5
+                                },
+                                {
+                                    "title": "Upload Documents",
+                                    "description": "Recent passport-size photograph (JPEG, size usually 20–50KB).\nSignature (JPEG, size usually 10–20KB).\nID proof details (Aadhaar, PAN, Voter ID, etc.).",
+                                    "number": 6
+                                },
+                                {
+                                    "title": "Pay Application Fee",
+                                    "description": "General / OBC / EWS: ₹450 (Application + Processing Fee)\nSC / ST / Female: ₹50 (Processing Fee only)\nPayment Mode: Net Banking / Credit Card / Debit Card / UPI / E-Challan.",
+                                    "number": 7
+                                },
+                                {
+                                    "title": "Final Submission",
+                                    "description": "Review all entered details.\nClick Submit.\nTake a printout of application form & fee receipt for future reference.",
+                                    "number": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 1753847394143.0042,
+                    "type": "heading",
+                    "title": "Final Words",
+                    "content": [
+                        {
+                            "id": 1753847422733.8054,
+                            "type": "paragraph",
+                            "text": "The IB ACIO exam is a golden opportunity for candidates who wish to serve the nation in a prestigious intelligence role. Success requires a balanced preparation strategy—mastering aptitude and reasoning, staying updated with current affairs, and sharpening writing & analytical skills.\n\nIf you’re disciplined, focused, and motivated, IB ACIO can open doors to an extraordinary career in national security."
+                        }
+                    ]
+                },
+                {
+                    "id": 1753847649928.7607,
+                    "type": "heading",
+                    "title": "Frequently asked questions",
+                    "content": [
+                        {
+                            "id": 1753847656364.705,
+                            "type": "faq",
+                            "items": [
+                                {
+                                    "question": "Can final-year students apply?",
+                                    "answer": "Yes, if you have proof of graduation before document verification."
+                                },
+                                {
+                                    "question": "Is this job risky?",
+                                    "answer": "It involves sensitive intelligence work but also offers strong training and security support."
+                                },
+                                {
+                                    "question": "Can women apply for IB ACIO?",
+                                    "answer": "Yes, it’s open to all genders."
+                                },
+                                {
+                                    "question": "How many attempts are allowed?",
+                                    "answer": "No fixed attempts; apply until you cross age limit."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "featuredImage": "https://blackbuck.blob.core.windows.net/blackbucks-media/IB_ACIO_Recruitment_2025_Apply_for_Assistant_Central_Intelligence_Officer_Posts.png-1753849541071",
+        "author": {
+            "name": "Amit Sharma",
+            "avatar": "/images/authors/amit-sharma.jpg",
+            "bio": "Expert in Rajasthan government recruitment with 10+ years of advisory experience."
+        },
+        "publishedAt": "2025-07-30T08:00:00Z",
+        "updatedAt": "2025-07-30T10:30:00Z",
+        "readTime": 10,
+        "views": 8450,
+        "tags": [
+            "IB ACIO",
+            "Intelligence Bureau Jobs",
+            "MHA Recruitment",
+            "IB ACIO Notification",
+            "IB ACIO Apply Online",
+            "Government Jobs 2025",
+            "Graduates Government Jobs",
+            "Defence and Security Jobs",
+            "IB ACIO Exam Pattern",
+            "IB Recruitment 2025"
+        ],
+        "category": {
+            "name": "Central Jobs",
+            "slug": "central-jobs"
+        },
+        "seoTitle": "IB ACIO Recruitment 2025: Apply Online for Assistant Central Intelligence Officer Posts",
+        "seoDescription": "IB ACIO Recruitment 2025 is open for Assistant Central Intelligence Officer (ACIO) posts under the Intelligence Bureau, MHA. Check eligibility, exam pattern, salary, important dates, and how to apply online.",
+        "seoKeywords": [
+            "IB ACIO Recruitment 2025",
+            "IB ACIO Notification",
+            "IB ACIO Apply Online",
+            "Intelligence Bureau Jobs 2025",
+            "MHA IB ACIO Exam Pattern"
+        ]
     }
 }

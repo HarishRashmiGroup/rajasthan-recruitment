@@ -2,6 +2,18 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
     {
+        id: 13,
+        title: "IB ACIO Recruitment 2025: Assistant Central Intelligence Officer Posts",
+        slug: "ib-acio-recruitment-2025",
+        officialSiteUrl: "https://cdn.digialm.com/EForms/configuredHtml/1258/94319/Index.html",
+        logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/IB-Logo..webp-1753849007932",
+        notificationDate: "July 18, 2025",
+        registrationEndDate: "August 10, 2025",
+        posts: 3717,
+        level: "Grade 2",
+        examDate: "To Be Announced"
+    },
+    {
         id: 19,
         title: "RPSC Assistant Agriculture Engineer Recruitment 2025",
         slug: "rpsc-assistant-agriculture-engineer-recruitment-2025",
