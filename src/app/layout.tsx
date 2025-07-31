@@ -43,6 +43,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <Script id="organization-logo" type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -53,7 +55,7 @@ export default function RootLayout({
           })}
         </Script>
       </head>
-      <body style={{ scrollBehavior: 'smooth'}}>
+      <body style={{ scrollBehavior: 'smooth' }}>
         <ChakraUIProvider>
           <Box w="full" display="flex" justifyContent="center">
             <Box
