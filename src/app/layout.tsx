@@ -54,6 +54,7 @@ export default function RootLayout({
             logo: "https://rajasthanrecruitment.in/logo.png",
           })}
         </Script>
+        <meta name="google-adsense-account" content="ca-pub-3383607348636418"></meta>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383607348636418"
           crossOrigin="anonymous"></script>
       </head>
