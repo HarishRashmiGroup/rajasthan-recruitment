@@ -70,7 +70,6 @@ async function App() {
         >
           Latest Government Job Notifications {new Date().getFullYear()} - Apply Online
         </Heading>
-
         <Stack
           mb={12}
           spaceX={4}
@@ -81,16 +80,15 @@ async function App() {
           <JobList jobs={jobs} />
           <SidebarAd />
         </Stack>
-
-        <Box position="absolute" w="full" display="flex" justifyContent="center" bottom={-12}>
+        <Box w="full" h={'42px'} display="flex" justifyContent="center" bottom={-12}>
           <Box
             border="2px solid #5d93fe"
-            borderRadius="lg"
+            borderRadius="lg" position="absolute" 
             _hover={{ borderColor: '#DEE9FF', bg: '#DEE9FF', cursor: 'pointer' }}
           >
             <LinkWithLoader href="/job">
               <Box p={2} display="flex" alignItems="center" gap={2}>
-                <Text color="#5d93fe">View More</Text>
+                <Text color="#5d93fe">Explore More Jobs</Text>
                 <ChevronDownIcon size={20} color="#5d93fe" />
               </Box>
             </LinkWithLoader>

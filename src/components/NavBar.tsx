@@ -11,13 +11,15 @@ export const Navbar = () => {
                 <Box minW={'40px'}>
                     <Image src='/rr.png' alt="" boxSize="40px" mr={3} />
                 </Box>
-                <Text mt={1} lineHeight={1}>Rajasthan<br />Recruitment</Text>
+                <Text  color="#5d93fe" fontSize="lg" mt={1} lineHeight={1} fontWeight="medium" userSelect="none">Rajasthan<br />Recruitment</Text>
             </Box>
             <Button
                 variant="outline"
                 color="#5d93fe"
                 borderColor={'#5d93fe'}
+                borderWidth={'2px'}
                 borderRadius="md"
+                _hover={{ borderColor: '#DEE9FF', bg: '#DEE9FF', cursor: 'pointer' }}
                 p={2}
                 onClick={() => window.open("https://t.me/rajasthanrecruitment", "_blank")}
             >
