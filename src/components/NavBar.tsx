@@ -19,6 +19,7 @@ export const Navbar = () => {
                 borderColor={'#5d93fe'}
                 borderRadius="md"
                 p={2}
+                onClick={() => window.open("https://t.me/rajasthanrecruitment", "_blank")}
             >
                 <Icon as={UserPlus2} boxSize={4} mr={2} />
                 Join
