@@ -58,7 +58,7 @@ export default function RootLayout({
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383607348636418"
           crossOrigin="anonymous"></script>
       </head>
-      <body style={{ scrollBehavior: 'smooth' }}>
+      <body>
         <ChakraUIProvider>
           <Box w="full" display="flex" justifyContent="center">
             <Box

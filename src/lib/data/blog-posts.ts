@@ -3593,11 +3593,11 @@ export const BLOG_POSTS: Record<string, BlogPost> =
                                 ],
                                 [
                                     "Tier I Exam",
-                                    "Dec 2025 / Jan 2026"
+                                    "16 September 2025"
                                 ],
                                 [
                                     "Tier II Exam",
-                                    "Feb–March 2026"
+                                    "Nov - Dec 2025"
                                 ],
                                 [
                                     "Interview",

@@ -70,8 +70,8 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                         as={headingLevel}
                         fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
                         color={headingColor}
-                        mb={4}
-                        mt={headingLevel === 'h2' ? 8 : 6}
+                        mb={0}
+                        // mt={headingLevel === 'h2' ? 8 : 6}
                         fontWeight="semibold"
                         id={contentItem.text?.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}
                     >
@@ -365,16 +365,16 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                         >
                             <Heading
                                 as="h2"
-                                fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
+                                fontSize={{ base: 'lg', md: 'xl', lg: '2xl' }}
+                                fontWeight="bold"
                                 color={headingColor}
                                 mb={6}
-                                fontWeight="semibold"
                                 pb={2}
                                 borderBottom="2px solid"
                                 borderColor="#5d93fe"
                                 id={section.title.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '')}
                                 scrollMargin={'100px'}
-                                scrollBehavior={'smooth'}
+                                scrollBehavior={'auto'}
                             >
                                 {section.title}
                             </Heading>
