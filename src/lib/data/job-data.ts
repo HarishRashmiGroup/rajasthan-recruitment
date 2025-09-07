@@ -7,7 +7,7 @@ export const jobsData: Job[] = [
       "RPSC Senior Teacher (2nd Grade) Recruitment 2025: Apply Online for Teaching Posts",
     slug: "rpsc-senior-teacher-recruitment-2025",
     officialSiteUrl: "https://rpsc.rajasthan.gov.in",
-    logo: "https://rpsc.rajasthan.gov.in/Static/website/images/logo.png",
+    logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
     notificationDate: "July 25, 2025",
     registrationEndDate: "August 20, 2025",
     posts: 9765,
