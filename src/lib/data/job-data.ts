@@ -9,10 +9,10 @@ export const jobsData: Job[] = [
     officialSiteUrl: "https://rpsc.rajasthan.gov.in",
     logo: "https://rpsc.rajasthan.gov.in/Images/RPSC_Logo.png",
     notificationDate: "July 25, 2025",
-    registrationEndDate: "August 20, 2025",
-    posts: 9765,
+    registrationEndDate: "September 17, 2025",
+    posts: 6500,
     level: "Senior Teacher (Grade 2)",
-    examDate: "November 10, 2025",
+    examDate: "July 12-18, 2026",
   },
   {
     id: 13,
