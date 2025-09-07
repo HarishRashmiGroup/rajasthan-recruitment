@@ -2,11 +2,26 @@ import { BlogCardProps } from "../api/types";
 
 export const BLOG_LIST: BlogCardProps[] = [
   {
+    id: "19",
+    title:
+      "RPSC Senior Teacher (2nd Grade) Recruitment 2025: Apply Online for Subject-Wise Vacancies",
+    image:
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC~2nd-Grade-Teacher-1757223232597.png",
+    source: "RPSC",
+    timeAgo: "8h",
+    likes: 95,
+    comments: 12,
+    shares: 15,
+    isLarge: true,
+    sourceLogo: "https://rpsc.rajasthan.gov.in/Static/website/images/logo.png",
+    slug: "rpsc-senior-teacher-recruitment-2025",
+  },
+  {
     id: "18",
     title:
       "RSMSSB REET Mains 2025: 7759 3rd Grade Teacher Vacancies for Level 1 & 2 & Apply Online",
     image:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/RSMSSB_REET_Mains_2025.png-1752906107938",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/Reet-Mains-2025-1757218148479.png",
     source: "RSMSSB",
     timeAgo: "12h",
     likes: 80,
@@ -43,7 +58,7 @@ export const BLOG_LIST: BlogCardProps[] = [
     likes: 80,
     comments: 7,
     shares: 10,
-    isLarge: true,
+    isLarge: false,
     sourceLogo:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/IB-Logo..webp-1753849007932",
     slug: "ib-acio-recruitment-2025",
@@ -83,7 +98,7 @@ export const BLOG_LIST: BlogCardProps[] = [
     title:
       "RSSB – Lab Attendant Recruitment 2025: Check Eligibility, Vacancies & Apply Online",
     image:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB%E2%80%93Lab_Attendant_Recruitment-2025.png-1752477736867",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB~Lab-Attendant-Recruitment-2025-1757217553826.png",
     source: "RSMSSB",
     timeAgo: "1h",
     likes: 80,

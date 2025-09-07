@@ -60,7 +60,7 @@ export async function getRelatedPosts(
         slug: "rssb-lab-attendant-recruitment-2025",
         title: "RSSB Lab Attendant Recruitment 2025: A Complete Guide",
         excerpt: "The Rajasthan Staff Selection Board (RSSB) has released 54 vacancies for the Lab Attendant post under the Public Health Engineering Department (PHED). Online applications begin from 11 July 2025 and will close on 9 August 2025. This comprehensive guide includes eligibility criteria, important dates, required documents, step-by-step application process, selection procedure, FAQs, and final advice. A great opportunity for 10th pass candidates to join the Rajasthan government workforce in a technical support role.",
-        featuredImage: "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB%E2%80%93Lab_Attendant_Recruitment-2025.png-1752477736867",
+        featuredImage: "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB~Lab-Attendant-Recruitment-2025-square-1757217326535.png",
         publishedAt: "2025-07-11T09:00:00Z",
         readTime: 5,
         category: "State Jobs"
