@@ -2222,7 +2222,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 ["Total Vacancies", "500 Posts"],
                 ["Application Start Date", "27 March 2025"],
                 ["Last Date to Apply", "25 April 2025"],
-                ["Exam Date", "To be announced"],
+                ["Exam Date", "23 November 2025"],
                 [
                   "Selection Process",
                   "Written Exam, Document Verification, Medical",

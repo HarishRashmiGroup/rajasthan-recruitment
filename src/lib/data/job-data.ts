@@ -165,7 +165,7 @@ export const jobsData: Job[] = [
     officialSiteUrl: "https://rsmssb.rajasthan.gov.in/",
     posts: 500,
     logo: "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
-    examDate: "TBA",
+    examDate: "November 23, 2025",
     registrationEndDate: "April 2025",
     level: "State",
   },
