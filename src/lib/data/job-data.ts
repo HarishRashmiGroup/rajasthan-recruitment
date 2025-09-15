@@ -2,6 +2,19 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
   {
+    id: 15,
+    title:
+      "RRB Section Controller Recruitment 2025 – Apply Online for 368 Posts",
+    slug: "rrb-section-controller-recruitment-2025",
+    officialSiteUrl: "https://www.indianrailways.gov.in",
+    logo: "https://www.rrcjaipur.in/images/logo.png",
+    notificationDate: "September 14, 2025",
+    registrationEndDate: "October 14, 2025",
+    posts: 368,
+    level: "Section Controller( Level 6 )",
+    examDate: "To be announced",
+  },
+  {
     id: 14,
     title:
       "RPSC Senior Teacher (2nd Grade) Recruitment 2025: Apply Online for Teaching Posts",
