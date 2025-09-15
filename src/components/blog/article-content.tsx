@@ -51,7 +51,7 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                 return (
                     <Text
                         key={itemId}
-                        mb={4}
+                        // mb={4}
                         lineHeight="tall"
                         color={textColor}
                         fontSize={{ base: 'sm', md: 'md', lg: 'lg' }}
