@@ -3951,4 +3951,370 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "RPSC Senior Teacher Exam Pattern",
     ],
   },
+  "rrb-section-controller-recruitment-2025": {
+    id: "15",
+    title:
+      "RRB Section Controller Recruitment 2025 – Apply Online for 368 Vacancies",
+    slug: "rrb-section-controller-recruitment-2025",
+    excerpt:
+      "The Railway Recruitment Board (RRB) has officially announced the Section Controller Recruitment 2025 under CEN No. 04/2025. With a total of 368 vacancies, this recruitment drive offers an excellent opportunity for graduates who are aiming for a stable career in the Indian Railways.",
+    description:
+      "Get complete details of RRB Section Controller Recruitment 2025 including vacancies, eligibility, age limit, educational qualification, selection process, salary, exam dates, and step-by-step application procedure.",
+    content: {
+      sections: [
+        {
+          id: 1757913723634,
+          type: "heading",
+          title: "Overview",
+          content: [
+            {
+              id: 1757913769542,
+              type: "paragraph",
+              text: "Before diving into detailed eligibility and exam structure, let’s first get a quick snapshot of the recruitment. This overview gives you the key highlights of the notification in one glance.",
+            },
+            {
+              id: 1757913777477,
+              type: "table",
+              headers: ["Particulars", "Details"],
+              rows: [
+                ["Organization", "Railway Recruitment Board (RRB)"],
+                ["Post Name", "Section Controller"],
+                ["Notification No.", "CEN 04/2025"],
+                ["Total Vacancies", "368"],
+                ["Pay Level", "Level 6 (7th CPC)"],
+                ["Initial Pay", "₹35,400/- per month"],
+                ["Job Location", "Across India (Zonal Railways)"],
+                ["Application Mode", "Online"],
+                ["Official Website", "https://www.rrbapply.gov.in/"],
+              ],
+            },
+          ],
+        },
+        {
+          id: 1757913988169,
+          type: "heading",
+          title: "Important Dates",
+          content: [
+            {
+              id: 1757914003788,
+              type: "paragraph",
+              text: "Understanding the timeline of the recruitment process is crucial. From application opening to the correction window and exam dates, here are the official deadlines you must remember.",
+            },
+            {
+              id: 1757914010645,
+              type: "table",
+              headers: ["Event", "Date"],
+              rows: [
+                ["Indicative Notice Released", "23 August 2025"],
+                ["Official Notification Published", "14 September 2025"],
+                ["Online Application Start Date", "15 September 2025"],
+                ["Last Date to Apply Online", "14 October 2025 (11:59 PM)"],
+                ["Last Date for Fee Payment", "16 October 2025"],
+                ["Application Correction Window", "17 – 26 October 2025"],
+                ["Scribe Details Upload", "27 – 31 October 2025"],
+                ["CBT Exam Date", "To be announced"],
+              ],
+            },
+          ],
+        },
+        {
+          id: 1757914138666,
+          type: "heading",
+          title: "Vacancy Details",
+          content: [
+            {
+              id: 1757914156558,
+              type: "paragraph",
+              text: "RRB has notified 368 vacancies for Section Controller posts across its regional boards. Here’s the category-wise breakup.",
+            },
+            {
+              id: 1757914160179,
+              type: "table",
+              headers: ["Category", "Vacancies"],
+              rows: [
+                ["UR", "174"],
+                ["SC", "56"],
+                ["ST", "34"],
+                ["OBC", "80"],
+                ["EWS", "24"],
+                ["Total", "368"],
+                ["Ex-Servicemen", "36"],
+                ["PwBD (LD)", "15"],
+              ],
+            },
+            {
+              id: 1757914293642,
+              type: "note",
+              text: "Zone-wise distribution can be checked in the official notification.",
+              noteType: "info",
+            },
+          ],
+        },
+        {
+          id: 1757914303179,
+          type: "heading",
+          title: "Eligibility Criteria",
+          content: [
+            {
+              id: 1757914312244,
+              type: "paragraph",
+              text: "Before applying, candidates must ensure they meet the required eligibility. This includes educational qualification, age limit, and medical standards. Here’s a breakdown.",
+            },
+            {
+              id: 1757914322774,
+              type: "heading",
+              level: "h3",
+              text: "1. Educational Qualification",
+            },
+            {
+              id: 1757914334828,
+              type: "paragraph",
+              text: "Applicants must hold a Graduate Degree from a recognized university or an equivalent qualification. Candidates awaiting final results are not eligible.",
+            },
+            {
+              id: 1757914346567,
+              type: "heading",
+              level: "h3",
+              text: "2. Age Limit (as on 01.01.2026)",
+            },
+            {
+              id: 1757914360135,
+              type: "list",
+              items: [
+                "Minimum Age: 20 years",
+                "Maximum Age: 33 years",
+                "Candidates must be born between 02.01.1993 and 01.01.2006 (UR/EWS).",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1757914387384,
+              type: "heading",
+              level: "h3",
+              text: "3. Age Relaxation",
+            },
+            {
+              id: 1757914395501,
+              type: "paragraph",
+              text: "Relaxations apply for reserved categories:",
+            },
+            {
+              id: 1757914403227,
+              type: "list",
+              items: [
+                "OBC (NCL): +3 years",
+                "SC/ST: +5 years",
+                "PwBD: +10 to 15 years (depending on category)",
+                "Ex-Servicemen, Railway staff, and others as per rules.",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1757914437834,
+              type: "heading",
+              level: "h3",
+              text: "4. Medical Standards",
+            },
+            {
+              id: 1757914452772,
+              type: "paragraph",
+              text: "The post requires A-2 Medical Standard, including good vision and physical fitness. Candidates who have undergone LASIK surgery are not eligible.",
+            },
+          ],
+        },
+        {
+          id: 1757914459340,
+          type: "heading",
+          title: "Selection Process",
+          content: [
+            {
+              id: 1757914471097,
+              type: "paragraph",
+              text: "The recruitment will be conducted in multiple stages, ensuring only the most suitable candidates are selected. Here’s how the process will work:",
+            },
+            {
+              id: 1757914477054,
+              type: "list",
+              items: [
+                "Computer Based Test (CBT) – 100 questions, 120 minutes, negative marking of 1/3.",
+                "Computer Based Aptitude Test (CBAT) – for shortlisted candidates, mandatory to qualify.",
+                "Document Verification (DV) – checking of original certificates.",
+                "Medical Examination (A-2 standard) – final fitness check.",
+              ],
+              listType: "ordered",
+            },
+            {
+              id: 1757914508865,
+              type: "note",
+              text: "Final merit will be prepared based on 70% CBT + 30% CBAT performance.",
+              noteType: "info",
+            },
+          ],
+        },
+        {
+          id: 1757914520464,
+          type: "heading",
+          title: "Application Fee",
+          content: [
+            {
+              id: 1757914528589,
+              type: "table",
+              headers: ["Category", "Fee"],
+              rows: [
+                ["General / OBC / EWS", "₹500 (₹400 refunded after CBT)"],
+                ["SC / ST / PwBD / Women / ExSM", "₹250 (refunded after CBT)"],
+              ],
+            },
+          ],
+        },
+        {
+          id: 1757914578372,
+          type: "heading",
+          title: "How to Apply",
+          content: [
+            {
+              id: 1757914594790,
+              type: "paragraph",
+              text: "The application process is fully online. Candidates should carefully fill in details, as multiple applications will lead to disqualification.",
+            },
+            {
+              id: 1757914597812,
+              type: "list",
+              items: [
+                "Visit the official RRB website of your chosen region.",
+                "Create an account (first-time applicants only).",
+                "Fill out the application form with accurate details.",
+                "Upload documents and a live photograph.",
+                "Pay the required fee online.",
+                "Submit the form and keep a printout for reference.",
+              ],
+              listType: "ordered",
+            },
+            {
+              id: 1757914646351,
+              type: "note",
+              text: "Only one RRB can be chosen. Multiple applications = cancellation.",
+              noteType: "warning",
+            },
+          ],
+        },
+        {
+          id: 1757914657463,
+          type: "heading",
+          title: "Documents Required",
+          content: [
+            {
+              id: 1757914666109,
+              type: "paragraph",
+              text: "Candidates must keep these documents ready during the application and verification stages:",
+            },
+            {
+              id: 1757914672647,
+              type: "list",
+              items: [
+                "10th/Matriculation Certificate (for DOB proof)",
+                "Graduation degree certificate",
+                "Category certificate (SC/ST/OBC/EWS if applicable)",
+                "PwBD/ExSM certificate (if applicable)",
+                "Valid government ID proof (Aadhaar, Voter ID, etc.)",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1757914709826,
+          type: "heading",
+          title: "Final Words",
+          content: [
+            {
+              id: 1757914723413,
+              type: "paragraph",
+              text: "The RRB Section Controller Recruitment 2025 is an excellent opportunity for graduates to join the prestigious Indian Railways. With 368 posts, good salary, and job security, this recruitment is highly competitive. Eligible candidates should apply online before 14 October 2025 and start preparing for CBT and CBAT without delay.",
+            },
+          ],
+        },
+        {
+          id: 1757914726455,
+          type: "heading",
+          title: "Frequently asked questions",
+          content: [
+            {
+              id: 1757914732720,
+              type: "faq",
+              items: [
+                {
+                  question:
+                    "What is the salary of Section Controller in Railways?",
+                  answer:
+                    "₹35,400/- per month (Level 6, 7th CPC) plus allowances.",
+                },
+                {
+                  question:
+                    "How many vacancies are there in RRB Section Controller 2025?",
+                  answer: "368 vacancies.",
+                },
+                {
+                  question: "What is the minimum qualification required?",
+                  answer: "Graduate degree from a recognized university.",
+                },
+                {
+                  question: "Can final-year students apply?",
+                  answer: "No, candidates awaiting results cannot apply.",
+                },
+                {
+                  question: "What is the age limit for general category?",
+                  answer: "20–33 years as of 01.01.2026.",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    featuredImage:
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC~2nd-Grade-Teacher-1757223232597.png",
+    author: {
+      name: "Amit Sharma",
+      avatar: "/images/authors/amit-sharma.jpg",
+      bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
+    },
+    publishedAt: "2025-09-14T08:00:00Z",
+    updatedAt: "2025-09-15T10:30:00Z",
+    readTime: 10,
+    views: 8450,
+    tags: [
+      "RRB Section Controller Recruitment 2025",
+      "Railway Section Controller Vacancy 2025",
+      "RRB Jobs 2025",
+      "Indian Railway Recruitment 2025",
+      "RRB Apply Online 2025",
+      "RRB CEN 04/2025",
+      "Government Jobs for Graduates 2025",
+      "Railway Controller Exam 2025",
+      "RRB Vacancy Notification 2025",
+      "Railway Jobs 2025",
+    ],
+    category: {
+      name: "Railway Jobs",
+      slug: "railway-jobs",
+    },
+    seoTitle:
+      "RRB Section Controller Recruitment 2025: Apply Online for 368 Railway Vacancies",
+    seoDescription:
+      "RRB Section Controller Recruitment 2025 notification is out for 368 vacancies. Check eligibility, age limit, educational qualifications, exam pattern, salary, important dates, and how to apply online for Railway jobs.",
+    seoKeywords: [
+      "RRB Section Controller Recruitment 2025",
+      "RRB Section Controller Apply Online",
+      "RRB CEN 04/2025 Notification",
+      "Railway Recruitment 2025",
+      "RRB Vacancy 2025",
+      "Railway Jobs for Graduates 2025",
+      "Indian Railway Section Controller Exam",
+      "RRB Section Controller Salary",
+      "RRB Section Controller Eligibility",
+      "RRB Section Controller Exam Date 2025",
+      "Railway Bharti 2025"
+    ],
+  },
 };
