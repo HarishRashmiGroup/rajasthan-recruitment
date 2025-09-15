@@ -57,6 +57,15 @@ export async function getRelatedPosts(
   try {
     const allRelatedPosts: RelatedPost[] = [
       {
+        slug: "rrb-section-controller-recruitment-2025",
+        title: "RRB Section Controller Recruitment 2025 – Apply Online for 368 Vacancies",
+        excerpt: "The Railway Recruitment Board (RRB) has officially announced the Section Controller Recruitment 2025 under CEN No. 04/2025. With a total of 368 vacancies, this recruitment drive offers an excellent opportunity for graduates who are aiming for a stable career in the Indian Railways.",
+        featuredImage: "https://blackbuck.blob.core.windows.net/blackbucks-media/Section-Controller-Recruitment-2025-square-1757916317593.png",
+        publishedAt: "2025-09-14T08:00:00Z",
+        readTime: 5,
+        category: "Central Jobs"
+      },
+      {
         slug: "rssb-lab-attendant-recruitment-2025",
         title: "RSSB Lab Attendant Recruitment 2025: A Complete Guide",
         excerpt: "The Rajasthan Staff Selection Board (RSSB) has released 54 vacancies for the Lab Attendant post under the Public Health Engineering Department (PHED). Online applications begin from 11 July 2025 and will close on 9 August 2025. This comprehensive guide includes eligibility criteria, important dates, required documents, step-by-step application process, selection procedure, FAQs, and final advice. A great opportunity for 10th pass candidates to join the Rajasthan government workforce in a technical support role.",
