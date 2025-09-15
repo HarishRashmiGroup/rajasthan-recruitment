@@ -6,7 +6,7 @@ export const jobsData: Job[] = [
     title:
       "RRB Section Controller Recruitment 2025 – Apply Online for 368 Posts",
     slug: "rrb-section-controller-recruitment-2025",
-    officialSiteUrl: "https://www.indianrailways.gov.in",
+    officialSiteUrl: "https://www.rrbapply.gov.in",
     logo: "https://www.rrcjaipur.in/images/logo.png",
     notificationDate: "September 14, 2025",
     registrationEndDate: "October 14, 2025",
