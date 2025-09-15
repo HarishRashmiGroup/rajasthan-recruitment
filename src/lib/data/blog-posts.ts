@@ -4273,7 +4273,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       ],
     },
     featuredImage:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC~2nd-Grade-Teacher-1757223232597.png",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/Section-Controller-Recruitment-2025-1757915975213.png",
     author: {
       name: "Amit Sharma",
       avatar: "/images/authors/amit-sharma.jpg",
