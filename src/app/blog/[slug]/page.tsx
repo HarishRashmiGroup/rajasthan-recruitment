@@ -70,7 +70,13 @@ export default async function BlogPostPage(props: PageProps) {
       />
       <Box minH="100vh" position={"relative"}>
         <Box display={"flex"} w={"full"}>
-          <Box position={"sticky"} zIndex={2} top={"73.5px"} display={{ base: "none", xl: "flex" }}>
+          <Box
+            height={"fit-content"}
+            position={"sticky"}
+            zIndex={2}
+            top={"73.5px"}
+            display={{ base: "none", xl: "flex" }}
+          >
             <AdSenseAd />
           </Box>
           <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
@@ -120,7 +126,13 @@ export default async function BlogPostPage(props: PageProps) {
               </Box>
             </Grid>
           </Box>
-          <Box position={"sticky"} zIndex={2} top={"73.5px"} display={{ base: "none", xl: "flex" }}>
+          <Box
+            h={"fit-content"}
+            position={"sticky"}
+            zIndex={2}
+            top={"73.5px"}
+            display={{ base: "none", xl: "flex" }}
+          >
             <AdSenseAd />
           </Box>
         </Box>
