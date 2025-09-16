@@ -170,7 +170,7 @@ const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
     return (
         <Box
             w="300px"
-            p={4}
+            p={0}
             bg="white"
             borderRadius="lg"
             position="relative"

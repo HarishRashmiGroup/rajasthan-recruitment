@@ -16,7 +16,7 @@ export function ArticleHeader({ post }: ArticleHeaderProps) {
     const textSecondary = 'gray.600'
 
     return (
-        <Box borderRadius="lg" p={{ sm: 2, md: 4 }}>
+        <Box borderRadius="lg" p={{ sm: 2, md: 0 }}>
             <Flex align="center" gap={2} mb={4}>
                 <Link
                     as={NextLink}

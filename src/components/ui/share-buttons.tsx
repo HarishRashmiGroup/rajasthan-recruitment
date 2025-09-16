@@ -94,7 +94,7 @@ const ShareButtons: React.FC<ShareButtonsProps> = ({ title, url, description = '
             // border="1px"
             // borderColor={borderColor}
             borderRadius="lg"
-            p={{ sm: 2, md: 4 }}
+            p={{ sm: 2, md: 0 }}
             mb={6}
             // shadow="sm"
             role="region"

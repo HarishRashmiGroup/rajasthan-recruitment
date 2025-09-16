@@ -1,18 +1,18 @@
-import { Box, Flex, Heading, Text, Avatar } from '@chakra-ui/react'
+import { Box, Flex, Heading, Text, Avatar } from "@chakra-ui/react";
 
 interface Author {
-  name: string
-  avatar: string
-  bio: string
+  name: string;
+  avatar: string;
+  bio: string;
 }
 
 interface AuthorBioProps {
-  author: Author
+  author: Author;
 }
 
 export function AuthorBio({ author }: AuthorBioProps) {
   return (
-    <Box bg="white" p={{sm: 2, md: 4}} mb={6}>
+    <Box bg="white" mt={{ base: "auto", md: 6 }} p={{ sm: 2, md: 0 }} mb={6}>
       <Heading as="h3" size="md" color="gray.900" mb={4}>
         About the Author
       </Heading>
@@ -31,5 +31,5 @@ export function AuthorBio({ author }: AuthorBioProps) {
         </Box>
       </Flex>
     </Box>
-  )
+  );
 }

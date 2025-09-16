@@ -8,7 +8,7 @@ export function TagsSection({ tags }: TagsSectionProps) {
   if (!tags.length) return null
 
   return (
-    <Box bg="white" p={{sm: 2, md: 4}} mb={6}>
+    <Box bg="white" p={{sm: 2, md: 0}} mb={6}>
       <Heading as="h3" size="md" color="gray.900" mb={3}>
         Tags
       </Heading>

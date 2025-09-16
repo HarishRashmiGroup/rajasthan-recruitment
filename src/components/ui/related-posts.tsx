@@ -21,7 +21,7 @@ export function RelatedPosts({ posts }: RelatedPostsProps) {
 
   return (
     // <Box bg="white" borderRadius="lg" boxShadow="sm" p={6}>
-    <Box bg="white" borderRadius="lg" p={{sm: 2, md: 4}}>
+    <Box bg="white" borderRadius="lg" p={{sm: 2, md: 0}}>
       <Heading as="h3" size="md" color="gray.600" mb={4}>
         Related Articles
       </Heading>
