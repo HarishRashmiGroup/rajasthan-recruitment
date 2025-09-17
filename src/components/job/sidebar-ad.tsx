@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Image } from '@chakra-ui/react';
+import AdSenseAd from '../ui/google-sidebar-ads';
 
 const SidebarAd: React.FC = () => (
     <Box
@@ -16,6 +17,15 @@ const SidebarAd: React.FC = () => (
             alt="Advertisement"
             src="/rr_adv.png"
         />
+        <Box
+            height={"fit-content"}
+            position={"sticky"}
+            zIndex={2}
+            top={"150px"}
+            display={{ base: "none", xl: "flex" }}
+          >
+            <AdSenseAd />
+          </Box>
     </Box>
 );
 
