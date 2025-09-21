@@ -23,20 +23,22 @@ const AdSenseAd = () => {
   }, []);
 
   return (
-    <ins
-      className="adsbygoogle"
-      style={{ display: "block" }}
-      data-ad-client="ca-pub-3383607348636418"
-      data-ad-slot="4740370254"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
-    />
-    // <ins
-    //   className="adsbygoogle"
-    //   style={{ display: "inline-block", width: 200, height: 450 }}
-    //   data-ad-client="ca-pub-3383607348636418"
-    //   data-ad-slot="7891680227"
-    // />
+    <>
+      <ins
+        className="adsbygoogle"
+        style={{ display: "block" }}
+        data-ad-client="ca-pub-3383607348636418"
+        data-ad-slot="4740370254"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+      <ins
+        className="adsbygoogle"
+        style={{ display: "inline-block", width: 200, height: 450 }}
+        data-ad-client="ca-pub-3383607348636418"
+        data-ad-slot="7891680227"
+      />
+    </>
   );
 };
 
