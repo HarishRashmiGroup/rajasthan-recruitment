@@ -4395,7 +4395,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             },
             {
               id: 1758505803838,
-              type: "paragraph",
+              type: "heading",
+              level: "h4",
               text: "PGT",
             },
             {
@@ -4539,7 +4540,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             },
             {
               id: 1758506688376,
-              type: "paragraph",
+              type: "heading",
+              level: "h4",
               text: "TGT Regional Language",
             },
             {
@@ -4711,7 +4713,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       ],
     },
     featuredImage:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/emrs-recruitment-2025-1758509703027.png",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/emrs-recruitment-2025-1758511257712.png",
     author: {
       name: "Amit Sharma",
       avatar: "/images/authors/amit-sharma.jpg",
