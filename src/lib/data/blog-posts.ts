@@ -4377,7 +4377,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             },
             {
               id: 1758505721833,
-              type: "paragraph",
+              type: "heading",
+              level: "h4",
               text: "Principle",
             },
             {
@@ -4511,7 +4512,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             {
               id: 1758506340627,
               type: "heading",
-              level: "h2",
+              level: "h4",
               text: "TGT",
             },
             {
@@ -4566,7 +4567,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             },
             {
               id: 1758507135547,
-              type: "paragraph",
+              type: "heading",
+              level: "h4",
               text: "TGT Miscellaneous",
             },
             {
@@ -4591,7 +4593,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
             },
             {
               id: 1758507458447,
-              type: "paragraph",
+              type: "heading",
+              level: "h4",
               text: "Non Teaching",
             },
             {
@@ -4680,11 +4683,6 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1758508330333,
               type: "faq",
               items: [
-                {
-                  question: "Can I apply for both PGT and TGT?",
-                  answer:
-                    "No. You can apply for only one subject post in PGT or TGT.",
-                },
                 {
                   question:
                     "Are female candidates exempted from application fee?",

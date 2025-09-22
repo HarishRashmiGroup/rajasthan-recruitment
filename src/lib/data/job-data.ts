@@ -7,7 +7,7 @@ export const jobsData: Job[] = [
       "EMRS – Apply for 7267 Teaching & Non-Teaching Vacancies (PGT, TGT, Principal, Staff)",
     slug: "emrs-recruitment-2025",
     officialSiteUrl: "https://emrs.tribal.gov.in",
-    logo: "https://nests.tribal.gov.in/images/logo_emrs.jpg",
+    logo: "https://blackbuck.blob.core.windows.net/blackbucks-media/logo_emrs-1758510563845.jpg",
     notificationDate: "September 19, 2025",
     registrationEndDate: "October 23, 2025",
     posts: 7267,
