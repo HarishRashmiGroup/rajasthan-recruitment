@@ -2,6 +2,19 @@ import { Job } from "../api/types";
 
 export const jobsData: Job[] = [
   {
+    id: 16,
+    title:
+      "EMRS – Apply for 7267 Teaching & Non-Teaching Vacancies (PGT, TGT, Principal, Staff)",
+    slug: "emrs-recruitment-2025",
+    officialSiteUrl: "https://emrs.tribal.gov.in",
+    logo: "https://nests.tribal.gov.in/images/logo_emrs.jpg",
+    notificationDate: "September 19, 2025",
+    registrationEndDate: "October 23, 2025",
+    posts: 7267,
+    level: "Central Govt",
+    examDate: "To be announced",
+  },
+  {
     id: 15,
     title:
       "RRB Section Controller Recruitment 2025 – Apply Online for 368 Posts",
