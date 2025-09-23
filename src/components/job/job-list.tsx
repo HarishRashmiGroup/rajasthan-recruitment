@@ -18,11 +18,7 @@ const JobList: React.FC<JobListProps> = ({ jobs }) => (
       <>
         <JobCard key={job.id} job={job} />
         <Box w={"full"} h={"auto"} display={{ base: "block", lg: "none" }}>
-          <AdSenseAd
-            slot="4568995773"
-            format="fluid"
-            layoutKey="-fu-2i-17-2d+rw"
-          />
+          <AdSenseAd/>
         </Box>
       </>
     ))}

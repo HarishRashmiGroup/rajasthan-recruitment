@@ -77,11 +77,7 @@ export default async function BlogPostPage(props: PageProps) {
             top={"73.5px"}
             display={{ base: "none", xl: "flex" }}
           >
-            <AdSenseAd
-              slot="7891680227"
-              style={{ width: 200, height: 450 }}
-              format="auto"
-            />
+            <AdSenseAd/>
           </Box>
           <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
             <Box bg={"white"} position={"sticky"} zIndex={2} top={"73.5px"}>
@@ -137,11 +133,7 @@ export default async function BlogPostPage(props: PageProps) {
             top={"73.5px"}
             display={{ base: "none", xl: "flex" }}
           >
-            <AdSenseAd
-              slot="7891680227"
-              style={{ width: 200, height: 450 }}
-              format="auto"
-            />
+            <AdSenseAd/>
           </Box>
         </Box>
       </Box>
