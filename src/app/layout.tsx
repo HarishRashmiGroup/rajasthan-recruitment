@@ -65,15 +65,6 @@ export default function RootLayout({
         ></script>
       </head>
       <body>
-        <ins
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          data-ad-client="ca-pub-3383607348636418"
-          data-ad-slot="4947860603"
-          data-ad-format="auto"
-          data-full-width-responsive="true"
-        ></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <ChakraUIProvider>
           <Box w="full" display="flex" justifyContent="center">
             <Box
