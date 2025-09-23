@@ -9,13 +9,13 @@ declare global {
 }
 
 interface AdSenseAdProps {
-  slot: string; // Ad slot ID (required)
-  client?: string; // AdSense client ID (default to yours)
-  style?: React.CSSProperties; // Optional CSS
-  format?: string; // e.g., "auto", "rectangle", "fluid"
-  layoutKey?: string; // Optional layout key for fluid ads
-  width?: number | string; // Optional width (px or %)
-  height?: number | string; // Optional height (px or %)
+  slot: string;
+  client?: string;
+  style?: React.CSSProperties;
+  format?: string;
+  layoutKey?: string;
+  width?: number | string;
+  height?: number | string;
 }
 
 const AdSenseAd: React.FC<AdSenseAdProps> = ({
