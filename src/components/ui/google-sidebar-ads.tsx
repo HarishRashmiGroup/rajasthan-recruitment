@@ -2,19 +2,17 @@
 
 import { useEffect } from "react";
 
-interface AdSenseAd {
-  [key: string]: unknown;
-}
-
 declare global {
   interface Window {
-    adsbygoogle: AdSenseAd[];
+    adsbygoogle: unknown[];
   }
 }
+
 const AdSenseAd = () => {
   useEffect(() => {
     try {
-      if (window) {
+      if (typeof window !== "undefined") {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
         (window.adsbygoogle = window.adsbygoogle || []).push({});
       }
     } catch (e) {
