@@ -52,12 +52,9 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({
       data-ad-slot={slot}
       data-ad-format={format}
       {...(layoutKey ? { "data-ad-layout-key": layoutKey } : {})}
-      {...(width || height
-        ? {
-            "data-full-width-responsive":
-              format === "auto" ? "true" : undefined,
-          }
-        : {})}
+      {...{
+        "data-full-width-responsive": format === "auto" ? "true" : undefined,
+      }}
     />
   );
 };

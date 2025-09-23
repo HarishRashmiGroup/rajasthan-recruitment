@@ -80,7 +80,7 @@ export default async function BlogPostPage(props: PageProps) {
             <AdSenseAd
               slot="7891680227"
               style={{ width: 200, height: 450 }}
-              format="rectangle"
+              format="auto"
             />
           </Box>
           <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
@@ -140,7 +140,7 @@ export default async function BlogPostPage(props: PageProps) {
             <AdSenseAd
               slot="7891680227"
               style={{ width: 200, height: 450 }}
-              format="rectangle"
+              format="auto"
             />
           </Box>
         </Box>
