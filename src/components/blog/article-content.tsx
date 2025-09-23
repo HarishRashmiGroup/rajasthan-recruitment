@@ -413,7 +413,7 @@ export const ArticleContent: React.FC<ArticleContentProps> = ({ sections }) => {
                 fontWeight="bold"
                 color={headingColor}
                 mb={6}
-                pb={2}
+                pb={{ base: 1, md: 2 }}
                 borderBottom="2px solid"
                 borderColor="#5d93fe"
                 id={section.title
