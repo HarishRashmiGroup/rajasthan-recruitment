@@ -8,25 +8,7 @@ declare global {
   }
 }
 
-interface AdSenseAdProps {
-  slot: string;
-  client?: string;
-  style?: React.CSSProperties;
-  format?: string;
-  layoutKey?: string;
-  width?: number | string;
-  height?: number | string;
-}
-
-const AdSenseAd: React.FC<AdSenseAdProps> = ({
-  slot,
-  client = "ca-pub-3383607348636418",
-  style,
-  format = "auto",
-  layoutKey,
-  width,
-  height,
-}) => {
+const AdSenseAd = () => {
   useEffect(() => {
     try {
       if (typeof window !== "undefined") {
@@ -37,25 +19,15 @@ const AdSenseAd: React.FC<AdSenseAdProps> = ({
     }
   }, []);
 
-  const mergedStyle: React.CSSProperties = {
-    display: "block",
-    width: width || undefined,
-    height: height || undefined,
-    ...style,
-  };
-
   return (
-    <ins
-      className="adsbygoogle"
-      style={mergedStyle}
-      data-ad-client={client}
-      data-ad-slot={slot}
-      data-ad-format={format}
-      {...(layoutKey ? { "data-ad-layout-key": layoutKey } : {})}
-      {...{
-        "data-full-width-responsive": format === "auto" ? "true" : undefined,
-      }}
-    />
+    <>
+      <ins
+        className="adsbygoogle"
+        style={{ display: "inline-block", width: 200, height: 450 }}
+        data-ad-client="ca-pub-3383607348636418"
+        data-ad-slot="7891680227"
+      />
+    </>
   );
 };
 
