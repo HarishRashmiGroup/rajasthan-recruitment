@@ -25,11 +25,12 @@ const SidebarAd: React.FC = () => (
       top={"150px"}
       display={{ base: "none", xl: "flex" }}
     >
-      <AdSenseAd
+      {/* <AdSenseAd
         slot="7891680227"
         style={{ width: 200, height: 450 }}
         format="rectangle"
-      />
+      /> */}
+      <AdSenseAd slot="4740370254" format="auto" />
     </Box>
   </Box>
 );
