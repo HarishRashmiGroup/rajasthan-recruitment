@@ -5,11 +5,10 @@ import Footer from "@/components/Footer";
 import { Box } from "@chakra-ui/react";
 import Script from "next/script";
 
-
 export const metadata: Metadata = {
   title: "Rajasthan Recruitment",
   icons: {
-    icon: '/favicon.ico'
+    icon: "/favicon.ico",
   },
   openGraph: {
     title: "Rajasthan Recruitment",
@@ -32,7 +31,8 @@ export const metadata: Metadata = {
     description: "Latest government jobs in Rajasthan.",
     images: ["https://rajasthanrecruitment.in/logo.png"],
   },
-  description: "Stay updated with the latest Rajasthan government job vacancies, exam results, admit cards, and answer keys. Your one-stop portal for accurate and timely recruitment updates across Rajasthan.",
+  description:
+    "Stay updated with the latest Rajasthan government job vacancies, exam results, admit cards, and answer keys. Your one-stop portal for accurate and timely recruitment updates across Rajasthan.",
 };
 
 export default function RootLayout({
@@ -54,11 +54,26 @@ export default function RootLayout({
             logo: "https://rajasthanrecruitment.in/logo.png",
           })}
         </Script>
-        <meta name="google-adsense-account" content="ca-pub-3383607348636418"></meta>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383607348636418"
-          crossOrigin="anonymous"></script>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-3383607348636418"
+        ></meta>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3383607348636418"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body>
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-client="ca-pub-3383607348636418"
+          data-ad-slot="4947860603"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         <ChakraUIProvider>
           <Box w="full" display="flex" justifyContent="center">
             <Box
@@ -69,7 +84,7 @@ export default function RootLayout({
               flexDirection="column"
               boxShadow="0px 8px 1000px #DEE9FF"
             >
-              <Box flex="1" >
+              <Box flex="1">
                 <Navbar />
                 {children}
               </Box>
