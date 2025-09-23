@@ -114,7 +114,7 @@ async function App() {
         </Box>
       </Box>
       <BlogList />
-      <AdSenseAd slot="4740370254" format="auto" />
+      <AdSenseAd slot="4568995773" format="fluid" layoutKey="-fu-2i-17-2d+rw" />
     </Box>
   );
 }
