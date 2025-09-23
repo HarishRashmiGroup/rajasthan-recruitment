@@ -17,7 +17,7 @@ const JobList: React.FC<JobListProps> = ({ jobs }) => (
     {jobs.map((job) => (
       <>
         <JobCard key={job.id} job={job} />
-        <Box display={{ base: "block", md: "none" }}>
+        <Box w={"full"} h={"auto"} display={{ base: "block", lg: "none" }}>
           <AdSenseAd
             slot="4568995773"
             format="fluid"
