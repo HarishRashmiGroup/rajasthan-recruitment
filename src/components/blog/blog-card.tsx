@@ -49,7 +49,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
             src={image}
             alt={title}
             w="full"
-            h={isLarge ? "200px" : "150px"}
+            h={{ base: "150px", md: isLarge ? "200px" : "150px" }}
             objectFit="cover"
           />
           {hasPlayButton && <PlayOverlay />}
