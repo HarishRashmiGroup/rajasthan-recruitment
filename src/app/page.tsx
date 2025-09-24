@@ -8,7 +8,7 @@ import { TabsNavigation } from "@/components/ui/tab-navigation";
 import { getAllJobs } from "@/lib/api/job";
 import { Box, Heading, Stack, Text } from "@chakra-ui/react";
 import { ChevronDownIcon } from "lucide-react";
-import AdSenseAd from "@/components/ui/google-sidebar-ads";
+import AdSenseMultiplexAd from "@/components/ui/google-muliplex-ads";
 
 export const metadata: Metadata = {
   title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
@@ -114,7 +114,15 @@ async function App() {
         </Box>
       </Box>
       <BlogList />
-      <AdSenseAd />
+      <Box
+        w="full"
+        h="fit-content"
+        p={0}
+        display="flex"
+        justifyContent="center"
+      >
+        <AdSenseMultiplexAd />
+      </Box>
     </Box>
   );
 }
