@@ -14,6 +14,7 @@ import ShareButtons from "@/components/ui/share-buttons";
 import { ArticleHeader } from "@/components/blog/article-header";
 import ArticleContent from "@/components/blog/article-content";
 import TableOfContents from "@/components/blog/table-of-content";
+import InFeedAd from "@/components/ui/google-in-feed-ads";
 import AdSenseAd from "@/components/ui/google-sidebar-ads";
 
 interface PageProps {
@@ -99,7 +100,9 @@ export default async function BlogPostPage(props: PageProps) {
                 <ArticleContent sections={post.content.sections} />
                 <TagsSection tags={post.tags} />
                 <AuthorBio author={post.author} />
-                <AdSenseAd />
+                <Box w={"100%"} h={"fit-content"}>
+                  <InFeedAd />
+                </Box>
               </Box>
 
               <Box as="aside" position="relative">
