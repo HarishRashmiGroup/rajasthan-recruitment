@@ -100,9 +100,6 @@ export default async function BlogPostPage(props: PageProps) {
                 <ArticleContent sections={post.content.sections} />
                 <TagsSection tags={post.tags} />
                 <AuthorBio author={post.author} />
-                <Box w={"100%"} h={"fit-content"}>
-                  <InFeedAd />
-                </Box>
               </Box>
 
               <Box as="aside" position="relative">
@@ -139,6 +136,14 @@ export default async function BlogPostPage(props: PageProps) {
           >
             <AdSenseAd />
           </Box>
+        </Box>
+        <Box
+          w={"100%"}
+          display={"flex"}
+          justifyContent={"center"}
+          h={"fit-content"}
+        >
+          <InFeedAd />
         </Box>
       </Box>
     </>
