@@ -10,13 +10,15 @@ declare global {
 
 const AdSenseMultiplexAd = () => {
   useEffect(() => {
-    try {
-      if (typeof window !== "undefined") {
+    const timer = setTimeout(() => {
+      try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {
+        console.log("AdSense error:", e);
       }
-    } catch (e) {
-      console.error("AdSense error:", e);
-    }
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, []);
 
   return (
