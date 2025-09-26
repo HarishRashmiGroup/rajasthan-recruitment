@@ -21,22 +21,8 @@ const JobList: React.FC<JobListProps> = ({ jobs }) => (
         </GridItem>
 
         {(idx + 1) % 3 === 0 && (
-          <GridItem
-            colSpan={1}
-            display={{ base: "block", lg: "none" }}
-          >
-            <Box w="full">
-              <AdSenseAd />
-            </Box>
-          </GridItem>
-        )}
-
-        {(idx + 1) % 2 === 0 && (
-          <GridItem
-            colSpan={2}
-            display={{ base: "none", lg: "block" }} 
-          >
-            <Box w="full">
+          <GridItem colSpan={1} display={{ base: "block", lg: "none" }}>
+            <Box w="100%" minW={"250px"}>
               <AdSenseAd />
             </Box>
           </GridItem>

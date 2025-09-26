@@ -13,6 +13,7 @@ const AdSenseMultiplexAd = () => {
     const timer = setTimeout(() => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+        console.log("Multiplex");
       } catch (e) {
         console.log("AdSense error:", e);
       }

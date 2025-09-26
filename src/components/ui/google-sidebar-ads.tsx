@@ -13,6 +13,7 @@ const AdSenseAd = () => {
     const timer = setTimeout(() => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+        console.log('7891680227');
       } catch (e) {
         console.log("AdSense error:", e);
       }
