@@ -30,7 +30,7 @@ const SidebarAd: React.FC = () => (
         style={{ width: 200, height: 450 }}
         format="rectangle"
       /> */}
-      <AdSenseAd slot="4740370254" format="auto" />
+      <AdSenseAd />
     </Box>
   </Box>
 );
