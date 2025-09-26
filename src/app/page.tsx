@@ -115,8 +115,9 @@ async function App() {
       </Box>
       <BlogList />
       <Box
-        w="full"
+        w="100%"
         h="fit-content"
+        minW="270px"
         p={0}
         display="flex"
         justifyContent="center"
