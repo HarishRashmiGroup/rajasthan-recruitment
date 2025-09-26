@@ -73,6 +73,9 @@ async function App() {
           fontSize={{ base: "xl", md: "2xl", lg: "3xl" }}
           color="#5d93fe"
           mt={6}
+          pl={2}
+          borderLeft={"4px solid #5d93fe"}
+          borderRadius={"md"}
         >
           Latest Government Job Notifications {new Date().getFullYear()} - Apply
           Online
