@@ -15,7 +15,7 @@ import {
   Badge,
   Heading,
 } from "@chakra-ui/react";
-import { List, Hash } from "lucide-react";
+import { Hash } from "lucide-react";
 import { ArticleContentProps } from "./article-content";
 
 const TableOfContents = ({ content }: { content: ArticleContentProps }) => {
