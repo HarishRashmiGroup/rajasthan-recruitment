@@ -2201,9 +2201,9 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     title: "RSMSSB Conductor 2025 Recruitment: Apply for 500 Vacancies",
     slug: "rsmssb-conductor-recruitment-2025-apply-online",
     excerpt:
-      "Apply online for 53,749 Group D (Class IV) vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The exam is scheduled from September 18 to 21, 2025.",
+      "Apply online for 500 Conductor vacancies under RSMSSB Recruitment 2025. Check eligibility criteria, important dates, fee structure, and detailed vacancy information. The examination is scheduled to be held on November 06, 2025.",
     description:
-      "The Rajasthan Staff Selection Board (RSMSSB) has released the official notification for the recruitment of 500 Conductor vacancies for the year 2025. Eligible candidates can apply online through the official RSMSSB portal. This is a great opportunity for aspirants seeking government jobs in the transport department. Alongside this, RSMSSB is also inviting applications for 53,749 Group D (Class IV) posts. Interested applicants are advised to check the eligibility criteria, application fees, important dates, and category-wise vacancy details before applying. The written examination is scheduled to be held from September 18 to 21, 2025.",
+      "The Rajasthan Staff Selection Board (RSMSSB) has released the official notification for the recruitment of 500 Conductor vacancies for the year 2025. Eligible candidates can apply online through the official RSMSSB portal from March 27 to April 25, 2025. This is a great opportunity for aspirants seeking government jobs in the transport department. Interested applicants are advised to check eligibility criteria, application fee, category-wise vacancy details, and syllabus before applying. The exam is scheduled for November 06, 2025.",
     content: {
       sections: [
         {
@@ -2222,12 +2222,12 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 ["Total Vacancies", "500 Posts"],
                 ["Application Start Date", "27 March 2025"],
                 ["Last Date to Apply", "25 April 2025"],
-                ["Exam Date", "23 November 2025"],
+                ["Exam Date", "06 November 2025"],
                 [
                   "Selection Process",
                   "Written Exam, Document Verification, Medical",
                 ],
-                ["Official Website", "\trssb.rajasthan.gov.in"],
+                ["Official Website", "rssb.rajasthan.gov.in"],
               ],
             },
           ],

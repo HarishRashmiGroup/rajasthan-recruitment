@@ -11,7 +11,7 @@ import { ChevronDownIcon } from "lucide-react";
 import AdSenseMultiplexAd from "@/components/ui/google-muliplex-ads";
 
 export const metadata: Metadata = {
-  title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
+  title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
   description:
     "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
   keywords: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: "https://rajasthanrecruitment.in/",
   },
   openGraph: {
-    title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
+    title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
     description:
       "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
     url: "https://rajasthanrecruitment.in/",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `Rajasthan Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
+    title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
     description:
       "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more. Stay updated with Rajasthan Recruitment for all Sarkari Naukri updates, online forms, and career opportunities in Rajasthan.",
     images: ["https://rajasthanrecruitment.in/rr-home.jpg"],
