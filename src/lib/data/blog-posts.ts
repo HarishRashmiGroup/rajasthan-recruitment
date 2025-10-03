@@ -1320,12 +1320,12 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               rows: [
                 [
                   "Admit Card Release",
-                  "Early to Mid-August 2025",
+                  "Last week of October 2025",
                   "Download from official portal",
                 ],
                 [
                   "Written Examination",
-                  "August 31, 2025",
+                  "November 02, 2025",
                   "Carry admit card and valid ID",
                 ],
                 [
