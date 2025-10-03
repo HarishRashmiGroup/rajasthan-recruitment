@@ -1094,15 +1094,38 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     title:
       "Rajasthan RSSB Village Development Officer Recruitment 2025: A Complete Guide",
     excerpt:
-      "The Rajasthan Staff Selection Board (RSSB) has opened 850 vacancies for the prestigious Village Development Officer (VDO) post. Starting from 19 June 2025, eligible graduates with computer qualifications can apply online. This detailed guide outlines important dates, eligibility, required documents, step-by-step application process, exam pattern, and preparation tips. The VDO role is vital to rural governance in Rajasthan, offering a meaningful public service career. Apply by 18 July 2025 and begin your journey in grassroots development.",
+      "The Rajasthan Staff Selection Board (RSSB) has officially announced the Rajasthan Village Development Officer (VDO) Recruitment 2025, offering 850 vacancies for the post of Gram Vikas Adhikari across the state. This recruitment drive is a golden opportunity for aspirants seeking a stable and prestigious government job in the rural development sector of Rajasthan.",
     description:
-      "The Village Development Officer (VDO) plays a crucial role in Rajasthan's rural development, managing scheme allocation, monitoring infrastructure projects, and coordinating with Panchayats. This position offers an excellent opportunity to contribute to grassroots development and public service.",
+      "For Rajasthan VDO aspirants, the Rajasthan Staff Selection Board (RSSB) released the official notification on 17 June 2025 for 850 Village Development Officer (VDO) posts under Advertisement No. 03/2025. The application process was open from 19 June to 25 July 2025, and thousands of candidates applied. Initially, the exam date was fixed for 31 August 2025, but due to administrative reasons, it has now been postponed to 2 November 2025. Candidates are advised to keep checking the official RSSB website (rsmssb.rajasthan.gov.in) regularly for updates on admit cards, exam centres, and revised guidelines.",
     content: {
       sections: [
         {
+          id: 1753353903541.7847,
+          type: "heading",
+          title: "Important Timeline",
+          content: [
+            {
+              id: 1753353913750.4011,
+              type: "table",
+              headers: ["Event", "Date"],
+              rows: [
+                ["Application Begins", "June 19, 2025"],
+                ["Application Deadline", "July 18, 2025"],
+                ["Fee Payment Last Date", "July 18, 2025"],
+                [
+                  "Application Correction Window",
+                  "As per official notification",
+                ],
+                ["Examination Date", "November 02, 2025"],
+                ["Admit Card Release", "Few days before examination"],
+              ],
+            },
+          ],
+        },
+        {
           id: 1753353502524.247,
           type: "heading",
-          title: "Key Recruitment Overview",
+          title: "Recruitment Overview",
           content: [
             {
               id: 1753353790932.643,
@@ -1142,36 +1165,9 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1753353868269.1206,
               type: "list",
               items: [
-                "Computer Proficiency (Any One Required)",
-                "O Level Certificate from NIELIT",
-                "COPA / DPCS Certificate",
-                "Diploma in Computer Science or Applications",
-                "RS-CIT Certificate",
+                "Computer Proficiency (Any One Required)\nO Level Certificate from NIELIT\nCOPA / DPCS Certificate\nDiploma in Computer Science or Applications\nRS-CIT Certificate",
               ],
               listType: "unordered",
-            },
-          ],
-        },
-        {
-          id: 1753353903541.7847,
-          type: "heading",
-          title: "Important Timeline",
-          content: [
-            {
-              id: 1753353913750.4011,
-              type: "table",
-              headers: ["Event", "Date"],
-              rows: [
-                ["Application Begins", "June 19, 2025"],
-                ["Application Deadline", "July 18, 2025"],
-                ["Fee Payment Last Date", "July 18, 2025"],
-                [
-                  "Application Correction Window",
-                  "As per official notification",
-                ],
-                ["Examination Date", "August 31, 2025"],
-                ["Admit Card Release", "Few days before examination"],
-              ],
             },
           ],
         },
@@ -1378,6 +1374,12 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                   answer:
                     "Yes, corrections can be made during the official correction window with a fee of ₹300 as specified by RSSB.",
                 },
+                {
+                  question:
+                    "When will the Rajasthan VDO Admit Card 2025 be released?",
+                  answer:
+                    "The admit card is expected to be released 7–10 days before the exam, likely in the last week of October 2025.",
+                },
               ],
             },
           ],
@@ -1402,6 +1404,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "Get full details on RSMSSB VDO 2025 recruitment – eligibility, important dates, application process, fees and preparation tips.",
     seoKeywords: [
       "RSMSSB VDO 2025",
+      "vdo exam date",
       "Village Development Officer",
       "Rajasthan Government Jobs",
     ],
