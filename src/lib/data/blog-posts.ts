@@ -179,8 +179,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC_Assistant_Agriculture_Engineer_Recruitment_2025.png-1753071870025",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-21T08:00:00Z",
@@ -418,8 +418,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Reet-Mains-2025-1757218148479.png",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-18T08:00:00Z",
@@ -647,8 +647,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC_SI_%26_Platoon_Commander_Recruitment_2025.png-1752830550077",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-18T08:00:00Z",
@@ -849,8 +849,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/RSSB~Lab-Attendant-Recruitment-2025-1757217553826.png",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-11T08:00:00Z",
@@ -1055,8 +1055,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/NWR%E2%80%93Sports_Quota_Recruitment_2025.png-1752226895685",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-11T08:00:00Z",
@@ -1389,8 +1389,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105048.png-1751260909100",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -1584,8 +1584,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -1774,8 +1774,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_105713.png-1751261245200",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -2171,8 +2171,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_110806.png-1751261901726",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -2471,8 +2471,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111611.png-1751262387324",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -2764,8 +2764,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Screenshot_2025-06-30_111915.png-1751262568321",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-06-20T08:00:00Z",
@@ -3131,8 +3131,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/CURAJ_Recruitment_2025.png-1751699244834",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-05T08:00:00Z",
@@ -3640,8 +3640,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/IB_ACIO_Recruitment_2025_Apply_for_Assistant_Central_Intelligence_Officer_Posts.png-1753849541071",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-30T08:00:00Z",
@@ -3921,8 +3921,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/RPSC~2nd-Grade-Teacher-1757223232597.png",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-07-30T08:00:00Z",
@@ -4282,8 +4282,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/Section-Controller-Recruitment-2025-1757915975213.png",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-09-14T08:00:00Z",
@@ -4722,8 +4722,8 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     featuredImage:
       "https://blackbuck.blob.core.windows.net/blackbucks-media/emrs-recruitment-2025-1758511257712.png",
     author: {
-      name: "Amit Sharma",
-      avatar: "/images/authors/amit-sharma.jpg",
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-09-22T08:00:00Z",
