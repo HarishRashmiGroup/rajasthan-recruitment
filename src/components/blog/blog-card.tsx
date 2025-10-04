@@ -23,6 +23,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
   isLarge = false,
   hasPlayButton = false,
   sourceLogo,
+  slug,
 }) => {
   return (
     <Box
@@ -99,7 +100,12 @@ const BlogCard: React.FC<BlogCardProps> = ({
         </VStack>
       </Box>
       <Box p={4} gap={2} pt={0}>
-        <BlogStats likes={likes} comments={comments} shares={shares} />
+        <BlogStats
+          likes={likes}
+          comments={comments}
+          shares={shares}
+          slug={slug}
+        />
       </Box>
     </Box>
   );
