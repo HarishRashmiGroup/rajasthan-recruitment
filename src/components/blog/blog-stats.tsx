@@ -14,6 +14,7 @@ import {
   Flex,
   Portal,
   Drawer,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import {
   FiThumbsUp,
@@ -22,6 +23,7 @@ import {
   FiCopy,
   FiCheck,
   FiX,
+  FiMoreHorizontal,
 } from "react-icons/fi";
 import {
   FaFacebook,
@@ -30,6 +32,7 @@ import {
   FaWhatsapp,
   FaTelegram,
 } from "react-icons/fa";
+import Image from "next/image";
 
 export default function BlogStats({
   likes: initialLikes,
@@ -42,6 +45,10 @@ export default function BlogStats({
   shares: number;
   slug: string;
 }) {
+  const placementOfDrawer = useBreakpointValue<"bottom" | "end">({
+    base: "bottom",
+    lg: "end",
+  });
   const [likes, setLikes] = useState(initialLikes);
   const [isLiked, setIsLiked] = useState(false);
   const [comments, setComments] = useState(initialComments);
@@ -85,6 +92,23 @@ export default function BlogStats({
     }
   };
 
+  const handleNativeShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: "Check out this blog on Rajasthan Recruitment",
+          text: "I found this blog interesting, have a look:",
+          url: blogUrl,
+        });
+        setShares(shares + 1);
+      } catch (err) {
+        console.error("Error sharing:", err);
+      }
+    } else {
+      // alert("Sharing not supported on this device/browser.");
+    }
+  };
+
   const handleShare = (platform: string) => {
     setShares(shares + 1);
     const encodedUrl = encodeURIComponent(blogUrl);
@@ -116,7 +140,7 @@ export default function BlogStats({
   };
 
   return (
-    <Box onClick={() => {}}>
+    <Box>
       <HStack pt={2} w="full" zIndex={3}>
         <Button
           onClick={handleLike}
@@ -137,7 +161,9 @@ export default function BlogStats({
         </Button>
 
         <Button
-          onClick={() => setCommentOpen(true)}
+          onClick={() => {
+            setCommentOpen(true);
+          }}
           size="sm"
           variant="plain"
           m={0}
@@ -168,13 +194,20 @@ export default function BlogStats({
       <Drawer.Root
         open={isCommentOpen}
         onOpenChange={(details) => setCommentOpen(details.open)}
-        placement={"bottom"}
+        placement={placementOfDrawer}
       >
         <Portal>
           <Drawer.Backdrop />
           <Drawer.Positioner>
-            <Drawer.Content borderTopRadius="xl" maxH={"90vh"}>
-              <Drawer.Header>
+            <Drawer.Content
+              borderTopRadius="xl"
+              // maxH={"90vh"}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Drawer.Header
+                borderBottom={"2px solid"}
+                borderBottomColor={"#5d93fe"}
+              >
                 <Drawer.Title>Add Comment</Drawer.Title>
                 <Drawer.CloseTrigger asChild>
                   <IconButton aria-label="Close" variant="ghost" size="sm">
@@ -185,6 +218,23 @@ export default function BlogStats({
 
               <Drawer.Body py={6}>
                 <VStack gap={4} align={{ base: "stretch", md: "auto" }}>
+                  <Box
+                    display={{ base: "none", lg: "block" }}
+                    mb={4}
+                    position="relative"
+                    w="full"
+                    h="200px"
+                  >
+                    <Image
+                      src="/images/comment/comment-blog.png"
+                      alt="Comment on blog"
+                      fill
+                      style={{
+                        borderRadius: "8px",
+                        objectFit: "cover",
+                      }}
+                    />
+                  </Box>
                   <Box>
                     <Text fontSize="sm" fontWeight="medium" mb={2}>
                       Name
@@ -232,13 +282,20 @@ export default function BlogStats({
       <Drawer.Root
         open={isShareOpen}
         onOpenChange={(details) => setShareOpen(details.open)}
-        placement={"bottom"}
+        placement={placementOfDrawer}
       >
         <Portal>
           <Drawer.Backdrop />
           <Drawer.Positioner>
-            <Drawer.Content borderTopRadius="xl" maxH={"90vh"}>
-              <Drawer.Header>
+            <Drawer.Content
+              borderTopRadius="xl"
+              // maxH={"90vh"}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Drawer.Header
+                borderBottom={"2px solid"}
+                borderBottomColor={"#5d93fe"}
+              >
                 <Drawer.Title>Share Blog</Drawer.Title>
                 <Drawer.CloseTrigger asChild>
                   <IconButton aria-label="Close" variant="ghost" size="sm">
@@ -249,6 +306,23 @@ export default function BlogStats({
 
               <Drawer.Body py={6}>
                 <VStack gap={6} align="stretch">
+                  <Box
+                    display={{ base: "none", lg: "block" }}
+                    mb={4}
+                    position="relative"
+                    w="full"
+                    h="200px"
+                  >
+                    <Image
+                      src="/images/share/share-blog.png"
+                      alt="Share this blog"
+                      fill
+                      style={{
+                        borderRadius: "8px",
+                        objectFit: "cover",
+                      }}
+                    />
+                  </Box>
                   <Box>
                     <Text fontSize="sm" fontWeight="medium" mb={3}>
                       Copy Link
@@ -277,7 +351,11 @@ export default function BlogStats({
                     <Text fontSize="sm" fontWeight="medium" mb={3}>
                       Share on Social Media
                     </Text>
-                    <Flex gap={3} flexWrap="wrap">
+                    <Flex
+                      gap={3}
+                      flexWrap="wrap"
+                      justify={{ base: "space-between", md: "flex-start" }}
+                    >
                       <IconButton
                         aria-label="Share on Facebook"
                         onClick={() => handleShare("facebook")}
@@ -322,6 +400,14 @@ export default function BlogStats({
                         rounded="full"
                       >
                         <FaTelegram size={20} />
+                      </IconButton>
+                      <IconButton
+                        aria-label="More share options"
+                        onClick={handleNativeShare}
+                        size="lg"
+                        rounded="full"
+                      >
+                        <FiMoreHorizontal size={20} />
                       </IconButton>
                     </Flex>
                   </Box>
