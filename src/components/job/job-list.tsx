@@ -15,7 +15,7 @@ const JobList: React.FC<JobListProps> = ({ jobs }) => (
     width="full"
   >
     {jobs.map((job, idx) => (
-      <React.Fragment key={job.id}>
+      <React.Fragment key={`${job.id}-${idx}`}>
         <GridItem>
           <JobCard job={job} />
         </GridItem>

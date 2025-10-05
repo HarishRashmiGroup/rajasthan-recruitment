@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import BlogStats from "./blog-stats";
 import PlayOverlay from "../ui/play-overlay";
+import { getRelativeTime } from "@/lib/utils/date";
 
 const BlogCard: React.FC<BlogCardProps> = ({
   title,
@@ -24,6 +25,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
   hasPlayButton = false,
   sourceLogo,
   slug,
+  createdAt,
 }) => {
   return (
     <Box
@@ -84,7 +86,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
               •
             </Text>
             <Text fontSize="sm" color="gray.400">
-              {timeAgo}
+              {getRelativeTime(createdAt)}
             </Text>
           </HStack>
 
