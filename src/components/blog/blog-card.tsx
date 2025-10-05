@@ -16,7 +16,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
   title,
   image,
   source,
-  timeAgo,
   likes,
   comments,
   shares,
