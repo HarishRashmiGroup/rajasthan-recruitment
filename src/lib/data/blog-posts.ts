@@ -691,7 +691,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
     excerpt:
       "Rajasthan Staff Selection Board (RSSB) has announced the 2025 Lab Attendant recruitment under the Public Health Engineering Department (PHED). A total of 54 vacancies are available for candidates with minimum 10th pass qualifications. Apply online from July 11 to August 9, 2025.",
     description:
-      "The Rajasthan Staff Selection Board (RSSB) has released the official notification for Lab Attendant Recruitment 2025 under the Public Health Engineering Department (PHED). A total of 54 vacancies are open for candidates who have passed 10th standard and possess knowledge of Hindi in the Devanagari script and Rajasthan’s culture. This recruitment provides a valuable opportunity for entry-level aspirants to secure a government job in the technical support sector. Interested candidates can apply online from July 11, 2025, through the official portal. The last date for submission is August 9, 2025. Selection will be based on a written examination, followed by document verification. Eligible individuals are encouraged to apply early and prepare thoroughly.",
+      "The Rajasthan Staff Selection Board (RSSB) has released the official notification for Lab Attendant Recruitment 2025 under the Public Health Engineering Department (PHED). A total of 54 vacancies are open for candidates who have passed 10th standard and possess knowledge of Hindi in the Devanagari script and Rajasthan’s culture. This recruitment provides a valuable opportunity for entry-level aspirants to secure a government job in the technical support sector. Interested candidates can apply online from July 11, 2025, through the official portal. The last date for submission is August 9, 2025. Selection will be based on a written examination (February 22, 2026), followed by document verification. Eligible individuals are encouraged to apply early and prepare thoroughly.",
     content: {
       sections: [
         {
@@ -707,7 +707,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Department: Public Health Engineering, under the Rajasthan Staff Selection Board (RSSB/RSMSSB)",
                 "Notification Released: 10–11 July 2025",
                 "Apply Online: Opens 11 July 2025, closes 9 August 2025",
-                "Exam Date: Post‑August (TBA)",
+                "Exam Date: February 22, 2026",
               ],
               listType: "unordered",
             },
@@ -761,8 +761,9 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Notification Released: 11 July 2025",
                 "Application Start Date: 11 July 2025",
                 "Last Date to Apply: 10 August 2025",
+                "Exam Date: February 22, 2026"
               ],
-              listType: "unordered",
+              listType: "ordered",
             },
           ],
         },
@@ -881,6 +882,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "Rajasthan Lab Attendant Vacancy",
       "PHED Rajasthan Jobs",
       "RSMSSB Recruitment 2025",
+      "Lab Attendant exam date",
       "10th Pass Government Jobs",
       "Sarkari Naukri Rajasthan",
     ],
