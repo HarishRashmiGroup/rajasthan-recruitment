@@ -52,7 +52,7 @@ export const BLOG_LIST: BlogCardProps[] = [
     sourceLogo:
       "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
     slug: "rajasthan-cet",
-    createdAt: "2025-09-22T08:00:00Z",
+    createdAt: "2025-10-06T06:30:00Z",
   },
   {
     id: "19",

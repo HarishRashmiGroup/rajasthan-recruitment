@@ -5153,9 +5153,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
     },
     publishedAt: "2025-10-06T06:30:00Z",
-
     updatedAt: "2025-10-06T06:30:00Z",
-
     readTime: 14,
     views: 0,
     tags: [
