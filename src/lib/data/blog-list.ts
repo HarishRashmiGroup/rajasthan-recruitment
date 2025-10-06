@@ -41,7 +41,7 @@ export const BLOG_LIST: BlogCardProps[] = [
     title:
       "Rajasthan CET: Complete Guide to Exam Pattern, Preparation & Success Strategy",
     image:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-cet-1759716213435.png",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-1759725993084.cet-1759725993084.png",
     source: "RSMSSB",
     timeAgo: "8h",
     likes: 1,

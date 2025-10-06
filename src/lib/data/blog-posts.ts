@@ -5146,7 +5146,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       ],
     },
     featuredImage:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-cet-1759716213435.png",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-1759725993084.cet-1759725993084.png",
     author: {
       name: "Harish Bisu",
       avatar: "/images/authors/harish-bisu.png",
