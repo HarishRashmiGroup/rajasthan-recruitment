@@ -2,7 +2,7 @@ import { BlogCardProps } from "../api/types";
 
 export const BLOG_LIST: BlogCardProps[] = [
   {
-    id: "20",
+    id: "21",
     title:
       "EMRS Recruitment 2025 – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
     image:
@@ -19,22 +19,40 @@ export const BLOG_LIST: BlogCardProps[] = [
     slug: "emrs-recruitment-2025",
     createdAt: "2025-09-22T08:00:00Z",
   },
+  // {
+  //   id: "20",
+  //   title:
+  //     "RRB Section Controller Recruitment 2025 – Apply Online for 368 Vacancies",
+  //   image:
+  //     "https://blackbuck.blob.core.windows.net/blackbucks-media/Section-Controller-Recruitment-2025-1757915975213.png",
+  //   source: "Indian Railways",
+  //   timeAgo: "8h",
+  //   likes: 1,
+  //   comments: 0,
+  //   shares: 1,
+  //   isLarge: false,
+  //   isSponsored: true,
+  //   sourceLogo: "https://www.rrcjaipur.in/images/logo.png",
+  //   slug: "rrb-section-controller-recruitment-2025",
+  //   createdAt: "2025-09-14T08:00:00Z",
+  // },
   {
     id: "20",
     title:
-      "RRB Section Controller Recruitment 2025 – Apply Online for 368 Vacancies",
+      "Rajasthan CET: Complete Guide to Exam Pattern, Preparation & Success Strategy",
     image:
-      "https://blackbuck.blob.core.windows.net/blackbucks-media/Section-Controller-Recruitment-2025-1757915975213.png",
-    source: "Indian Railways",
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-cet-1759716213435.png",
+    source: "RSMSSB",
     timeAgo: "8h",
     likes: 1,
     comments: 0,
     shares: 1,
     isLarge: false,
     isSponsored: true,
-    sourceLogo: "https://www.rrcjaipur.in/images/logo.png",
-    slug: "rrb-section-controller-recruitment-2025",
-    createdAt: "2025-09-14T08:00:00Z",
+    sourceLogo:
+      "https://rsmssb.rajasthan.gov.in/Static/website/images/logo_img.png",
+    slug: "rajasthan-cet",
+    createdAt: "2025-09-22T08:00:00Z",
   },
   {
     id: "19",

@@ -761,7 +761,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Notification Released: 11 July 2025",
                 "Application Start Date: 11 July 2025",
                 "Last Date to Apply: 10 August 2025",
-                "Exam Date: February 22, 2026"
+                "Exam Date: February 22, 2026",
               ],
               listType: "ordered",
             },
@@ -4763,6 +4763,428 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
       "NESTS Recruitment 2025",
       "Government Teaching Jobs 2025",
       "EMRS Salary 2025",
+    ],
+  },
+  "rajasthan-cet": {
+    id: "17",
+    title:
+      "EMRS Recruitment – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
+    slug: "rajasthan-cet",
+    excerpt:
+      "Rajasthan CET is not just another entrance test—it’s the first step in Rajasthan's state government recruitment process. Qualifying this exam means unlocking the chance to apply for various departmental posts like clerks, assistants, accountants, superintendents, officers, and many more.",
+    description:
+      "Every year, thousands of students and job seekers in Rajasthan dream of securing prestigious government posts. The Rajasthan CET (Common Eligibility Test) serves as the gateway for those dreams, opening up opportunities in countless state departments. Whether just starting your journey or seeking clarity for your career path, this blog offers everything needed to succeed—from understanding CET basics to exam strategy and beyond.",
+    content: {
+      sections: [
+        {
+          id: 1759713103025,
+          type: "heading",
+          title: "What is Rajasthan CET?",
+          content: [
+            {
+              id: 1759713106898,
+              type: "paragraph",
+              text: "The CET is conducted by the Rajasthan Subordinate & Ministerial Services Selection Board (RSMSSB). Unlike direct recruitment exams, CET acts as a qualifying filter: you must clear CET before moving to specialized departmental exams. So, think of it as the base camp before you climb the mountain of government jobs in Rajasthan.",
+            },
+            {
+              id: 1759713128431,
+              type: "heading",
+              level: "h4",
+              text: "Levels of CET:",
+            },
+            {
+              id: 1759713139386,
+              type: "list",
+              items: [
+                "Senior Secondary Level: For applicants with 12th pass qualification.",
+                "Graduate Level: For those who hold a bachelor's degree.",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759713178968,
+          type: "heading",
+          title: "Why a common test?",
+          content: [
+            {
+              id: 1759713211372,
+              type: "list",
+              items: [
+                "Streamlines eligibility and saves students from multiple screening tests.",
+                "Encourages fairness—every applicant is judged by the same benchmark.",
+                "Lets you prepare once and use that score for several posts—less exam stress!",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759713237346,
+          type: "heading",
+          title: "Posts Covered Under Rajasthan CET",
+          content: [
+            {
+              id: 1759713245701,
+              type: "paragraph",
+              text: "Once you qualify, a world of job options open up. Here’s an illustrative list—always check the current notification for updates:",
+            },
+            {
+              id: 1759713253182,
+              type: "table",
+              headers: ["12th Level (Class XII Pass)", "Graduate Level"],
+              rows: [
+                ["Clerk Grade II", "Patwari"],
+                ["Junior Assistant", "Supervisor (Women Empowerment)"],
+                [
+                  "VDO (Village Development Officer)",
+                  "Tehsil Revenue Accountant",
+                ],
+                ["Forester", "Platoon Commander"],
+                ["Hostel Superintendent", "Sub-Jailer"],
+                ["Other subordinate posts", "Zilladar"],
+                ["", "Junior Accountant/Accountant roles"],
+              ],
+            },
+            {
+              id: 1759713433889,
+              type: "note",
+              text: "Each recruitment cycle may feature different posts according to departmental needs.",
+              noteType: "info",
+            },
+          ],
+        },
+        {
+          id: 1759713446797,
+          type: "heading",
+          title: "Eligibility Criteria: Who Can Apply?",
+          content: [
+            {
+              id: 1759713453164,
+              type: "heading",
+              level: "h3",
+              text: "For Senior Secondary Level CET:",
+            },
+            {
+              id: 1759713474643,
+              type: "list",
+              items: [
+                "Must have passed class 12th from a recognized board.",
+                "No fixed age limit in many notifications; check the latest circular.",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1759713492017,
+              type: "heading",
+              level: "h3",
+              text: "For Graduate Level CET:",
+            },
+            {
+              id: 1759713499098,
+              type: "list",
+              items: [
+                "Must hold a bachelor's degree in any discipline.",
+                "Again, age relaxation and limits can vary, so official announcement is key.",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1759713528812,
+              type: "heading",
+              level: "h3",
+              text: "Additional:",
+            },
+            {
+              id: 1759713539639,
+              type: "list",
+              items: [
+                "Indian citizenship required.",
+                "May be subject to Rajasthan state domicile rules.",
+                "Always stay updated for changes in official notifications regarding eligibility and reservations.",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759713572045,
+          type: "heading",
+          title: "Exam Pattern: Structure and Marking Scheme",
+          content: [
+            {
+              id: 1759713575851,
+              type: "paragraph",
+              text: "Knowing the paper pattern is half the battle! Here’s what to expect:",
+            },
+            {
+              id: 1759713586623,
+              type: "list",
+              items: [
+                "Total Questions: 150",
+                "Total Marks: 300 (2 marks per question)",
+                "Time Duration: 3 hours",
+                "Type: Objective MCQs",
+                "Negative Marking: Generally NO negative marking, but always verify via the latest notification.",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1759713674384,
+              type: "heading",
+              level: "h3",
+              text: "Section-Wise Distribution (Indicative):",
+            },
+            {
+              id: 1759713681411,
+              type: "table",
+              headers: ["Section", "Questions", "Marks", "\tFocus Area"],
+              rows: [
+                [
+                  "General Awareness",
+                  "35-40",
+                  "70-80",
+                  "Indian + Rajasthan events, policies, GK",
+                ],
+                [
+                  "Rajasthan GK",
+                  "25-35",
+                  "50-70",
+                  "History, geography, economy of Rajasthan",
+                ],
+                [
+                  "English & Hindi",
+                  "20-25",
+                  "40-50",
+                  "Grammar, comprehension, vocabulary",
+                ],
+                [
+                  "Reasoning/Mental Ability",
+                  "35-45",
+                  "70-90\t",
+                  "Logical deduction, puzzles, series",
+                ],
+                [
+                  "Numerical Ability",
+                  "included",
+                  "varies",
+                  "Basic arithmetic, data interpretation",
+                ],
+                [
+                  "Computer Knowledge",
+                  "10-20",
+                  "20-40",
+                  "Concepts, MS Office, internet basics",
+                ],
+              ],
+            },
+            {
+              id: 1759713913256,
+              type: "tips",
+              items: [
+                "Syllabus and section-wise weightage can vary, so always double-check the latest official document for details.",
+              ],
+            },
+          ],
+        },
+        {
+          id: 1759713962014,
+          type: "heading",
+          title: "Syllabus Highlights: Topics You Should Know",
+          content: [
+            {
+              id: 1759713974448,
+              type: "list",
+              items: [
+                "General Awareness & Current Affairs: National/International events, sports, awards, policies, popular personalities.",
+                "Rajasthan GK: History, art, culture, geography, government schemes, administrative structure.",
+                "English & Hindi: Grammar rules, reading comprehension, sentence structure, vocabulary.",
+                "Reasoning: Coding-decoding, analogies, series, puzzles, logical reasoning.",
+                "Numerical Ability: Percentages, ratios, averages, time and work, simple algebra, statistics.",
+                "Computer Basics: Fundamentals, MS Word/Excel, hardware/software, internet and e-governance.",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759714036421,
+          type: "heading",
+          title: "Preparation Strategy & Tips: How to Ace Rajasthan CET",
+          content: [
+            {
+              id: 1759714044627,
+              type: "list",
+              items: [
+                "Know the Exam Pattern & Syllabus: Start by researching what’s asked, focus on important topics, and don’t skip the Rajasthan-specific content.",
+                "Make a Study Plan: Allocate time daily or weekly, giving extra effort where you feel weak.",
+                "Use Quality Study Material: Refer to updated books for common topics, Rajasthan GK, reasoning, and computers.",
+                "Practice Previous Papers & Mock Tests: Understanding previous years’ questions helps you learn patterns and manage time.",
+                "Timed Mock Tests: Simulate exam conditions—this boosts accuracy and confidence.",
+                "Periodic Revision: Make concise notes for facts, formulas, and current affairs for regular review.",
+                "Stay Up-to-Date: Focus on news and national/state-level updates, especially from the past 6–12 months.",
+              ],
+              listType: "ordered",
+            },
+            {
+              id: 1759714127027,
+              type: "heading",
+              level: "h3",
+              text: "Time Management & Exam Day Strategy",
+            },
+            {
+              id: 1759714138361,
+              type: "list",
+              items: [
+                "First Pass: Attempt all easy questions quickly.",
+                "Flag & Skip: Mark difficult questions and come back later.",
+                "Avoid Time Sink: Don’t spend too long on any one question.",
+                "Accuracy: If negative marking applies, don’t make wild guesses.",
+                "Last Minutes: Review flagged questions and unanswered easy ones.",
+              ],
+              listType: "unordered",
+            },
+            {
+              id: 1759714214376,
+              type: "heading",
+              level: "h3",
+              text: "Common Mistakes—and How to Avoid Them",
+            },
+            {
+              id: 1759714233296,
+              type: "list",
+              items: [
+                "Not reading official notifications carefully—this can cost you eligibility!\n\nSkipping mock tests or ignoring time limits during practice.\n",
+                "Neglecting Rajasthan-specific topics and state GK.",
+                "Cramming, focusing only on last-minute revision instead of a solid, long-term approach.",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759714298323,
+          type: "heading",
+          title: "Cut-Off Trends & What to Aim For",
+          content: [
+            {
+              id: 1759714307795,
+              type: "list",
+              items: [
+                "Difficulty level usually ranges from easy to moderate—but competition is tough.",
+                "Cut-offs vary year-to-year; it's safer to practice with a goal to score above the last few years' cut-off trends in mocks and practice tests.",
+              ],
+              listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759714344306,
+          type: "heading",
+          title: "Recruitment Process After CET",
+          content: [
+            {
+              id: 1759714353011,
+              type: "list",
+              items: [
+                "Qualify the CET and get your score/certificate.",
+                "Apply for departmental posts (based on your eligibility).",
+                "Face the department-specific selection stages: mains, skill tests, interviews, document verification.",
+                "Final selection and appointment depends on the department’s recruitment process.",
+              ],
+              listType: "ordered",
+            },
+          ],
+        },
+        {
+          id: 1759714401577,
+          type: "heading",
+          title: "Conclusion: Your Gateway to Government Jobs",
+          content: [
+            {
+              id: 1759714412590,
+              type: "paragraph",
+              text: "Rajasthan CET is your stepping stone—don't let confusion or doubt hold back your preparation. Just remember:\n\nUnderstand the pattern and syllabus deeply.\n\nFocus on both general and Rajasthan-specific topics.\n\nUse mock tests and revision wisely.\n\nStay disciplined, consistent, and rely on authenticated resources.\n\nIf you make a solid plan, practice smart, and keep your eye on official notifications, nothing can stop you from clearing Rajasthan CET and moving towards a rewarding career in the Rajasthan government!",
+            },
+          ],
+        },
+        {
+          id: 1759714424100,
+          type: "heading",
+          title: "FAQs – Quick Answers",
+          content: [
+            {
+              id: 1759714437539,
+              type: "faq",
+              items: [
+                {
+                  question: "Is there negative marking?",
+                  answer:
+                    "Usually not, but always check the current notification.",
+                },
+                {
+                  question: "Can you apply for both levels?",
+                  answer: "Yes, if qualified for both.",
+                },
+                {
+                  question: "Attempts allowed?",
+                  answer: "Usually no limit stated.",
+                },
+                {
+                  question: "Validity?",
+                  answer: "Typically valid for that recruitment cycle.",
+                },
+                {
+                  question: "Mandatory for all jobs?",
+                  answer: "No, only those posts that mention “CET qualified.”",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    featuredImage:
+      "https://blackbuck.blob.core.windows.net/blackbucks-media/rajasthan-cet-1759716213435.png",
+    author: {
+      name: "Harish Bisu",
+      avatar: "/images/authors/harish-bisu.png",
+      bio: "Expert in Rajasthan government recruitment with 10+ years of advisory experience.",
+    },
+    publishedAt: "2025-10-06T06:30:00Z",
+
+    updatedAt: "2025-10-06T06:30:00Z",
+
+    readTime: 14,
+    views: 0,
+    tags: [
+      "Rajasthan CET",
+      "Government Jobs",
+      "Rajasthan Government",
+      "Competitive Exams",
+      "CET Preparation",
+      "Rajasthan GK",
+      "Exam Strategy",
+      "Government Recruitment",
+    ],
+    category: {
+      name: "Government Exams",
+      slug: "government-exams",
+    },
+    seoTitle:
+      "Rajasthan CET 2025: Complete Guide to Exam Pattern, Preparation & Success Strategy",
+    seoDescription:
+      "Get the ultimate guide to Rajasthan CET 2025. Learn about exam pattern, syllabus, eligibility, preparation tips, and how to ace the CET to unlock government job opportunities in Rajasthan.",
+    seoKeywords: [
+      "Rajasthan CET 2025",
+      "Rajasthan Common Eligibility Test",
+      "Rajasthan government jobs",
+      "CET exam pattern",
+      "Rajasthan CET preparation",
+      "Rajasthan CET syllabus",
+      "RSMSSB CET",
+      "Rajasthan recruitment exams",
     ],
   },
 };
