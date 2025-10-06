@@ -4768,7 +4768,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
   "rajasthan-cet": {
     id: "17",
     title:
-      "EMRS Recruitment – Apply Online for 7267 Teaching & Non-Teaching Vacancies",
+      "Rajasthan CET: Common Eligibility Test for 12th & Graduate Level Posts",
     slug: "rajasthan-cet",
     excerpt:
       "Rajasthan CET is not just another entrance test—it’s the first step in Rajasthan's state government recruitment process. Qualifying this exam means unlocking the chance to apply for various departmental posts like clerks, assistants, accountants, superintendents, officers, and many more.",
