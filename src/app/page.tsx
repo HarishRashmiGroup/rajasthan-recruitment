@@ -117,16 +117,16 @@ async function App() {
         </Box>
       </Box>
       <BlogList />
-      <Box
+      {/* <Box
         w="100%"
         minH="300px"
         minW="270px"
         p={0}
         display="block"
         justifyContent="center"
-      >
+      > */}
         <AdSenseMultiplexAd />
-      </Box>
+      {/* </Box> */}
     </Box>
   );
 }
