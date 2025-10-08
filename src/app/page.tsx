@@ -119,10 +119,10 @@ async function App() {
       <BlogList />
       <Box
         w="100%"
-        h="fit-content"
+        h="400px"
         minW="270px"
         p={0}
-        display="flex"
+        display="block"
         justifyContent="center"
       >
         <AdSenseMultiplexAd />
