@@ -4363,6 +4363,11 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
           title: "Vacancy Breakdown",
           content: [
             {
+              id: 1759905045351,
+              type: "paragraph",
+              text: "The Eklavya Model Residential Schools (EMRS) under the National Education Society for Tribal Students (NESTS) have released a large number of vacancies for the 2025 recruitment drive. The total number of posts this year is 7,267, covering both Teaching and Non-Teaching categories.",
+            },
+            {
               id: 1758505408453,
               type: "table",
               headers: ["SN", "POSTS", "VACANCIES"],
@@ -4379,16 +4384,10 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               ],
             },
             {
-              id: 1758505673325,
-              type: "heading",
-              level: "h3",
-              text: "Category wise",
-            },
-            {
               id: 1758505721833,
               type: "heading",
               level: "h4",
-              text: "Principle",
+              text: "Principal – Category-wise Distribution",
             },
             {
               id: 1758505735318,
@@ -4406,7 +4405,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1758505803838,
               type: "heading",
               level: "h4",
-              text: "PGT",
+              text: "PGT (Post Graduate Teacher) – Subject-wise & Category-wise Vacancies",
             },
             {
               id: 1758505822163,
@@ -4523,7 +4522,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1758506340627,
               type: "heading",
               level: "h4",
-              text: "TGT",
+              text: "TGT (Trained Graduate Teacher) – Subject-wise Distribution",
             },
             {
               id: 1758506358140,
@@ -4551,7 +4550,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1758506688376,
               type: "heading",
               level: "h4",
-              text: "TGT Regional Language",
+              text: "TGT – Regional Language Teachers",
             },
             {
               id: 1758506769238,
@@ -4580,7 +4579,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               id: 1758507135547,
               type: "heading",
               level: "h4",
-              text: "TGT Miscellaneous",
+              text: "TGT – Miscellaneous (Music, Art, PET, Librarian)",
             },
             {
               id: 1758507154552,
@@ -4670,6 +4669,42 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Other posts: as per 7th CPC Pay Matrix (varies by level)",
               ],
               listType: "unordered",
+            },
+          ],
+        },
+        {
+          id: 1759905049967,
+          type: "heading",
+          title: "Selection Process",
+          content: [
+            {
+              id: 1759905491036,
+              type: "paragraph",
+              text: "The EMRS Selection Process 2025 is designed to identify competent, passionate, and skilled educators and administrators who can contribute effectively to the holistic development of students in tribal areas. The process is multi-tiered, combining both academic evaluation and personality assessment to ensure fair selection.",
+            },
+            {
+              id: 1759905540387,
+              type: "process",
+              steps: [
+                {
+                  title: "Tier 1: Preliminary Objective Test (OMR-Based)",
+                  description:
+                    "Total Marks: 100\nType: Multiple Choice Questions (MCQs)\nPurpose: Qualifying in nature (10x selection)",
+                  number: 1,
+                },
+                {
+                  title: "Tier 2: Subject Knowledge Test (Core Paper)",
+                  description:
+                    "Marks: 100\nFormat: Objective + Descriptive (varies by post)\nWeightage: Counts towards final merit for most teaching posts.",
+                  number: 2,
+                },
+                {
+                  title: "Tier 3: Interview / Personality Assessment",
+                  description:
+                    "This stage applies primarily to Principal and Vice-Principal posts, where leadership and management skills are crucial.\nInterview Panel: Senior EMRS/NESTS officials and education experts.",
+                  number: 3,
+                },
+              ],
             },
           ],
         },

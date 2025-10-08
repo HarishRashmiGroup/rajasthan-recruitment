@@ -13,7 +13,7 @@ const AdSenseAd = () => {
     const timer = setTimeout(() => {
       try {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
-        console.log('7891680227');
+        console.log("7891680227");
       } catch (e) {
         console.log("AdSense error:", e);
       }
@@ -25,7 +25,7 @@ const AdSenseAd = () => {
   return (
     <ins
       className="adsbygoogle"
-      style={{ display: "inline-block", width: 200, height: 450 }}
+      style={{ display: "inline-block", width: 200, height: "auto" }}
       data-ad-client="ca-pub-3383607348636418"
       data-ad-slot="7891680227"
     />
