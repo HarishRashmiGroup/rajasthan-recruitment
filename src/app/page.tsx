@@ -119,7 +119,7 @@ async function App() {
       <BlogList />
       <Box
         w="100%"
-        h="400px"
+        minH="300px"
         minW="270px"
         p={0}
         display="block"
