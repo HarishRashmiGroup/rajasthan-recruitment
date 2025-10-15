@@ -58,13 +58,19 @@ const BlogCard: React.FC<BlogCardProps> = ({
           {isSponsored && (
             <Badge
               position="absolute"
-              top={2}
-              right={2}
-              bg="#DEE9FF"
-              pl={1}
-              pr={1}
-              color={"#5d93fe"}
+              top={3}
+              right={3}
+              bg="rgba(222, 233, 255, 0.95)"
+              backdropFilter="blur(8px)"
+              // px={2.5}
+              // py={1}
+              color="#5d93fe"
+              border={"2px solid #5d93fe"}
+              opacity={0.9}
               fontSize="xs"
+              fontWeight="600"
+              borderRadius="md"
+              textTransform="capitalize"
             >
               Sponsored
             </Badge>
@@ -94,7 +100,6 @@ const BlogCard: React.FC<BlogCardProps> = ({
             fontWeight="semibold"
             color="gray.800"
             lineHeight="1.4"
-            maxLines={isLarge ? 3 : 2}
           >
             {title}
           </Text>
