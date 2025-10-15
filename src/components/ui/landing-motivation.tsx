@@ -14,12 +14,12 @@ export const LandingMotivation = () => {
           <defs>
             <pattern
               id="grid"
-              width="5"
-              height="5"
+              width="50"
+              height="50"
               patternUnits="userSpaceOnUse"
             >
               <path
-                d="M 5 0 L 0 0 0 5"
+                d="M 50 0 L 0 0 0 50"
                 fill="none"
                 stroke="#5d93fe"
                 strokeWidth="1"
