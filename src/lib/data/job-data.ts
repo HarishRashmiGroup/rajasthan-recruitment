@@ -12,7 +12,7 @@ export const jobsData: Job[] = [
     registrationEndDate: "October 23, 2025",
     posts: 7267,
     level: "Central Govt",
-    examDate: "To be announced",
+    examDate: "December 13, 2025 December 14, 2025 December 21, 2025",
   },
   {
     id: 15,

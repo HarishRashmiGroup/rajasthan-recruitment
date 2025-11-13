@@ -24,10 +24,10 @@ export const TabsNavigation = () => {
     const pathname = usePathname()
     const router = useRouter()
     const [loading, setLoading] = useState(false);
-    const [activeTab, setActiveTab] = useState<TabKey>("jobs")
+    const [activeTab, setActiveTab] = useState<TabKey>()
 
     useEffect(() => {
-        const currentTab = routeToTab[pathname] || "jobs"
+        const currentTab = routeToTab[pathname]
         setActiveTab(currentTab)
         setLoading(false);
     }, [pathname])
