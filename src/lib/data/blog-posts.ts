@@ -4352,6 +4352,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Posts Covered: Teaching (Principal, PGT, TGT) + Non-teaching (Nurse, Hostel Warden, Accountant, Clerk, Lab Attendant etc.)",
                 "Application Mode: Online only",
                 "Application Dates: 19 September 2025 to 23 October 2025",
+                "Tier-1 Exam Dates: 13th, 14th & 21st December 2025."
               ],
               listType: "unordered",
             },
@@ -4538,7 +4539,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Total",
               ],
               rows: [
-                ["UR", "162", "174", "156", "161", "167", "550", "1044"],
+                ["UR", "162", "174", "156", "161", "167", "224", "1044"],
                 ["EWS", "39", "42", "38", "39", "40", "55", "253"],
                 ["OBC", "106", "114", "102", "102", "110", "148", "685"],
                 ["SC", "59", "63", "57", "58", "61", "82", "380"],
@@ -4617,7 +4618,7 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
                 "Female Staff Nurse",
                 "Accountant",
                 "JSA",
-                "Total",
+                "Lab Attendant",
                 "TOTAL",
               ],
               rows: [
@@ -4730,6 +4731,11 @@ export const BLOG_POSTS: Record<string, BlogPost> = {
               type: "faq",
               items: [
                 {
+                  question:
+                    "Exam dates for Tier-1?",
+                  answer:
+                    "The EMRS Recruitment 2025 Tier-1 exam is scheduled to be held on 13th, 14th & 21st December 2025.",
+                },{
                   question:
                     "Are female candidates exempted from application fee?",
                   answer:
