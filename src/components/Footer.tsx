@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               <VStack align="flex-start" >
                 <HStack>
                   <Text color="#5d93fe" fontSize="lg" lineHeight={1} fontWeight="medium" userSelect="none">
-                    Rajasthan<br />Recruitement
+                    Rajasthan<br />Recruitment
                   </Text>
                   <Text as="span" ml={3} position="relative" top={-4}>
                     🇮🇳
