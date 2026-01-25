@@ -9,11 +9,21 @@ import { TabsNavigation } from '@/components/ui/tab-navigation';
 
 // export const dynamic = 'force-static'; 
 
-export default async function JobsPage() {
-  const jobs = await getAllJobs();
+import { SEO } from '@/components/ui/SEO';
+import { Pagination } from '@/components/ui/Pagination';
+
+export default async function JobsPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const page = Number((await searchParams).page) || 1;
+  const pageSize = 10;
+  const { jobs, total } = await getAllJobs({ category: 'ans-key', limit: pageSize, offset: (page - 1) * pageSize });
 
   return (
     <Box p={{ base: 2, md: 4 }}>
+      <SEO
+        title={`Answer Key ${new Date().getFullYear()} - Check Exam Solutions & Keys`}
+        description="Check official Rajasthan government job exam answer keys. Compare your answers and calculate scores with our updated key links."
+        canonical="https://rajasthanrecruitment.in/ans-key"
+      />
       <Box mx="auto" position="relative" pb={12}>
         <Box
           zIndex={98}
@@ -25,15 +35,20 @@ export default async function JobsPage() {
         </Box>
         <Heading
           as="h1"
-          fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
-          color="#5d93fe"
+          fontSize={{ base: 'xl', md: '2xl', lg: '32px' }}
+          color="#3c4043"
+          mb={6}
+          fontWeight="700"
+          borderBottom="3px solid #4285f4"
+          pb={2}
+          display="inline-block"
         >
-          Latest Government Job Notifications {new Date().getFullYear()} - Apply Online
+          Answer Key Notifications {new Date().getFullYear()}
         </Heading>
 
         <Stack
           mb={12}
-          spaceX={4}
+          gap={4}
           w="full"
           position="relative"
           direction={{ base: 'column', md: 'row' }}
@@ -42,20 +57,12 @@ export default async function JobsPage() {
           <SidebarAd />
         </Stack>
 
-        <Box position="absolute" w="full" display="flex" justifyContent="center" bottom={3}>
-          <Box
-            border="2px solid #5d93fe"
-            borderRadius="lg"
-            _hover={{ bg: '#DEE9FF', cursor: 'pointer' }}
-          >
-            <LinkWithLoader href="/job">
-              <Box p={2} display="flex" alignItems="center" gap={2}>
-                <Text color="#5d93fe">View More</Text>
-                <ChevronDownIcon size={20} color="#5d93fe" />
-              </Box>
-            </LinkWithLoader>
-          </Box>
-        </Box>
+        <Pagination
+          currentPage={page}
+          totalCount={total}
+          pageSize={pageSize}
+          onPageChange={() => { }}
+        />
       </Box>
     </Box>
   );

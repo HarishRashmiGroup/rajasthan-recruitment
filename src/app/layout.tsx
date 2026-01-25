@@ -53,6 +53,27 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <Script id="fast-load-trick" strategy="afterInteractive">
+          {`
+            // Connection prewarming for likely next routes
+            const prewarm = (url) => {
+              const link = document.createElement('link');
+              link.rel = 'prefetch';
+              link.href = url;
+              document.head.appendChild(link);
+            };
+            
+            // Prefetch key pages on idle
+            if (window.requestIdleCallback) {
+              requestIdleCallback(() => {
+                ['/admit-card', '/result', '/ans-key'].forEach(prewarm);
+              });
+            }
+          `}
+        </Script>
         <Script id="organization-logo" type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -83,7 +104,11 @@ export default function RootLayout({
               flexDirection="column"
               boxShadow="0px 8px 1000px #DEE9FF"
             >
-              <Box flex="1">
+              <Box
+                flex="1"
+                bg="white"
+                borderX={{ lg: "1px solid #e0e0e0" }}
+              >
                 <Navbar />
                 {children}
               </Box>

@@ -6,9 +6,9 @@ import LinkWithLoader from "@/components/LinkWithLoader";
 import { LandingMotivation } from "@/components/ui/landing-motivation";
 import { TabsNavigation } from "@/components/ui/tab-navigation";
 import { getAllJobs } from "@/lib/api/job";
-import { Box, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Heading, HStack, Stack, Text } from "@chakra-ui/react";
 import { ChevronDownIcon } from "lucide-react";
-import AdSenseMultiplexAd from "@/components/ui/google-muliplex-ads";
+import { GoogleAd } from "@/components/ui/google-ad";
 
 export const metadata: Metadata = {
   title: `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card | Rajasthan Recruitment`,
@@ -54,18 +54,54 @@ export const metadata: Metadata = {
   },
 };
 
-async function App() {
-  const jobs = await getAllJobs();
+import { SEO } from "@/components/ui/SEO";
+import { Pagination } from "@/components/ui/Pagination";
+import { redirect } from "next/navigation";
+
+async function App({
+  searchParams,
+}: {
+  searchParams: Promise<{ page?: string; q?: string }>;
+}) {
+  const params = await searchParams;
+  const page = Number(params.page) || 1;
+  const query = params.q || "";
+  const pageSize = 10;
+  const { jobs, total } = await getAllJobs({
+    query,
+    limit: pageSize,
+    offset: (page - 1) * pageSize,
+  });
+
   return (
     <Box
       className="App"
-      minH="100vh"
+      // minH="100vh"
       p={{ sm: 2, md: 4 }}
       position={"relative"}
     >
+      <SEO
+        title={
+          query
+            ? `Search results for "${query}" | Govt Jobs`
+            : `Govt Jobs ${new Date().getFullYear()} - Latest Sarkari Naukri, Results, Admit Card`
+        }
+        description={
+          query
+            ? `Browse all Rajasthan government job results for "${query}".`
+            : "Get the latest Rajasthan government job notifications, exam results, admit cards, answer keys, and more."
+        }
+        keywords={[
+          "Rajasthan government jobs",
+          "Sarkari Naukri",
+          "Admit card",
+          "Result",
+        ]}
+        canonical="https://rajasthanrecruitment.in/"
+      />
       <LandingMotivation />
       <Box position={"relative"} mb={8}>
-        <Box zIndex={98} position="sticky" top={"73px"}>
+        <Box zIndex={98} position="sticky" top={"74px"}>
           <TabsNavigation />
         </Box>
         <Heading
@@ -77,47 +113,29 @@ async function App() {
           borderLeft={"4px solid #5d93fe"}
           borderRadius={"md"}
         >
-          Latest Government Job Notifications {new Date().getFullYear()} - Apply
-          Online
+          Latest Government Jobs {new Date().getFullYear()}
         </Heading>
         <Stack
-          mb={12}
-          spaceX={4}
+          mb={6}
+          gap={4}
           w="full"
+          h={"fit-content"}
           position="relative"
           direction={{ base: "column", md: "row" }}
         >
           <JobList jobs={jobs} />
           <SidebarAd />
         </Stack>
-        <Box
-          w="full"
-          h={"42px"}
-          display="flex"
-          justifyContent="center"
-          bottom={-12}
-        >
-          <Box
-            border="2px solid #5d93fe"
-            borderRadius="lg"
-            position="absolute"
-            _hover={{
-              borderColor: "#DEE9FF",
-              bg: "#DEE9FF",
-              cursor: "pointer",
-            }}
-          >
-            <LinkWithLoader href="/job">
-              <Box p={2} display="flex" alignItems="center" gap={2}>
-                <Text color="#5d93fe">Explore More Jobs</Text>
-                <ChevronDownIcon size={20} color="#5d93fe" />
-              </Box>
-            </LinkWithLoader>
-          </Box>
-        </Box>
+        <HStack w={"full"} display={"flex"} justifyContent={"center"}>
+          <Pagination
+            currentPage={page}
+            totalCount={total}
+            pageSize={pageSize}
+          />
+        </HStack>
       </Box>
       <BlogList />
-      <AdSenseMultiplexAd />
+      <GoogleAd type="multiplex" slot="4568995773" />
     </Box>
   );
 }

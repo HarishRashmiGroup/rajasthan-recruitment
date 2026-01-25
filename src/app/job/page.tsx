@@ -9,11 +9,21 @@ import { TabsNavigation } from '@/components/ui/tab-navigation';
 
 // export const dynamic = 'force-static'; 
 
-export default async function JobsPage() {
-  const jobs = await getAllJobs();
+import { SEO } from '@/components/ui/SEO';
+import { Pagination } from '@/components/ui/Pagination';
+
+export default async function JobsPage({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+  const page = Number((await searchParams).page) || 1;
+  const pageSize = 10;
+  const { jobs, total } = await getAllJobs({ category: 'job', limit: pageSize, offset: (page - 1) * pageSize });
 
   return (
     <Box p={{ base: 2, md: 4 }}>
+      <SEO
+        title={`Latest Govt Jobs ${new Date().getFullYear()} - Apply Online for Vacancies`}
+        description="Find all Rajasthan and Central government job vacancies. Apply online for the latest recruitment notifications, dates, and eligibility details."
+        canonical="https://rajasthanrecruitment.in/job"
+      />
       <Box mx="auto" position="relative" pb={12}>
         <Box
           zIndex={98}
@@ -28,12 +38,12 @@ export default async function JobsPage() {
           fontSize={{ base: 'xl', md: '2xl', lg: '3xl' }}
           color="#5d93fe"
         >
-          Latest Government Job Notifications {new Date().getFullYear()} - Apply Online
+          Latest Government Job Notifications {new Date().getFullYear()}
         </Heading>
 
         <Stack
           mb={12}
-          spaceX={4}
+          gap={4}
           w="full"
           position="relative"
           direction={{ base: 'column', md: 'row' }}
@@ -42,20 +52,12 @@ export default async function JobsPage() {
           <SidebarAd />
         </Stack>
 
-        <Box position="absolute" w="full" display="flex" justifyContent="center" bottom={3}>
-          <Box
-            border="2px solid #5d93fe"
-            borderRadius="lg"
-            _hover={{ bg: '#DEE9FF', cursor: 'pointer' }}
-          >
-            <LinkWithLoader href="/job">
-              <Box p={2} display="flex" alignItems="center" gap={2}>
-                <Text color="#5d93fe">View More</Text>
-                <ChevronDownIcon size={20} color="#5d93fe" />
-              </Box>
-            </LinkWithLoader>
-          </Box>
-        </Box>
+        <Pagination
+          currentPage={page}
+          totalCount={total}
+          pageSize={pageSize}
+          onPageChange={() => { }}
+        />
       </Box>
     </Box >
   );

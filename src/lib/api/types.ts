@@ -73,6 +73,7 @@ export interface Job {
   posts?: number;
   detailsUrl?: string;
   officialSiteUrl?: string;
+  categories?: string[];
 }
 
 export interface BlogCardProps {

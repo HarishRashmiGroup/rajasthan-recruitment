@@ -17,17 +17,18 @@ const BlogList: React.FC = async () => {
         borderLeft={"4px solid #5d93fe"}
         borderRadius={"md"}
       >
-        Latest Blog Posts on Career, Education & Government Jobs
+        Career & Education Updates
       </Heading>
       <Box
         w={"full"}
         display={"flex"}
-        width={"full"}
-        gap={4}
+        flexDirection={{ base: "column", lg: "row" }}
+        gap={6}
         position={"relative"}
         py={8}
         px={0}
         mb={16}
+        gapX={2}
       >
         <SimpleGrid
           columns={{ base: 1, md: 2, lg: 3, xl: 4 }}

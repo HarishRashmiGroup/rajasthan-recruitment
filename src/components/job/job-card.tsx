@@ -28,7 +28,7 @@ const JobCard: React.FC<{
       flexDirection="column"
       justifyContent="space-between"
       width="100%"
-      height="100%"
+      h={"full"}
     >
       <Box>
         <Flex justify="space-between" mb={4} wrap="wrap">

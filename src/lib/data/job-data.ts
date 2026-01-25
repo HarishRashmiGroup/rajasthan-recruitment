@@ -13,6 +13,7 @@ export const jobsData: Job[] = [
     posts: 7267,
     level: "Central Govt",
     examDate: "13th, 14th & 21st December 2025",
+    categories: ["job", "latest-news"],
   },
   {
     id: 15,
@@ -26,6 +27,7 @@ export const jobsData: Job[] = [
     posts: 368,
     level: "Section Controller( Level 6 )",
     examDate: "To be announced",
+    categories: ["job", "admit-card"],
   },
   {
     id: 14,
@@ -39,6 +41,7 @@ export const jobsData: Job[] = [
     posts: 6500,
     level: "Senior Teacher (Grade 2)",
     examDate: "July 12-18, 2026",
+    categories: ["job"],
   },
   {
     id: 13,
@@ -53,6 +56,7 @@ export const jobsData: Job[] = [
     posts: 3717,
     level: "Grade 2",
     examDate: "September 16, 2025",
+    categories: ["job", "ans-key"],
   },
   {
     id: 19,
@@ -66,6 +70,7 @@ export const jobsData: Job[] = [
     posts: 281,
     level: "State",
     examDate: "To Be Announced",
+    categories: ["job"],
   },
   {
     id: 18,
@@ -80,6 +85,7 @@ export const jobsData: Job[] = [
     posts: 7759,
     level: "State",
     examDate: "January 17-21, 2026 (Tentative)",
+    categories: ["job", "result"],
   },
   {
     id: 17,
@@ -93,6 +99,7 @@ export const jobsData: Job[] = [
     posts: 1015,
     level: "State – Group B (Gazetted Officer)",
     examDate: "Written Exam: November 2025 (Tentative)",
+    categories: ["job"],
   },
   {
     id: 16,
@@ -106,6 +113,7 @@ export const jobsData: Job[] = [
     posts: 54,
     level: "State – Group D (Level 1)",
     examDate: "February 22, 2026 (Tentative)",
+    categories: ["job", "admit-card"],
   },
   {
     id: 12,
@@ -119,6 +127,7 @@ export const jobsData: Job[] = [
     posts: 54,
     level: "Central – Group C",
     examDate: "Trials/Interview: August 20–25, 2025",
+    categories: ["job"],
   },
   {
     id: 1,
@@ -132,6 +141,7 @@ export const jobsData: Job[] = [
     level: "State – Group C",
     examDate: "November 02, 2025",
     registrationEndDate: "July 18, 2025",
+    categories: ["job", "ans-key"],
   },
   {
     id: 14,
@@ -143,6 +153,7 @@ export const jobsData: Job[] = [
     logo: "https://th.bing.com/th/id/OSK.c854a1a56084d3fc19a6719b113af6db?w=80&h=80&r=0&o=6&cb=B&pid=23.1",
     level: "State",
     registrationEndDate: "11 August 2025, 11:59 PM",
+    categories: ["job"],
   },
   // {
   //     id: 2,
@@ -169,6 +180,7 @@ export const jobsData: Job[] = [
     registrationStartDate: "Mar 21, 2025",
     examDate: "September 18 to 21, 2025",
     registrationEndDate: "Apr 19, 2025",
+    categories: ["job", "admit-card"],
   },
   {
     id: 4,
@@ -183,6 +195,7 @@ export const jobsData: Job[] = [
     examDate: "September 18 to 21, 2025",
     level: "State Group D",
     registrationEndDate: "July 26–27, 2025",
+    categories: ["job", "result"],
   },
   {
     id: 7,
@@ -194,6 +207,7 @@ export const jobsData: Job[] = [
     examDate: "November 06, 2025",
     registrationEndDate: "April 2025",
     level: "State",
+    categories: ["job"],
   },
   {
     id: 9,
@@ -206,6 +220,7 @@ export const jobsData: Job[] = [
     notificationDate: "March 28, 2025",
     level: "State",
     registrationEndDate: "Mar 2025",
+    categories: ["job", "ans-key"],
   },
 ];
 

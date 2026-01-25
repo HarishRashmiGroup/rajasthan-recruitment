@@ -14,8 +14,7 @@ import ShareButtons from "@/components/ui/share-buttons";
 import { ArticleHeader } from "@/components/blog/article-header";
 import ArticleContent from "@/components/blog/article-content";
 import TableOfContents from "@/components/blog/table-of-content";
-import InFeedAd from "@/components/ui/google-in-feed-ads";
-import AdSenseAd from "@/components/ui/google-sidebar-ads";
+import { GoogleAd } from "@/components/ui/google-ad";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -78,7 +77,7 @@ export default async function BlogPostPage(props: PageProps) {
             top={"73.5px"}
             display={{ base: "none", xl: "flex" }}
           >
-            <AdSenseAd />
+            <GoogleAd type="sidebar" slot="7891680227" />
           </Box>
           <Box maxW="6xl" mx="auto" px={{ base: 2, md: 8 }} py={0} mb={6}>
             <Box bg={"white"} position={"sticky"} zIndex={2} top={"73.5px"}>
@@ -134,7 +133,7 @@ export default async function BlogPostPage(props: PageProps) {
             top={"73.5px"}
             display={{ base: "none", xl: "flex" }}
           >
-            <AdSenseAd />
+            <GoogleAd type="sidebar" slot="7891680227" />
           </Box>
         </Box>
         <Box
@@ -143,7 +142,7 @@ export default async function BlogPostPage(props: PageProps) {
           justifyContent={"center"}
           h={"fit-content"}
         >
-          <InFeedAd />
+          <GoogleAd type="multiplex" slot="4568995773" />
         </Box>
       </Box>
     </>

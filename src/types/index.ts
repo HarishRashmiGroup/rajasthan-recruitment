@@ -12,4 +12,5 @@ export interface Job {
   detailsUrl?: string;
   officialSiteUrl?: string;
   registrationEndDate?: string;
+  categories?: string[];
 }
